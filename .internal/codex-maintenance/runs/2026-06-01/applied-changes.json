@@ -1,0 +1,38 @@
+{
+  "runId": "2026-06-01",
+  "appliedAt": "2026-06-01T16:29:38.400Z",
+  "verifiedDate": "2026-06-01",
+  "applied": [
+    {
+      "toolId": "/gtm/clearbit",
+      "field": "tool.lastVerified",
+      "value": "2026-06-01"
+    },
+    {
+      "toolId": "/gtm/crazy-egg",
+      "field": "tool.lastVerified",
+      "value": "2026-06-01"
+    },
+    {
+      "toolId": "/gtm/default",
+      "field": "tool.lastVerified",
+      "value": "2026-06-01"
+    },
+    {
+      "toolId": "/gtm/folloze",
+      "field": "tool.lastVerified",
+      "value": "2026-06-01"
+    },
+    {
+      "toolId": "/gtm/hockeystack",
+      "field": "tool.lastVerified",
+      "value": "2026-06-01"
+    },
+    {
+      "toolId": "/gtm/influ2",
+      "field": "tool.lastVerified",
+      "value": "2026-06-01"
+    }
+  ],
+  "skipped": []
+}

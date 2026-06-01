@@ -1,0 +1,287 @@
+{
+  "runId": "2026-06-01",
+  "batchId": "scout-015",
+  "generatedAt": "2026-06-01T16:26:58.135Z",
+  "maxAgentsPerSwarm": 6,
+  "promptPath": ".internal/codex-maintenance/prompts/scout.md",
+  "schemaPath": ".internal/codex-maintenance/schemas/scout-finding.schema.json",
+  "tools": [
+    {
+      "id": "/gtm/census",
+      "slug": "census",
+      "name": "Census",
+      "path": "tools/census",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "no",
+        "officialCli": "unknown",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 4,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "developers.getcensus.com/api-reference/introduction/authorization",
+          "url": "https://developers.getcensus.com/api-reference/introduction/authorization",
+          "type": "source"
+        },
+        {
+          "title": "developers.getcensus.com/api-reference/introduction/pagination",
+          "url": "https://developers.getcensus.com/api-reference/introduction/pagination",
+          "type": "source"
+        },
+        {
+          "title": "postman.com/getcensus/census-api/overview",
+          "url": "https://www.postman.com/getcensus/census-api/overview",
+          "type": "source"
+        },
+        {
+          "title": "developers.getcensus.com/custom-destinations/destination-spec",
+          "url": "https://developers.getcensus.com/custom-destinations/destination-spec",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/chameleon",
+      "slug": "chameleon",
+      "name": "Chameleon",
+      "path": "tools/chameleon",
+      "status": "published",
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "no",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 3,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "developers.chameleon.io",
+          "url": "https://developers.chameleon.io/",
+          "type": "source"
+        },
+        {
+          "title": "developers.chameleon.io/concepts/rate-limiting",
+          "url": "https://developers.chameleon.io/concepts/rate-limiting",
+          "type": "source"
+        },
+        {
+          "title": "developers.chameleon.io/guides/api/bulk-operations",
+          "url": "https://developers.chameleon.io/guides/api/bulk-operations",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/chili-piper",
+      "slug": "chili-piper",
+      "name": "Chili Piper",
+      "path": "tools/chili-piper",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 4,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "help.chilipiper.com/hc/en-us",
+          "url": "https://help.chilipiper.com/hc/en-us",
+          "type": "source"
+        },
+        {
+          "title": "help.chilipiper.com/hc/en-us/articles/360053000654-Chili-Piper-API",
+          "url": "https://help.chilipiper.com/hc/en-us/articles/360053000654-Chili-Piper-API",
+          "type": "source"
+        },
+        {
+          "title": "help.chilipiper.com/hc/en-us/articles/41186534180115-Chili-Piper-MCP-Server",
+          "url": "https://help.chilipiper.com/hc/en-us/articles/41186534180115-Chili-Piper-MCP-Server",
+          "type": "source"
+        },
+        {
+          "title": "help.chilipiper.com/hc/en-us/articles/41262073337363-MCP-Server-Tools",
+          "url": "https://help.chilipiper.com/hc/en-us/articles/41262073337363-MCP-Server-Tools",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/clari-copilot",
+      "slug": "clari-copilot",
+      "name": "Clari Copilot",
+      "path": "tools/clari-copilot",
+      "status": "published",
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "announced",
+        "officialCli": "unknown",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 3,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "clari.com/products/copilot",
+          "url": "https://www.clari.com/products/copilot/",
+          "type": "source"
+        },
+        {
+          "title": "apidocs.chorus.ai",
+          "url": "https://apidocs.chorus.ai/",
+          "type": "source"
+        },
+        {
+          "title": "salesloft.com/company/newsroom/clari-salesloft-forecasting-execution-mcp-server",
+          "url": "https://www.salesloft.com/company/newsroom/clari-salesloft-forecasting-execution-mcp-server",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/clarify",
+      "slug": "clarify",
+      "name": "Clarify",
+      "path": "tools/clarify",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 4,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "docs.clarify.ai/en/articles/13367278-clarify-mcp",
+          "url": "https://docs.clarify.ai/en/articles/13367278-clarify-mcp",
+          "type": "source"
+        },
+        {
+          "title": "docs.clarify.ai/the-clarify-api",
+          "url": "https://docs.clarify.ai/the-clarify-api",
+          "type": "source"
+        },
+        {
+          "title": "docs.clarify.ai/introduction",
+          "url": "https://docs.clarify.ai/introduction",
+          "type": "source"
+        },
+        {
+          "title": "mcp.pipedream.com/app/clarify",
+          "url": "https://mcp.pipedream.com/app/clarify",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/clay",
+      "slug": "clay",
+      "name": "Clay",
+      "path": "tools/clay",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 5,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "university.clay.com/docs/using-clay-as-an-api",
+          "url": "https://university.clay.com/docs/using-clay-as-an-api",
+          "type": "official-docs"
+        },
+        {
+          "title": "university.clay.com/docs/mcp-settings",
+          "url": "https://university.clay.com/docs/mcp-settings",
+          "type": "official-mcp"
+        },
+        {
+          "title": "Clay MCP Now Live in Claude and ChatGPT",
+          "url": "https://community.clay.com/x/announcements/ks5pwdvf83tf/clay-mcp-now-live-in-claude-and-chatgpt-run-clay-w",
+          "type": "official-mcp"
+        },
+        {
+          "title": "Clay MCP Server - Tool Junction",
+          "url": "https://www.tooljunction.io/mcp/clay",
+          "type": "mcp-directory"
+        },
+        {
+          "title": "Knowledge Work Plugins Connectors",
+          "url": "https://www.mintlify.com/anthropics/knowledge-work-plugins/concepts/connectors",
+          "type": "mcp-directory"
+        }
+      ]
+    }
+  ]
+}

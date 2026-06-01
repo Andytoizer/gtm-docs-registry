@@ -1,0 +1,352 @@
+{
+  "runId": "2026-06-01",
+  "batchId": "scout-009",
+  "generatedAt": "2026-06-01T16:26:58.135Z",
+  "maxAgentsPerSwarm": 6,
+  "promptPath": ".internal/codex-maintenance/prompts/scout.md",
+  "schemaPath": ".internal/codex-maintenance/schemas/scout-finding.schema.json",
+  "tools": [
+    {
+      "id": "/gtm/airbyte",
+      "slug": "airbyte",
+      "name": "Airbyte",
+      "path": "tools/airbyte",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "yes",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "yes",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 4,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "reference.airbyte.com/reference/start",
+          "url": "https://reference.airbyte.com/reference/start",
+          "type": "source"
+        },
+        {
+          "title": "docs.airbyte.com/platform/api-documentation",
+          "url": "https://docs.airbyte.com/platform/api-documentation",
+          "type": "source"
+        },
+        {
+          "title": "docs.airbyte.com/platform/operator-guides/using-the-airbyte-cli",
+          "url": "https://docs.airbyte.com/platform/operator-guides/using-the-airbyte-cli",
+          "type": "source"
+        },
+        {
+          "title": "docs.airbyte.com/platform/mcp-server",
+          "url": "https://docs.airbyte.com/platform/mcp-server",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/attio",
+      "slug": "attio",
+      "name": "Attio",
+      "path": "tools/attio",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "yes",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "yes",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 9,
+        "official": 9,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "type": "official",
+          "title": "Developer platform",
+          "url": "https://attio.com/platform/developers"
+        },
+        {
+          "type": "official",
+          "title": "Docs homepage",
+          "url": "https://docs.attio.com/docs/overview"
+        },
+        {
+          "type": "official",
+          "title": "MCP docs",
+          "url": "https://docs.attio.com/mcp/overview"
+        },
+        {
+          "type": "official",
+          "title": "REST API overview",
+          "url": "https://docs.attio.com/rest-api/overview"
+        },
+        {
+          "type": "official",
+          "title": "Auth docs",
+          "url": "https://docs.attio.com/rest-api/guides/authentication"
+        },
+        {
+          "type": "official",
+          "title": "OpenAPI docs",
+          "url": "https://docs.attio.com/rest-api/endpoint-reference/openapi"
+        },
+        {
+          "type": "official",
+          "title": "AI docs",
+          "url": "https://docs.attio.com/sdk/guides/ai"
+        },
+        {
+          "type": "official",
+          "title": "Official GitHub",
+          "url": "https://github.com/attio"
+        },
+        {
+          "type": "official",
+          "title": "Changelog",
+          "url": "https://attio.com/changelog"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/calcom",
+      "slug": "calcom",
+      "name": "Cal.com",
+      "path": "tools/calcom",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "yes",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "yes",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 6,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "cal.com/docs",
+          "url": "https://cal.com/docs",
+          "type": "source"
+        },
+        {
+          "title": "cal.com/docs/api-reference/v2",
+          "url": "https://cal.com/docs/api-reference/v2",
+          "type": "source"
+        },
+        {
+          "title": "cal.com/docs/mcp",
+          "url": "https://cal.com/docs/mcp",
+          "type": "source"
+        },
+        {
+          "title": "cal.com/docs/llms.txt",
+          "url": "https://cal.com/docs/llms.txt",
+          "type": "source"
+        },
+        {
+          "title": "npmjs.com/package/@calcom/cli",
+          "url": "https://www.npmjs.com/package/@calcom/cli",
+          "type": "source"
+        },
+        {
+          "title": "npmjs.com/package/@calcom/platform-libraries",
+          "url": "https://www.npmjs.com/package/@calcom/platform-libraries",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/customerio",
+      "slug": "customerio",
+      "name": "Customer.io",
+      "path": "tools/customerio",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "yes",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "yes",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 7,
+        "official": 7,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "type": "official",
+          "title": "MCP docs",
+          "url": "https://docs.customer.io/ai/mcp-server/"
+        },
+        {
+          "type": "official",
+          "title": "CLI quickstart",
+          "url": "https://docs.customer.io/ai/cli/get-started/"
+        },
+        {
+          "type": "official",
+          "title": "CLI reference",
+          "url": "https://docs.customer.io/ai/cli/reference/"
+        },
+        {
+          "type": "official",
+          "title": "API/OpenAPI docs",
+          "url": "https://docs.customer.io/integrations/api/app/"
+        },
+        {
+          "type": "official",
+          "title": "AI docs usage",
+          "url": "https://docs.customer.io/ai/use-docs-with-ai/"
+        },
+        {
+          "type": "official",
+          "title": "Official GitHub",
+          "url": "https://github.com/customerio"
+        },
+        {
+          "type": "official",
+          "title": "SDK docs",
+          "url": "https://docs.customer.io/integrations/sdk/"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/diffbot",
+      "slug": "diffbot",
+      "name": "Diffbot",
+      "path": "tools/diffbot",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "yes",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 5,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "docs.diffbot.com",
+          "url": "https://docs.diffbot.com/",
+          "type": "source"
+        },
+        {
+          "title": "docs.diffbot.com/reference/authentication",
+          "url": "https://docs.diffbot.com/reference/authentication",
+          "type": "source"
+        },
+        {
+          "title": "diffbot.com/pricing",
+          "url": "https://www.diffbot.com/pricing",
+          "type": "source"
+        },
+        {
+          "title": "github.com/diffbot",
+          "url": "https://github.com/diffbot",
+          "type": "source"
+        },
+        {
+          "title": "docs.diffbot.com/docs/getting-started-with-diffbot-knowledge-graph",
+          "url": "https://docs.diffbot.com/docs/getting-started-with-diffbot-knowledge-graph",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/exa",
+      "slug": "exa",
+      "name": "Exa",
+      "path": "tools/exa",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "yes",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 5,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "exa.ai/docs/reference/exa-mcp",
+          "url": "https://exa.ai/docs/reference/exa-mcp",
+          "type": "source"
+        },
+        {
+          "title": "exa.ai/docs/reference/rate-limits",
+          "url": "https://exa.ai/docs/reference/rate-limits",
+          "type": "source"
+        },
+        {
+          "title": "exa.ai/docs/reference/openapi-spec",
+          "url": "https://exa.ai/docs/reference/openapi-spec",
+          "type": "source"
+        },
+        {
+          "title": "exa.ai/docs/sdks/python-sdk",
+          "url": "https://exa.ai/docs/sdks/python-sdk",
+          "type": "source"
+        },
+        {
+          "title": "exa.ai/docs/reference/search",
+          "url": "https://exa.ai/docs/reference/search",
+          "type": "source"
+        }
+      ]
+    }
+  ]
+}

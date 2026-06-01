@@ -1,0 +1,302 @@
+{
+  "runId": "2026-06-01",
+  "batchId": "scout-006",
+  "generatedAt": "2026-06-01T16:26:58.135Z",
+  "maxAgentsPerSwarm": 6,
+  "promptPath": ".internal/codex-maintenance/prompts/scout.md",
+  "schemaPath": ".internal/codex-maintenance/schemas/scout-finding.schema.json",
+  "tools": [
+    {
+      "id": "/gtm/notion",
+      "slug": "notion",
+      "name": "Notion",
+      "path": "tools/notion",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "yes",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "yes",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 5,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "developers.notion.com/guides/mcp/mcp",
+          "url": "https://developers.notion.com/guides/mcp/mcp",
+          "type": "source"
+        },
+        {
+          "title": "developers.notion.com/cli/get-started/overview",
+          "url": "https://developers.notion.com/cli/get-started/overview",
+          "type": "source"
+        },
+        {
+          "title": "developers.notion.com/reference/request-limits",
+          "url": "https://developers.notion.com/reference/request-limits",
+          "type": "source"
+        },
+        {
+          "title": "developers.notion.com/reference/intro",
+          "url": "https://developers.notion.com/reference/intro",
+          "type": "source"
+        },
+        {
+          "title": "github.com/makenotion/notion-sdk-js",
+          "url": "https://github.com/makenotion/notion-sdk-js",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/people-data-labs",
+      "slug": "people-data-labs",
+      "name": "People Data Labs",
+      "path": "tools/people-data-labs",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "yes",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "yes",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 4,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "docs.peopledatalabs.com",
+          "url": "https://docs.peopledatalabs.com/",
+          "type": "source"
+        },
+        {
+          "title": "docs.peopledatalabs.com/docs/authentication",
+          "url": "https://docs.peopledatalabs.com/docs/authentication",
+          "type": "source"
+        },
+        {
+          "title": "docs.peopledatalabs.com/docs/rate-limits",
+          "url": "https://docs.peopledatalabs.com/docs/rate-limits",
+          "type": "source"
+        },
+        {
+          "title": "github.com/peopledatalabs/peopledatalabs-python",
+          "url": "https://github.com/peopledatalabs/peopledatalabs-python",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/pinecone",
+      "slug": "pinecone",
+      "name": "Pinecone",
+      "path": "tools/pinecone",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "yes",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "yes",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 5,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "docs.pinecone.io/guides/operations/mcp-server",
+          "url": "https://docs.pinecone.io/guides/operations/mcp-server",
+          "type": "source"
+        },
+        {
+          "title": "docs.pinecone.io/reference/cli/command-reference",
+          "url": "https://docs.pinecone.io/reference/cli/command-reference",
+          "type": "source"
+        },
+        {
+          "title": "docs.pinecone.io/reference/api/authentication",
+          "url": "https://docs.pinecone.io/reference/api/authentication",
+          "type": "source"
+        },
+        {
+          "title": "docs.pinecone.io/reference/list",
+          "url": "https://docs.pinecone.io/reference/list",
+          "type": "source"
+        },
+        {
+          "title": "docs.pinecone.io/reference/api/database-limits",
+          "url": "https://docs.pinecone.io/reference/api/database-limits",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/prospeo",
+      "slug": "prospeo",
+      "name": "Prospeo",
+      "path": "tools/prospeo",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "yes",
+        "officialSdk": "no"
+      },
+      "sourceCounts": {
+        "total": 4,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "prospeo.io/api-docs",
+          "url": "https://prospeo.io/api-docs",
+          "type": "source"
+        },
+        {
+          "title": "prospeo.io/api-docs/rate-limits",
+          "url": "https://prospeo.io/api-docs/rate-limits",
+          "type": "source"
+        },
+        {
+          "title": "prospeo.io/mcp",
+          "url": "https://prospeo.io/mcp",
+          "type": "source"
+        },
+        {
+          "title": "prospeo.io/mcp-docs/quick-start",
+          "url": "https://prospeo.io/mcp-docs/quick-start",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/rudderstack",
+      "slug": "rudderstack",
+      "name": "RudderStack",
+      "path": "tools/rudderstack",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "announced",
+        "officialCli": "yes",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 3,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "rudderstack.com/docs",
+          "url": "https://www.rudderstack.com/docs/",
+          "type": "source"
+        },
+        {
+          "title": "rudderstack.com/blog/ai-agents-cli-mcp-design-pattern",
+          "url": "https://www.rudderstack.com/blog/ai-agents-cli-mcp-design-pattern/",
+          "type": "source"
+        },
+        {
+          "title": "github.com/rudderlabs",
+          "url": "https://github.com/rudderlabs",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/salesforce",
+      "slug": "salesforce",
+      "name": "Salesforce",
+      "path": "tools/salesforce",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "yes",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 5,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "developer.salesforce.com/docs/platform/hosted-mcp-servers/references/reference/servers-reference.html",
+          "url": "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/references/reference/servers-reference.html",
+          "type": "source"
+        },
+        {
+          "title": "github.com/salesforcecli/mcp",
+          "url": "https://github.com/salesforcecli/mcp",
+          "type": "source"
+        },
+        {
+          "title": "developer.salesforce.com/tools/salesforcecli",
+          "url": "https://developer.salesforce.com/tools/salesforcecli/",
+          "type": "source"
+        },
+        {
+          "title": "help.salesforce.com/s/articleView",
+          "url": "https://help.salesforce.com/s/articleView?id=000389027&language=en_US&type=1",
+          "type": "source"
+        },
+        {
+          "title": "help.salesforce.com/s/articleView",
+          "url": "https://help.salesforce.com/s/articleView?id=release-notes.rn_api_rest.htm&language=en_US&release=236&type=5",
+          "type": "source"
+        }
+      ]
+    }
+  ]
+}

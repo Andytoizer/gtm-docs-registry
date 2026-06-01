@@ -1,0 +1,407 @@
+{
+  "runId": "2026-06-01",
+  "batchId": "scout-031",
+  "generatedAt": "2026-06-01T16:26:58.135Z",
+  "maxAgentsPerSwarm": 6,
+  "promptPath": ".internal/codex-maintenance/prompts/scout.md",
+  "schemaPath": ".internal/codex-maintenance/schemas/scout-finding.schema.json",
+  "tools": [
+    {
+      "id": "/gtm/enrow",
+      "slug": "enrow",
+      "name": "Enrow",
+      "path": "tools/enrow",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "no",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "yes",
+        "officialSdk": "no"
+      },
+      "sourceCounts": {
+        "total": 11,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "Enrow API product page",
+          "url": "https://enrow.io/api",
+          "type": "source"
+        },
+        {
+          "title": "Enrow API documentation",
+          "url": "https://enrow.readme.io/",
+          "type": "source"
+        },
+        {
+          "title": "Enrow llms.txt documentation index",
+          "url": "https://enrow.readme.io/llms.txt",
+          "type": "source"
+        },
+        {
+          "title": "Enrow Email Finder OpenAPI",
+          "url": "https://enrow.readme.io/openapi/6508193c4b0459106cfaedba",
+          "type": "source"
+        },
+        {
+          "title": "Enrow Phone API OpenAPI",
+          "url": "https://enrow.readme.io/openapi/671785d0e3c49400267b50d8",
+          "type": "source"
+        },
+        {
+          "title": "Enrow find single email",
+          "url": "https://enrow.readme.io/reference/find-single-email.md",
+          "type": "source"
+        },
+        {
+          "title": "Enrow find multiple emails",
+          "url": "https://enrow.readme.io/reference/find-multiple-emails.md",
+          "type": "source"
+        },
+        {
+          "title": "Enrow get multiple email results",
+          "url": "https://enrow.readme.io/reference/get-multiple-emails-results.md",
+          "type": "source"
+        },
+        {
+          "title": "Enrow account info",
+          "url": "https://enrow.readme.io/reference/get-account-info.md",
+          "type": "source"
+        },
+        {
+          "title": "Enrow webhooks",
+          "url": "https://enrow.readme.io/reference/using-webhooks-with-enrow.md",
+          "type": "source"
+        },
+        {
+          "title": "Enrow Zapier integrations",
+          "url": "https://zapier.com/apps/enrow/integrations",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/gamma",
+      "slug": "gamma",
+      "name": "Gamma",
+      "path": "tools/gamma",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "no",
+        "llmsTxt": "yes",
+        "officialSdk": "no"
+      },
+      "sourceCounts": {
+        "total": 5,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "developers.gamma.app",
+          "url": "https://developers.gamma.app/",
+          "type": "source"
+        },
+        {
+          "title": "developers.gamma.app/docs/introduction",
+          "url": "https://developers.gamma.app/docs/introduction",
+          "type": "source"
+        },
+        {
+          "title": "developers.gamma.app/docs/api-reference",
+          "url": "https://developers.gamma.app/docs/api-reference",
+          "type": "source"
+        },
+        {
+          "title": "developers.gamma.app/docs/mcp-server",
+          "url": "https://developers.gamma.app/docs/mcp-server",
+          "type": "source"
+        },
+        {
+          "title": "developers.gamma.app/llms.txt",
+          "url": "https://developers.gamma.app/llms.txt",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/granola",
+      "slug": "granola",
+      "name": "Granola",
+      "path": "tools/granola",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "yes",
+        "officialSdk": "no"
+      },
+      "sourceCounts": {
+        "total": 9,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "docs.granola.ai/introduction",
+          "url": "https://docs.granola.ai/introduction",
+          "type": "source"
+        },
+        {
+          "title": "docs.granola.ai/api-reference/openapi.json",
+          "url": "https://docs.granola.ai/api-reference/openapi.json",
+          "type": "source"
+        },
+        {
+          "title": "docs.granola.ai/api-reference/list-notes",
+          "url": "https://docs.granola.ai/api-reference/list-notes",
+          "type": "source"
+        },
+        {
+          "title": "docs.granola.ai/api-reference/get-note",
+          "url": "https://docs.granola.ai/api-reference/get-note",
+          "type": "source"
+        },
+        {
+          "title": "docs.granola.ai/api-reference/list-folders",
+          "url": "https://docs.granola.ai/api-reference/list-folders",
+          "type": "source"
+        },
+        {
+          "title": "docs.granola.ai/llms.txt",
+          "url": "https://docs.granola.ai/llms.txt",
+          "type": "source"
+        },
+        {
+          "title": "docs.granola.ai/help-center/sharing/integrations/mcp",
+          "url": "https://docs.granola.ai/help-center/sharing/integrations/mcp",
+          "type": "source"
+        },
+        {
+          "title": "docs.granola.ai/help-center/sharing/integrations/integrations-with-granola",
+          "url": "https://docs.granola.ai/help-center/sharing/integrations/integrations-with-granola",
+          "type": "source"
+        },
+        {
+          "title": "docs.granola.ai/help-center/changelog",
+          "url": "https://docs.granola.ai/help-center/changelog",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/kondo",
+      "slug": "kondo",
+      "name": "Kondo",
+      "path": "tools/kondo",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "no",
+        "officialApi": "no",
+        "openApi": "no",
+        "llmsTxt": "yes",
+        "officialSdk": "no"
+      },
+      "sourceCounts": {
+        "total": 6,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "Kondo",
+          "url": "https://www.trykondo.com",
+          "type": "official-site"
+        },
+        {
+          "title": "Kondo Docs",
+          "url": "https://docs.trykondo.com",
+          "type": "official-docs"
+        },
+        {
+          "title": "Kondo MCP Setup",
+          "url": "https://docs.trykondo.com/mcp-setup",
+          "type": "official-mcp"
+        },
+        {
+          "title": "Kondo llms.txt",
+          "url": "https://docs.trykondo.com/llms.txt",
+          "type": "llms-docs"
+        },
+        {
+          "title": "Kondo Integrations",
+          "url": "https://docs.trykondo.com/integrations",
+          "type": "official-integrations"
+        },
+        {
+          "title": "Kondo Webhooks",
+          "url": "https://docs.trykondo.com/webhooks.md",
+          "type": "official-webhooks"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/la-growth-machine",
+      "slug": "la-growth-machine",
+      "name": "La Growth Machine",
+      "path": "tools/la-growth-machine",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "no",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "no",
+        "llmsTxt": "yes",
+        "officialSdk": "no"
+      },
+      "sourceCounts": {
+        "total": 8,
+        "official": 5,
+        "community": 3
+      },
+      "sourceUrls": [
+        {
+          "type": "official",
+          "title": "Official website",
+          "url": "https://lagrowthmachine.com/"
+        },
+        {
+          "type": "official",
+          "title": "Integrations and API overview",
+          "url": "https://lagrowthmachine.com/integrations/"
+        },
+        {
+          "type": "official",
+          "title": "Pricing and API availability",
+          "url": "https://lagrowthmachine.com/pricing/"
+        },
+        {
+          "type": "official",
+          "title": "llms.txt",
+          "url": "https://lagrowthmachine.com/llms.txt"
+        },
+        {
+          "type": "official",
+          "title": "Official Postman API documentation",
+          "url": "https://documenter.getpostman.com/view/32966764/2sBXqFM2Vv"
+        },
+        {
+          "type": "community",
+          "title": "Composio La Growth Machine toolkit",
+          "url": "https://docs.composio.dev/toolkits/lagrowthmachine"
+        },
+        {
+          "type": "community",
+          "title": "Cargo LaGrowthMachine connector docs",
+          "url": "https://docs.getcargo.ai/integration/lgm"
+        },
+        {
+          "type": "community",
+          "title": "Nango La Growth Machine auth docs",
+          "url": "https://nango.dev/docs/integrations/all/lagrowthmachine/connect"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/logodev",
+      "slug": "logodev",
+      "name": "Logo.dev",
+      "path": "tools/logodev",
+      "status": "published",
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "no",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "no",
+        "llmsTxt": "yes",
+        "officialSdk": "no"
+      },
+      "sourceCounts": {
+        "total": 8,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "docs.logo.dev",
+          "url": "https://docs.logo.dev/",
+          "type": "source"
+        },
+        {
+          "title": "logo.dev/docs/platform/rate-limits",
+          "url": "https://www.logo.dev/docs/platform/rate-limits",
+          "type": "source"
+        },
+        {
+          "title": "docs.logo.dev/logo-images/get",
+          "url": "https://docs.logo.dev/logo-images/get",
+          "type": "source"
+        },
+        {
+          "title": "docs.logo.dev/brand-search/introduction",
+          "url": "https://docs.logo.dev/brand-search/introduction",
+          "type": "source"
+        },
+        {
+          "title": "docs.logo.dev/describe/introduction",
+          "url": "https://docs.logo.dev/describe/introduction",
+          "type": "source"
+        },
+        {
+          "title": "docs.logo.dev/platform/api-keys",
+          "url": "https://docs.logo.dev/platform/api-keys",
+          "type": "source"
+        },
+        {
+          "title": "mcp.pipedream.com/app/logo_dev",
+          "url": "https://mcp.pipedream.com/app/logo_dev",
+          "type": "source"
+        },
+        {
+          "title": "composio.dev/toolkits/logo_dev/framework/ai-sdk",
+          "url": "https://composio.dev/toolkits/logo_dev/framework/ai-sdk",
+          "type": "source"
+        }
+      ]
+    }
+  ]
+}

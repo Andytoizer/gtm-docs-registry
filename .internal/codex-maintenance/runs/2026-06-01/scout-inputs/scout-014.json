@@ -1,0 +1,287 @@
+{
+  "runId": "2026-06-01",
+  "batchId": "scout-014",
+  "generatedAt": "2026-06-01T16:26:58.135Z",
+  "maxAgentsPerSwarm": 6,
+  "promptPath": ".internal/codex-maintenance/prompts/scout.md",
+  "schemaPath": ".internal/codex-maintenance/schemas/scout-finding.schema.json",
+  "tools": [
+    {
+      "id": "/gtm/autoklose",
+      "slug": "autoklose",
+      "name": "Autoklose",
+      "path": "tools/autoklose",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "no",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 6,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "Autoklose Help - Does Autoklose have a public API?",
+          "url": "https://help.autoklose.com/hc/en-us/articles/38956030013211-Does-Autoklose-have-a-public-API",
+          "type": "source"
+        },
+        {
+          "title": "Autoklose API",
+          "url": "https://api.aklab.xyz/",
+          "type": "source"
+        },
+        {
+          "title": "LinkApi Autoklose component reference",
+          "url": "https://developers.linkapi.solutions/docs/autoklose",
+          "type": "source"
+        },
+        {
+          "title": "Zapier Autoklose MCP",
+          "url": "https://zapier.com/mcp/autoklose",
+          "type": "source"
+        },
+        {
+          "title": "Pipedream Autoklose MCP",
+          "url": "https://mcp.pipedream.com/app/autoklose",
+          "type": "source"
+        },
+        {
+          "title": "Autoklose website",
+          "url": "https://www.autoklose.com/",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/avoma",
+      "slug": "avoma",
+      "name": "Avoma",
+      "path": "tools/avoma",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "unknown",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 2,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "api.avoma.com",
+          "url": "https://api.avoma.com/",
+          "type": "source"
+        },
+        {
+          "title": "help.avoma.com",
+          "url": "https://help.avoma.com/",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/bettercontact",
+      "slug": "bettercontact",
+      "name": "BetterContact",
+      "path": "tools/bettercontact",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "unknown",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 2,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "docs.bettercontact.rocks",
+          "url": "https://docs.bettercontact.rocks/",
+          "type": "source"
+        },
+        {
+          "title": "bettercontact.rocks",
+          "url": "https://www.bettercontact.rocks/",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/braze",
+      "slug": "braze",
+      "name": "Braze",
+      "path": "tools/braze",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "yes",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 5,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "braze.com/docs/api/basics",
+          "url": "https://www.braze.com/docs/api/basics",
+          "type": "source"
+        },
+        {
+          "title": "braze.com/docs/api/api_limits",
+          "url": "https://www.braze.com/docs/api/api_limits",
+          "type": "source"
+        },
+        {
+          "title": "braze.com/resources/articles/introducing-braze-mcp-server",
+          "url": "https://www.braze.com/resources/articles/introducing-braze-mcp-server",
+          "type": "source"
+        },
+        {
+          "title": "braze.com/resources/articles/braze-mcp-claude-desktop",
+          "url": "https://www.braze.com/resources/articles/braze-mcp-claude-desktop",
+          "type": "source"
+        },
+        {
+          "title": "braze.com/dev-portal",
+          "url": "https://www.braze.com/dev-portal",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/calendly",
+      "slug": "calendly",
+      "name": "Calendly",
+      "path": "tools/calendly",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 5,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "developer.calendly.com",
+          "url": "https://developer.calendly.com/",
+          "type": "source"
+        },
+        {
+          "title": "developer.calendly.com/api-docs",
+          "url": "https://developer.calendly.com/api-docs",
+          "type": "source"
+        },
+        {
+          "title": "developer.calendly.com/getting-started",
+          "url": "https://developer.calendly.com/getting-started",
+          "type": "source"
+        },
+        {
+          "title": "developer.calendly.com/how-to-embed-calendly",
+          "url": "https://developer.calendly.com/how-to-embed-calendly",
+          "type": "source"
+        },
+        {
+          "title": "help.calendly.com/hc/en-us/articles/31575909095447-Calendly-MCP-Server",
+          "url": "https://help.calendly.com/hc/en-us/articles/31575909095447-Calendly-MCP-Server",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/campaign-monitor",
+      "slug": "campaign-monitor",
+      "name": "Campaign Monitor",
+      "path": "tools/campaign-monitor",
+      "status": "published",
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "no",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 3,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "campaignmonitor.com/api",
+          "url": "https://www.campaignmonitor.com/api/",
+          "type": "source"
+        },
+        {
+          "title": "campaignmonitor.com/api/v3-3/getting-started",
+          "url": "https://www.campaignmonitor.com/api/v3-3/getting-started/",
+          "type": "source"
+        },
+        {
+          "title": "github.com/campaignmonitor/createsend-php",
+          "url": "https://github.com/campaignmonitor/createsend-php",
+          "type": "source"
+        }
+      ]
+    }
+  ]
+}

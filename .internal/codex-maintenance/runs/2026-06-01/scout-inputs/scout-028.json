@@ -1,0 +1,287 @@
+{
+  "runId": "2026-06-01",
+  "batchId": "scout-028",
+  "generatedAt": "2026-06-01T16:26:58.135Z",
+  "maxAgentsPerSwarm": 6,
+  "promptPath": ".internal/codex-maintenance/prompts/scout.md",
+  "schemaPath": ".internal/codex-maintenance/schemas/scout-finding.schema.json",
+  "tools": [
+    {
+      "id": "/gtm/teamleader",
+      "slug": "teamleader",
+      "name": "Teamleader",
+      "path": "tools/teamleader",
+      "status": "published",
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 2,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "developer.teamleader.eu",
+          "url": "https://developer.teamleader.eu/",
+          "type": "source"
+        },
+        {
+          "title": "developer.teamleader.eu",
+          "url": "https://developer.teamleader.eu/#/reference/general/api-basics",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/tldv",
+      "slug": "tldv",
+      "name": "tl;dv",
+      "path": "tools/tldv",
+      "status": "published",
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 6,
+        "official": 5,
+        "community": 1
+      },
+      "sourceUrls": [
+        {
+          "title": "tldv.io",
+          "url": "https://tldv.io/",
+          "type": "official"
+        },
+        {
+          "title": "help.tldv.io",
+          "url": "https://help.tldv.io/",
+          "type": "official"
+        },
+        {
+          "title": "tl;dv API documentation",
+          "url": "https://doc.tldv.io/index.html",
+          "type": "official"
+        },
+        {
+          "title": "tl;dv API and Webhooks help article",
+          "url": "https://intercom.help/tldv/en/articles/11583137-api-and-webhooks",
+          "type": "official"
+        },
+        {
+          "title": "Official MCP Server for tl;dv API",
+          "url": "https://github.com/tldv-public/tldv-mcp-server",
+          "type": "official"
+        },
+        {
+          "title": "Nango tl;dv integration docs",
+          "url": "https://nango.dev/docs/integrations/all/tldv",
+          "type": "community"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/tray",
+      "slug": "tray",
+      "name": "Tray.io",
+      "path": "tools/tray",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "yes",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "unknown",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 3,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "developer.tray.io",
+          "url": "https://developer.tray.io/",
+          "type": "source"
+        },
+        {
+          "title": "developer.tray.io/graphql",
+          "url": "https://developer.tray.io/graphql/",
+          "type": "source"
+        },
+        {
+          "title": "docs.tray.ai/platform/connectors/tray-cli",
+          "url": "https://docs.tray.ai/platform/connectors/tray-cli",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/typeform",
+      "slug": "typeform",
+      "name": "Typeform",
+      "path": "tools/typeform",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "unknown",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 6,
+        "official": 6,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "www.typeform.com/developers",
+          "url": "https://www.typeform.com/developers/",
+          "type": "official"
+        },
+        {
+          "title": "www.typeform.com/developers/get-started",
+          "url": "https://www.typeform.com/developers/get-started/",
+          "type": "official"
+        },
+        {
+          "title": "www.typeform.com/developers/get-started/applications",
+          "url": "https://www.typeform.com/developers/get-started/applications/",
+          "type": "official"
+        },
+        {
+          "title": "www.typeform.com/developers/create",
+          "url": "https://www.typeform.com/developers/create/",
+          "type": "official"
+        },
+        {
+          "title": "github.com/Typeform/js-api-client",
+          "url": "https://github.com/Typeform/js-api-client",
+          "type": "official"
+        },
+        {
+          "title": "github.com/Typeform/embed",
+          "url": "https://github.com/Typeform/embed",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/uberflip",
+      "slug": "uberflip",
+      "name": "Uberflip",
+      "path": "tools/uberflip",
+      "status": "published",
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "unknown",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 2,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "developers.uberflip.com",
+          "url": "https://developers.uberflip.com/",
+          "type": "source"
+        },
+        {
+          "title": "uberflip.com",
+          "url": "https://www.uberflip.com/",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/uptics",
+      "slug": "uptics",
+      "name": "Uptics",
+      "path": "tools/uptics",
+      "status": "published",
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "no",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 4,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "Uptics LookUp APIs",
+          "url": "https://help.uptics.io/en/articles/13-uptics-lookup-apis",
+          "type": "source"
+        },
+        {
+          "title": "viaSocket MCP server for Uptics",
+          "url": "https://viasocket.com/mcp/uptics",
+          "type": "source"
+        },
+        {
+          "title": "Uptics Help - Zapier integration",
+          "url": "https://help.uptics.io/en/articles/90-connect-uptics-to-hundreds-of-other-apps-with-zapier",
+          "type": "source"
+        },
+        {
+          "title": "Uptics website",
+          "url": "https://uptics.io/",
+          "type": "source"
+        }
+      ]
+    }
+  ]
+}

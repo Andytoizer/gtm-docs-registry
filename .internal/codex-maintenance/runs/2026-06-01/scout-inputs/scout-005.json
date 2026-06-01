@@ -1,0 +1,327 @@
+{
+  "runId": "2026-06-01",
+  "batchId": "scout-005",
+  "generatedAt": "2026-06-01T16:26:58.135Z",
+  "maxAgentsPerSwarm": 6,
+  "promptPath": ".internal/codex-maintenance/prompts/scout.md",
+  "schemaPath": ".internal/codex-maintenance/schemas/scout-finding.schema.json",
+  "tools": [
+    {
+      "id": "/gtm/hunter",
+      "slug": "hunter",
+      "name": "Hunter.io",
+      "path": "tools/hunter",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "no"
+      },
+      "sourceCounts": {
+        "total": 3,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "hunter.io/api-documentation/v2",
+          "url": "https://hunter.io/api-documentation/v2",
+          "type": "source"
+        },
+        {
+          "title": "help.hunter.io/en/articles/1970956-hunter-api",
+          "url": "https://help.hunter.io/en/articles/1970956-hunter-api",
+          "type": "source"
+        },
+        {
+          "title": "hunter.io/blog/hunter-mcp-server-bringing-ai-and-b2b-data-together/amp",
+          "url": "https://hunter.io/blog/hunter-mcp-server-bringing-ai-and-b2b-data-together/amp/",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/intercom",
+      "slug": "intercom",
+      "name": "Intercom",
+      "path": "tools/intercom",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "unknown",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 4,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "developers.intercom.com/docs/guides/mcp",
+          "url": "https://developers.intercom.com/docs/guides/mcp",
+          "type": "source"
+        },
+        {
+          "title": "developers.intercom.com/docs/references/rest-api/api.intercom.io",
+          "url": "https://developers.intercom.com/docs/references/rest-api/api.intercom.io",
+          "type": "source"
+        },
+        {
+          "title": "developers.intercom.com/docs/references/2.13/rest-api/errors/rate-limiting",
+          "url": "https://developers.intercom.com/docs/references/2.13/rest-api/errors/rate-limiting",
+          "type": "source"
+        },
+        {
+          "title": "github.com/intercom/intercom-node",
+          "url": "https://github.com/intercom/intercom-node",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/leadmagic",
+      "slug": "leadmagic",
+      "name": "LeadMagic",
+      "path": "tools/leadmagic",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "yes",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "yes",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 4,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "leadmagic.io/docs/developer-experience",
+          "url": "https://leadmagic.io/docs/developer-experience",
+          "type": "source"
+        },
+        {
+          "title": "leadmagic.io/docs/cli/commands",
+          "url": "https://leadmagic.io/docs/cli/commands",
+          "type": "source"
+        },
+        {
+          "title": "leadmagic.io/solutions/developers",
+          "url": "https://leadmagic.io/solutions/developers",
+          "type": "source"
+        },
+        {
+          "title": "github.com/LeadMagic/leadmagic-mcp",
+          "url": "https://github.com/LeadMagic/leadmagic-mcp",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/make",
+      "slug": "make",
+      "name": "Make",
+      "path": "tools/make",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "yes",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 7,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "developers.make.com/mcp-server",
+          "url": "https://developers.make.com/mcp-server",
+          "type": "source"
+        },
+        {
+          "title": "help.make.com/make-mcp-server",
+          "url": "https://help.make.com/make-mcp-server",
+          "type": "source"
+        },
+        {
+          "title": "developers.make.com/api-documentation",
+          "url": "https://developers.make.com/api-documentation",
+          "type": "source"
+        },
+        {
+          "title": "developers.make.com/api-documentation/getting-started/rate-limiting",
+          "url": "https://developers.make.com/api-documentation/getting-started/rate-limiting",
+          "type": "source"
+        },
+        {
+          "title": "developers.make.com/api-documentation/pagination-sorting-filtering/pagination-and-sorting",
+          "url": "https://developers.make.com/api-documentation/pagination-sorting-filtering/pagination-and-sorting",
+          "type": "source"
+        },
+        {
+          "title": "help.make.com/the-make-cli-is-now-live",
+          "url": "https://help.make.com/the-make-cli-is-now-live",
+          "type": "source"
+        },
+        {
+          "title": "developers.make.com/api-documentation/client-libraries",
+          "url": "https://developers.make.com/api-documentation/client-libraries",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/mixpanel",
+      "slug": "mixpanel",
+      "name": "Mixpanel",
+      "path": "tools/mixpanel",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "unknown",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "yes",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 8,
+        "official": 8,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "developer.mixpanel.com/reference/overview",
+          "url": "https://developer.mixpanel.com/reference/overview",
+          "type": "official"
+        },
+        {
+          "title": "developer.mixpanel.com/reference",
+          "url": "https://developer.mixpanel.com/reference",
+          "type": "official"
+        },
+        {
+          "title": "developer.mixpanel.com/reference/limits",
+          "url": "https://developer.mixpanel.com/reference/limits",
+          "type": "official"
+        },
+        {
+          "title": "developer.mixpanel.com/reference/raw-event-export",
+          "url": "https://developer.mixpanel.com/reference/raw-event-export",
+          "type": "official"
+        },
+        {
+          "title": "developer.mixpanel.com/llms.txt",
+          "url": "https://developer.mixpanel.com/llms.txt",
+          "type": "official"
+        },
+        {
+          "title": "github.com/mixpanel/docs",
+          "url": "https://github.com/mixpanel/docs",
+          "type": "official"
+        },
+        {
+          "title": "mixpanel.github.io/mixpanel-python",
+          "url": "https://mixpanel.github.io/mixpanel-python/",
+          "type": "official"
+        },
+        {
+          "title": "mixpanel.github.io/mixpanel-php/classes/Mixpanel.html",
+          "url": "https://mixpanel.github.io/mixpanel-php/classes/Mixpanel.html",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/n8n",
+      "slug": "n8n",
+      "name": "n8n",
+      "path": "tools/n8n",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "yes",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "unknown",
+        "officialSdk": "no"
+      },
+      "sourceCounts": {
+        "total": 5,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "docs.n8n.io/advanced-ai/mcp/accessing-n8n-mcp-server",
+          "url": "https://docs.n8n.io/advanced-ai/mcp/accessing-n8n-mcp-server/",
+          "type": "source"
+        },
+        {
+          "title": "docs.n8n.io/api/api-reference",
+          "url": "https://docs.n8n.io/api/api-reference/",
+          "type": "source"
+        },
+        {
+          "title": "docs.n8n.io/api/authentication",
+          "url": "https://docs.n8n.io/api/authentication/",
+          "type": "source"
+        },
+        {
+          "title": "docs.n8n.io/api/pagination",
+          "url": "https://docs.n8n.io/api/pagination/",
+          "type": "source"
+        },
+        {
+          "title": "docs.n8n.io/api/n8n-cli",
+          "url": "https://docs.n8n.io/api/n8n-cli/",
+          "type": "source"
+        }
+      ]
+    }
+  ]
+}

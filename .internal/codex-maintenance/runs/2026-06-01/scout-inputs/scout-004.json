@@ -1,0 +1,302 @@
+{
+  "runId": "2026-06-01",
+  "batchId": "scout-004",
+  "generatedAt": "2026-06-01T16:26:58.135Z",
+  "maxAgentsPerSwarm": 6,
+  "promptPath": ".internal/codex-maintenance/prompts/scout.md",
+  "schemaPath": ".internal/codex-maintenance/schemas/scout-finding.schema.json",
+  "tools": [
+    {
+      "id": "/gtm/cargo",
+      "slug": "cargo",
+      "name": "Cargo",
+      "path": "tools/cargo",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "yes",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "yes",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 3,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "docs.getcargo.ai/api-reference/introduction",
+          "url": "https://docs.getcargo.ai/api-reference/introduction",
+          "type": "source"
+        },
+        {
+          "title": "docs.getcargo.ai/cli/overview",
+          "url": "https://docs.getcargo.ai/cli/overview",
+          "type": "source"
+        },
+        {
+          "title": "docs.getcargo.ai/api-reference/ai--mcp/list-mcp-servers",
+          "url": "https://docs.getcargo.ai/api-reference/ai--mcp/list-mcp-servers",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/close",
+      "slug": "close",
+      "name": "Close",
+      "path": "tools/close",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "unknown",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 5,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "help.close.com/docs/mcp-server",
+          "url": "https://help.close.com/docs/mcp-server",
+          "type": "source"
+        },
+        {
+          "title": "developer.close.com/api/overview",
+          "url": "https://developer.close.com/api/overview",
+          "type": "source"
+        },
+        {
+          "title": "api.close.com/api/openapi.json",
+          "url": "https://api.close.com/api/openapi.json",
+          "type": "source"
+        },
+        {
+          "title": "developer.close.com/api/overview/api-clients",
+          "url": "https://developer.close.com/api/overview/api-clients",
+          "type": "source"
+        },
+        {
+          "title": "github.com/closeio/closeio-api",
+          "url": "https://github.com/closeio/closeio-api",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/common-room",
+      "slug": "common-room",
+      "name": "Common Room",
+      "path": "tools/common-room",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 3,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "commonroom.io/docs/using-common-room/mcp-server",
+          "url": "https://www.commonroom.io/docs/using-common-room/mcp-server/",
+          "type": "source"
+        },
+        {
+          "title": "commonroom.io/developers",
+          "url": "https://www.commonroom.io/developers/",
+          "type": "source"
+        },
+        {
+          "title": "api.commonroom.io/docs/community.html",
+          "url": "https://api.commonroom.io/docs/community.html",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/crustdata",
+      "slug": "crustdata",
+      "name": "CrustData",
+      "path": "tools/crustdata",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "unknown",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "yes",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 3,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "docs.crustdata.com/general/mcp",
+          "url": "https://docs.crustdata.com/general/mcp",
+          "type": "source"
+        },
+        {
+          "title": "docs.crustdata.com/api-reference/web-apis/web-search",
+          "url": "https://docs.crustdata.com/api-reference/web-apis/web-search",
+          "type": "source"
+        },
+        {
+          "title": "staging.crustdata.com/api-documentation",
+          "url": "https://staging.crustdata.com/api-documentation",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/front",
+      "slug": "front",
+      "name": "Front",
+      "path": "tools/front",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "unknown",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "yes",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 3,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "dev.frontapp.com/reference/introduction",
+          "url": "https://dev.frontapp.com/reference/introduction",
+          "type": "source"
+        },
+        {
+          "title": "dev.frontapp.com/docs/pagination",
+          "url": "https://dev.frontapp.com/docs/pagination",
+          "type": "source"
+        },
+        {
+          "title": "front.com/blog/front-mcp-server",
+          "url": "https://front.com/blog/front-mcp-server",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/google-drive",
+      "slug": "google-drive",
+      "name": "Google Drive",
+      "path": "tools/google-drive",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "yes",
+        "officialApi": "yes",
+        "openApi": "no",
+        "llmsTxt": "unknown",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 9,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "workspaceupdates.googleblog.com/2026/05/agent-tools-and-security-updates-for-workspace-developers.html",
+          "url": "https://workspaceupdates.googleblog.com/2026/05/agent-tools-and-security-updates-for-workspace-developers.html?hl=en",
+          "type": "source"
+        },
+        {
+          "title": "developers.google.com/workspace/guides/developer-tools",
+          "url": "https://developers.google.com/workspace/guides/developer-tools",
+          "type": "source"
+        },
+        {
+          "title": "developers.google.com/workspace/guides/build-with-llms",
+          "url": "https://developers.google.com/workspace/guides/build-with-llms",
+          "type": "source"
+        },
+        {
+          "title": "developers.google.com/workspace/drive/api/guides/limits",
+          "url": "https://developers.google.com/workspace/drive/api/guides/limits",
+          "type": "source"
+        },
+        {
+          "title": "developers.google.com/workspace/drive/api/reference/rest/v3/files/list",
+          "url": "https://developers.google.com/workspace/drive/api/reference/rest/v3/files/list",
+          "type": "source"
+        },
+        {
+          "title": "developers.google.com/workspace/drive/api/guides/downloads",
+          "url": "https://developers.google.com/workspace/drive/api/guides/downloads",
+          "type": "source"
+        },
+        {
+          "title": "developers.google.com/workspace/drive/api/quickstart/js",
+          "url": "https://developers.google.com/workspace/drive/api/quickstart/js",
+          "type": "source"
+        },
+        {
+          "title": "cloud.google.com/docs/discovery/apis",
+          "url": "https://cloud.google.com/docs/discovery/apis",
+          "type": "source"
+        },
+        {
+          "title": "workspacemcp.com/docs",
+          "url": "https://workspacemcp.com/docs",
+          "type": "source"
+        }
+      ]
+    }
+  ]
+}

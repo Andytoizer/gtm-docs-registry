@@ -1,0 +1,317 @@
+{
+  "runId": "2026-06-01",
+  "batchId": "scout-027",
+  "generatedAt": "2026-06-01T16:26:58.135Z",
+  "maxAgentsPerSwarm": 6,
+  "promptPath": ".internal/codex-maintenance/prompts/scout.md",
+  "schemaPath": ".internal/codex-maintenance/schemas/scout-finding.schema.json",
+  "tools": [
+    {
+      "id": "/gtm/serper",
+      "slug": "serper",
+      "name": "Serper",
+      "path": "tools/serper",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "no",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "no"
+      },
+      "sourceCounts": {
+        "total": 7,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "serper.dev",
+          "url": "https://serper.dev/",
+          "type": "source"
+        },
+        {
+          "title": "serper.dev/playground",
+          "url": "https://serper.dev/playground",
+          "type": "source"
+        },
+        {
+          "title": "serper.dev official playground bundle",
+          "url": "https://serper.dev/_next/static/chunks/pages/playground-7ce8960e9fe2fc99.js",
+          "type": "source"
+        },
+        {
+          "title": "github.com/garylab/serper-mcp-server",
+          "url": "https://github.com/garylab/serper-mcp-server",
+          "type": "source"
+        },
+        {
+          "title": "pkg.go.dev/github.com/SecKatie/serper-mcp",
+          "url": "https://pkg.go.dev/github.com/SecKatie/serper-mcp",
+          "type": "source"
+        },
+        {
+          "title": "github.com/marcopesani/mcp-server-serper",
+          "url": "https://github.com/marcopesani/mcp-server-serper",
+          "type": "source"
+        },
+        {
+          "title": "apify.com/serper/serper/api/openapi",
+          "url": "https://apify.com/serper/serper/api/openapi",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/signalhire",
+      "slug": "signalhire",
+      "name": "SignalHire",
+      "path": "tools/signalhire",
+      "status": "published",
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "unknown",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 1,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "signalhire.com/api",
+          "url": "https://www.signalhire.com/api",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/smartreach",
+      "slug": "smartreach",
+      "name": "SmartReach.io",
+      "path": "tools/smartreach",
+      "status": "published",
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 1,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "api.smartreach.io",
+          "url": "https://api.smartreach.io/",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/snitcher",
+      "slug": "snitcher",
+      "name": "Snitcher",
+      "path": "tools/snitcher",
+      "status": "published",
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "unknown",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 2,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "developers.snitcher.com",
+          "url": "https://developers.snitcher.com/",
+          "type": "source"
+        },
+        {
+          "title": "snitcher.com",
+          "url": "https://www.snitcher.com/",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/sumble",
+      "slug": "sumble",
+      "name": "Sumble",
+      "path": "tools/sumble",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "unknown",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "yes",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 8,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "docs.sumble.com/api",
+          "url": "https://docs.sumble.com/api",
+          "type": "source"
+        },
+        {
+          "title": "docs.sumble.com/api.md",
+          "url": "https://docs.sumble.com/api.md",
+          "type": "source"
+        },
+        {
+          "title": "docs.sumble.com/api/people",
+          "url": "https://docs.sumble.com/api/people",
+          "type": "source"
+        },
+        {
+          "title": "docs.sumble.com/api/people.md",
+          "url": "https://docs.sumble.com/api/people.md",
+          "type": "source"
+        },
+        {
+          "title": "docs.sumble.com/api/mcp.md",
+          "url": "https://docs.sumble.com/api/mcp.md",
+          "type": "source"
+        },
+        {
+          "title": "docs.sumble.com/llms.txt",
+          "url": "https://docs.sumble.com/llms.txt",
+          "type": "source"
+        },
+        {
+          "title": "sumble.com/integrations/mcp",
+          "url": "https://sumble.com/integrations/mcp",
+          "type": "source"
+        },
+        {
+          "title": "docs.sumble.com/trust-and-security",
+          "url": "https://docs.sumble.com/trust-and-security",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/tealium",
+      "slug": "tealium",
+      "name": "Tealium",
+      "path": "tools/tealium",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "announced",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 10,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "Tealium V3 APIs",
+          "url": "https://docs.tealium.com/api/v3/",
+          "type": "source"
+        },
+        {
+          "title": "Tealium V3 API Authentication",
+          "url": "https://docs.tealium.com/api/v3/getting-started/authentication/",
+          "type": "source"
+        },
+        {
+          "title": "Tealium V3 API request format",
+          "url": "https://docs.tealium.com/api/v3/getting-started/request-format/",
+          "type": "source"
+        },
+        {
+          "title": "Tealium Collect HTTP API",
+          "url": "https://docs.tealium.com/api/v3/http-api/about/",
+          "type": "source"
+        },
+        {
+          "title": "Tealium iQ Profiles API",
+          "url": "https://docs.tealium.com/api/v3/iq-profiles/",
+          "type": "source"
+        },
+        {
+          "title": "Tealium Visitor Privacy API",
+          "url": "https://docs.tealium.com/api/v3/visitor-privacy/",
+          "type": "source"
+        },
+        {
+          "title": "Tealium Visitor Profile API",
+          "url": "https://docs.tealium.com/api/v3/visitor-profile/",
+          "type": "source"
+        },
+        {
+          "title": "Tealium mobile SDK quick start",
+          "url": "https://docs.tealium.com/platforms/getting-started-mobile/quick-start/",
+          "type": "source"
+        },
+        {
+          "title": "Tealium MCP integration press release",
+          "url": "https://tealium.com/press-releases/tealium-achieves-mcp-integration-to-fuel-agentic-ai-initiatives/",
+          "type": "source"
+        },
+        {
+          "title": "Tealium MCP demo app article",
+          "url": "https://tealium.com/developer-center/bridging-ai-and-customer-data-platforms-with-mcp/",
+          "type": "source"
+        }
+      ]
+    }
+  ]
+}

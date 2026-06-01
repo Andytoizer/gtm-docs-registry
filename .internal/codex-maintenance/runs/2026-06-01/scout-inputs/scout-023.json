@@ -1,0 +1,297 @@
+{
+  "runId": "2026-06-01",
+  "batchId": "scout-023",
+  "generatedAt": "2026-06-01T16:26:58.135Z",
+  "maxAgentsPerSwarm": 6,
+  "promptPath": ".internal/codex-maintenance/prompts/scout.md",
+  "schemaPath": ".internal/codex-maintenance/schemas/scout-finding.schema.json",
+  "tools": [
+    {
+      "id": "/gtm/mparticle",
+      "slug": "mparticle",
+      "name": "mParticle",
+      "path": "tools/mparticle",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "yes",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "unknown",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 5,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "docs.mparticle.com/developers",
+          "url": "https://docs.mparticle.com/developers/",
+          "type": "source"
+        },
+        {
+          "title": "docs.mparticle.com/developers/tools/cli",
+          "url": "https://docs.mparticle.com/developers/tools/cli/",
+          "type": "source"
+        },
+        {
+          "title": "docs.mparticle.com/developers/apis/platform/overview",
+          "url": "https://docs.mparticle.com/developers/apis/platform/overview/",
+          "type": "source"
+        },
+        {
+          "title": "docs.mparticle.com/developers/server/http",
+          "url": "https://docs.mparticle.com/developers/server/http",
+          "type": "source"
+        },
+        {
+          "title": "docs.mparticle.com/guides/default-service-limits",
+          "url": "https://docs.mparticle.com/guides/default-service-limits/",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/nutshell",
+      "slug": "nutshell",
+      "name": "Nutshell",
+      "path": "tools/nutshell",
+      "status": "published",
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 2,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "developers.nutshell.com",
+          "url": "https://developers.nutshell.com/",
+          "type": "source"
+        },
+        {
+          "title": "developers.nutshell.com/reference",
+          "url": "https://developers.nutshell.com/reference",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/obsidian",
+      "slug": "obsidian",
+      "name": "Obsidian",
+      "path": "tools/obsidian",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "no",
+        "officialCli": "yes",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "unknown",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 6,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "obsidian.md/cli",
+          "url": "https://obsidian.md/cli",
+          "type": "source"
+        },
+        {
+          "title": "obsidian.md/help/cli",
+          "url": "https://obsidian.md/help/cli",
+          "type": "source"
+        },
+        {
+          "title": "docs.obsidian.md/Home",
+          "url": "https://docs.obsidian.md/Home",
+          "type": "source"
+        },
+        {
+          "title": "community.obsidian.md/plugins/obsidian-local-rest-api",
+          "url": "https://community.obsidian.md/plugins/obsidian-local-rest-api",
+          "type": "source"
+        },
+        {
+          "title": "github.com/MarkusPfundstein/mcp-obsidian",
+          "url": "https://github.com/MarkusPfundstein/mcp-obsidian",
+          "type": "source"
+        },
+        {
+          "title": "github.com/cyanheads/obsidian-mcp-server",
+          "url": "https://github.com/cyanheads/obsidian-mcp-server",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/ocean",
+      "slug": "ocean",
+      "name": "Ocean.io",
+      "path": "tools/ocean",
+      "status": "published",
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "unknown",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 4,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "docs.ocean.io",
+          "url": "https://docs.ocean.io/",
+          "type": "source"
+        },
+        {
+          "title": "docs.ocean.io/getting-started/authentication",
+          "url": "https://docs.ocean.io/getting-started/authentication",
+          "type": "source"
+        },
+        {
+          "title": "docs.ocean.io/getting-started/rate-limiting",
+          "url": "https://docs.ocean.io/getting-started/rate-limiting",
+          "type": "source"
+        },
+        {
+          "title": "docs.ocean.io/getting-started/pagination",
+          "url": "https://docs.ocean.io/getting-started/pagination",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/ortto",
+      "slug": "ortto",
+      "name": "Ortto",
+      "path": "tools/ortto",
+      "status": "published",
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "no",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 3,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "help.ortto.com/a-223-developer-guide",
+          "url": "https://help.ortto.com/a-223-developer-guide",
+          "type": "source"
+        },
+        {
+          "title": "help.ortto.com/a-250-api-reference",
+          "url": "https://help.ortto.com/a-250-api-reference",
+          "type": "source"
+        },
+        {
+          "title": "help.ortto.com/a-235-rate-limits",
+          "url": "https://help.ortto.com/a-235-rate-limits",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/otter-ai",
+      "slug": "otter-ai",
+      "name": "Otter.ai",
+      "path": "tools/otter-ai",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 5,
+        "official": 2,
+        "community": 3
+      },
+      "sourceUrls": [
+        {
+          "title": "Otter.ai Public API",
+          "url": "https://help.otter.ai/hc/en-us/articles/36130822688279-Otter-ai-Public-API",
+          "type": "official"
+        },
+        {
+          "title": "Otter MCP Server",
+          "url": "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server",
+          "type": "official"
+        },
+        {
+          "title": "Unofficial otter.ai-api JavaScript client",
+          "url": "https://github.com/omerdn1/otter.ai-api",
+          "type": "community"
+        },
+        {
+          "title": "Unofficial otterai-api Python client",
+          "url": "https://github.com/gmchad/otterai-api",
+          "type": "community"
+        },
+        {
+          "title": "Zapier Otter.ai MCP",
+          "url": "https://zapier.com/mcp/otterai",
+          "type": "community"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,292 @@
+{
+  "runId": "2026-06-01",
+  "batchId": "scout-003",
+  "generatedAt": "2026-06-01T16:26:58.135Z",
+  "maxAgentsPerSwarm": 6,
+  "promptPath": ".internal/codex-maintenance/prompts/scout.md",
+  "schemaPath": ".internal/codex-maintenance/schemas/scout-finding.schema.json",
+  "tools": [
+    {
+      "id": "/gtm/ahrefs",
+      "slug": "ahrefs",
+      "name": "Ahrefs",
+      "path": "tools/ahrefs",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 2,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "docs.ahrefs.com/en/api/docs/introduction",
+          "url": "https://docs.ahrefs.com/en/api/docs/introduction",
+          "type": "source"
+        },
+        {
+          "title": "docs.ahrefs.com/en/mcp/docs/introduction",
+          "url": "https://docs.ahrefs.com/en/mcp/docs/introduction",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/apify",
+      "slug": "apify",
+      "name": "Apify",
+      "path": "tools/apify",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "yes",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "unknown",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 5,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "docs.apify.com/platform/integrations/mcp",
+          "url": "https://docs.apify.com/platform/integrations/mcp",
+          "type": "source"
+        },
+        {
+          "title": "docs.apify.com/api/v2",
+          "url": "https://docs.apify.com/api/v2/",
+          "type": "source"
+        },
+        {
+          "title": "docs.apify.com/cli",
+          "url": "https://docs.apify.com/cli",
+          "type": "source"
+        },
+        {
+          "title": "docs.apify.com/api/v2/getting-started",
+          "url": "https://docs.apify.com/api/v2/getting-started",
+          "type": "source"
+        },
+        {
+          "title": "docs.apify.com/api/v2/request-queue-requests-get",
+          "url": "https://docs.apify.com/api/v2/request-queue-requests-get",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/apollo",
+      "slug": "apollo",
+      "name": "Apollo",
+      "path": "tools/apollo",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "yes",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "yes",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 3,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "docs.apollo.io",
+          "url": "https://docs.apollo.io/",
+          "type": "source"
+        },
+        {
+          "title": "docs.apollo.io/docs/apollo-cli-overview",
+          "url": "https://docs.apollo.io/docs/apollo-cli-overview",
+          "type": "source"
+        },
+        {
+          "title": "apollo.io/product/mcp",
+          "url": "https://www.apollo.io/product/mcp",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/appcues",
+      "slug": "appcues",
+      "name": "Appcues",
+      "path": "tools/appcues",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 3,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "docs.appcues.com/en_US/integration-documents/appcues-mcp-server",
+          "url": "https://docs.appcues.com/en_US/integration-documents/appcues-mcp-server",
+          "type": "source"
+        },
+        {
+          "title": "api.appcues.com",
+          "url": "https://api.appcues.com/",
+          "type": "source"
+        },
+        {
+          "title": "docs.appcues.com/en_US/dev-api-data/javascript-api-developer",
+          "url": "https://docs.appcues.com/en_US/dev-api-data/javascript-api-developer",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/bigquery",
+      "slug": "bigquery",
+      "name": "BigQuery",
+      "path": "tools/bigquery",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "yes",
+        "officialApi": "yes",
+        "openApi": "no",
+        "llmsTxt": "unknown",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 6,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "docs.cloud.google.com/bigquery/docs/use-bigquery-mcp",
+          "url": "https://docs.cloud.google.com/bigquery/docs/use-bigquery-mcp",
+          "type": "source"
+        },
+        {
+          "title": "cloud.google.com/bigquery/docs/reference/bq-cli-reference",
+          "url": "https://cloud.google.com/bigquery/docs/reference/bq-cli-reference",
+          "type": "source"
+        },
+        {
+          "title": "cloud.google.com/bigquery/docs/reference/rest",
+          "url": "https://cloud.google.com/bigquery/docs/reference/rest/",
+          "type": "source"
+        },
+        {
+          "title": "docs.cloud.google.com/bigquery/docs/paging-results",
+          "url": "https://docs.cloud.google.com/bigquery/docs/paging-results",
+          "type": "source"
+        },
+        {
+          "title": "docs.cloud.google.com/bigquery/quotas",
+          "url": "https://docs.cloud.google.com/bigquery/quotas",
+          "type": "source"
+        },
+        {
+          "title": "docs.cloud.google.com/bigquery/docs/reference/libraries-overview",
+          "url": "https://docs.cloud.google.com/bigquery/docs/reference/libraries-overview",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/builtwith",
+      "slug": "builtwith",
+      "name": "BuiltWith",
+      "path": "tools/builtwith",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "yes",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "yes",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 5,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "api.builtwith.com",
+          "url": "https://api.builtwith.com/",
+          "type": "source"
+        },
+        {
+          "title": "api.builtwith.com/domain-api",
+          "url": "https://api.builtwith.com/domain-api",
+          "type": "source"
+        },
+        {
+          "title": "github.com/builtwith/builtwith-mcp",
+          "url": "https://github.com/builtwith/builtwith-mcp",
+          "type": "source"
+        },
+        {
+          "title": "github.com/builtwith/builtwith-official-cli",
+          "url": "https://github.com/builtwith/builtwith-official-cli",
+          "type": "source"
+        },
+        {
+          "title": "api.builtwith.com/llms.txt",
+          "url": "https://api.builtwith.com/llms.txt",
+          "type": "source"
+        }
+      ]
+    }
+  ]
+}

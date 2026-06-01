@@ -1,0 +1,362 @@
+{
+  "runId": "2026-06-01",
+  "batchId": "scout-012",
+  "generatedAt": "2026-06-01T16:26:58.135Z",
+  "maxAgentsPerSwarm": 6,
+  "promptPath": ".internal/codex-maintenance/prompts/scout.md",
+  "schemaPath": ".internal/codex-maintenance/schemas/scout-finding.schema.json",
+  "tools": [
+    {
+      "id": "/gtm/replyio",
+      "slug": "replyio",
+      "name": "Reply.io",
+      "path": "tools/replyio",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "yes",
+        "officialSdk": "no"
+      },
+      "sourceCounts": {
+        "total": 5,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "Reply.io",
+          "url": "https://reply.io/",
+          "type": "official-site"
+        },
+        {
+          "title": "Reply MCP",
+          "url": "https://reply.io/mcp/",
+          "type": "official-mcp"
+        },
+        {
+          "title": "Reply API Introduction",
+          "url": "https://docs.reply.io/api-reference/introduction",
+          "type": "official-api"
+        },
+        {
+          "title": "Reply llms.txt",
+          "url": "https://docs.reply.io/llms.txt",
+          "type": "official-ai-docs"
+        },
+        {
+          "title": "Reply OpenAPI YAML",
+          "url": "https://docs.reply.io/api-reference/bundled.yaml",
+          "type": "official-openapi"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/resend",
+      "slug": "resend",
+      "name": "Resend",
+      "path": "tools/resend",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "yes",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "yes",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 4,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "resend.com/docs/api-reference/introduction",
+          "url": "https://www.resend.com/docs/api-reference/introduction",
+          "type": "source"
+        },
+        {
+          "title": "resend.com/docs/cli",
+          "url": "https://resend.com/docs/cli",
+          "type": "source"
+        },
+        {
+          "title": "resend.com/changelog/mcp",
+          "url": "https://resend.com/changelog/mcp",
+          "type": "source"
+        },
+        {
+          "title": "github.com/resend/mcp-send-email",
+          "url": "https://github.com/resend/mcp-send-email",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/rocketreach",
+      "slug": "rocketreach",
+      "name": "RocketReach",
+      "path": "tools/rocketreach",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "no",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "yes",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 12,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "rocketreach.co/api",
+          "url": "https://rocketreach.co/api",
+          "type": "source"
+        },
+        {
+          "title": "docs.rocketreach.co/llms.txt",
+          "url": "https://docs.rocketreach.co/llms.txt",
+          "type": "source"
+        },
+        {
+          "title": "docs.rocketreach.co/openapi/index.yaml",
+          "url": "https://docs.rocketreach.co/openapi/index.yaml",
+          "type": "source"
+        },
+        {
+          "title": "docs.rocketreach.co/reference/rate-limits",
+          "url": "https://docs.rocketreach.co/reference/rate-limits",
+          "type": "source"
+        },
+        {
+          "title": "docs.rocketreach.co/reference/responses-and-errors",
+          "url": "https://docs.rocketreach.co/reference/responses-and-errors",
+          "type": "source"
+        },
+        {
+          "title": "docs.rocketreach.co/reference/people-search-api",
+          "url": "https://docs.rocketreach.co/reference/people-search-api",
+          "type": "source"
+        },
+        {
+          "title": "docs.rocketreach.co/reference/create_universal_person_search",
+          "url": "https://docs.rocketreach.co/reference/create_universal_person_search",
+          "type": "source"
+        },
+        {
+          "title": "docs.rocketreach.co/reference/create_universal_person_lookup",
+          "url": "https://docs.rocketreach.co/reference/create_universal_person_lookup",
+          "type": "source"
+        },
+        {
+          "title": "docs.rocketreach.co/reference/get_universal_account",
+          "url": "https://docs.rocketreach.co/reference/get_universal_account",
+          "type": "source"
+        },
+        {
+          "title": "pypi.org/project/rocketreach",
+          "url": "https://pypi.org/project/rocketreach/",
+          "type": "source"
+        },
+        {
+          "title": "github.com/rocketreach/rocketreach_python",
+          "url": "https://github.com/rocketreach/rocketreach_python",
+          "type": "source"
+        },
+        {
+          "title": "glama.ai/mcp/servers/%40Meerkats-Ai/rocketreach-mcp-server/tree",
+          "url": "https://glama.ai/mcp/servers/%40Meerkats-Ai/rocketreach-mcp-server/tree",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/seamless",
+      "slug": "seamless",
+      "name": "Seamless.AI",
+      "path": "tools/seamless",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "yes",
+        "officialSdk": "no"
+      },
+      "sourceCounts": {
+        "total": 10,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "Seamless API documentation",
+          "url": "https://docs.seamless.ai/",
+          "type": "source"
+        },
+        {
+          "title": "Seamless llms.txt documentation index",
+          "url": "https://docs.seamless.ai/llms.txt",
+          "type": "source"
+        },
+        {
+          "title": "Seamless REST OpenAPI spec",
+          "url": "https://docs.seamless.ai/openapi.json",
+          "type": "source"
+        },
+        {
+          "title": "Seamless MCP OpenAPI spec",
+          "url": "https://docs.seamless.ai/mcp-openapi.yaml",
+          "type": "source"
+        },
+        {
+          "title": "Seamless API keys",
+          "url": "https://docs.seamless.ai/authentication/api-keys.md",
+          "type": "source"
+        },
+        {
+          "title": "Seamless rate limits and credits",
+          "url": "https://docs.seamless.ai/rate-limits-and-credits.md",
+          "type": "source"
+        },
+        {
+          "title": "Seamless search contacts API",
+          "url": "https://docs.seamless.ai/searchcontacts.md",
+          "type": "source"
+        },
+        {
+          "title": "Seamless search companies API",
+          "url": "https://docs.seamless.ai/searchcompanies.md",
+          "type": "source"
+        },
+        {
+          "title": "Seamless MCP risk tiers",
+          "url": "https://docs.seamless.ai/mcp/risk-tiers.md",
+          "type": "source"
+        },
+        {
+          "title": "Seamless API product page",
+          "url": "https://seamless.ai/products/api",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/smartlead",
+      "slug": "smartlead",
+      "name": "Smartlead",
+      "path": "tools/smartlead",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "yes",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "yes",
+        "officialSdk": "no"
+      },
+      "sourceCounts": {
+        "total": 5,
+        "official": 5,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "type": "official",
+          "title": "API quickstart",
+          "url": "https://api.smartlead.ai/quickstart"
+        },
+        {
+          "type": "official",
+          "title": "MCP docs",
+          "url": "https://helpcenter.smartlead.ai/en/articles/300-smartlead-mcp-server"
+        },
+        {
+          "type": "official",
+          "title": "Full API docs/auth",
+          "url": "https://helpcenter.smartlead.ai/en/articles/125-full-api-documentation"
+        },
+        {
+          "type": "official",
+          "title": "CLI repo",
+          "url": "https://github.com/Smartlead-Public/smartlead-cli"
+        },
+        {
+          "type": "official",
+          "title": "Changelog",
+          "url": "https://api.smartlead.ai/changelog"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/warmly",
+      "slug": "warmly",
+      "name": "Warmly",
+      "path": "tools/warmly",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "no",
+        "llmsTxt": "no",
+        "officialSdk": "no"
+      },
+      "sourceCounts": {
+        "total": 2,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "Warmly's MCP Server and API Are Live",
+          "url": "https://www.warmly.ai/launches/warmly-mcp-and-api-are-live",
+          "type": "official-mcp-api-docs"
+        },
+        {
+          "title": "Warmly",
+          "url": "https://www.warmly.ai/",
+          "type": "official-site"
+        }
+      ]
+    }
+  ]
+}

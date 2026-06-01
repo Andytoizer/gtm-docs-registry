@@ -1,0 +1,347 @@
+{
+  "runId": "2026-06-01",
+  "batchId": "scout-011",
+  "generatedAt": "2026-06-01T16:26:58.135Z",
+  "maxAgentsPerSwarm": 6,
+  "promptPath": ".internal/codex-maintenance/prompts/scout.md",
+  "schemaPath": ".internal/codex-maintenance/schemas/scout-finding.schema.json",
+  "tools": [
+    {
+      "id": "/gtm/lemlist",
+      "slug": "lemlist",
+      "name": "Lemlist",
+      "path": "tools/lemlist",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "no",
+        "llmsTxt": "yes",
+        "officialSdk": "no"
+      },
+      "sourceCounts": {
+        "total": 7,
+        "official": 7,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "type": "official",
+          "title": "Official website",
+          "url": "https://www.lemlist.com/"
+        },
+        {
+          "type": "official",
+          "title": "API overview",
+          "url": "https://developer.lemlist.com/api-reference/getting-started/overview"
+        },
+        {
+          "type": "official",
+          "title": "MCP setup",
+          "url": "https://developer.lemlist.com/mcp/setup"
+        },
+        {
+          "type": "official",
+          "title": "API auth",
+          "url": "https://developer.lemlist.com/api-reference/getting-started/authentication"
+        },
+        {
+          "type": "official",
+          "title": "llms.txt",
+          "url": "https://developer.lemlist.com/llms.txt"
+        },
+        {
+          "type": "official",
+          "title": "AI info",
+          "url": "https://www.lemlist.com/ai-info"
+        },
+        {
+          "type": "official",
+          "title": "Lemlist agent docs",
+          "url": "https://developer.lemlist.com/mcp/lemlist-agent"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/loops",
+      "slug": "loops",
+      "name": "Loops",
+      "path": "tools/loops",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "no",
+        "officialCli": "yes",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "yes",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 9,
+        "official": 7,
+        "community": 2
+      },
+      "sourceUrls": [
+        {
+          "title": "loops.so/docs/api-reference/intro",
+          "url": "https://loops.so/docs/api-reference/intro",
+          "type": "official"
+        },
+        {
+          "title": "loops.so/docs/cli",
+          "url": "https://loops.so/docs/cli",
+          "type": "official"
+        },
+        {
+          "title": "loops.so/docs/llms.txt",
+          "url": "https://loops.so/docs/llms.txt",
+          "type": "official"
+        },
+        {
+          "title": "app.loops.so/openapi.json",
+          "url": "https://app.loops.so/openapi.json",
+          "type": "official"
+        },
+        {
+          "title": "app.loops.so/openapi.yaml",
+          "url": "https://app.loops.so/openapi.yaml",
+          "type": "official"
+        },
+        {
+          "title": "loops.so/docs/sdks.md",
+          "url": "https://loops.so/docs/sdks.md",
+          "type": "official"
+        },
+        {
+          "title": "Loops-so/cli",
+          "url": "https://github.com/Loops-so/cli",
+          "type": "official"
+        },
+        {
+          "title": "viaSocket Loops.so MCP Server",
+          "url": "https://viasocket.com/mcp/loopsso",
+          "type": "community"
+        },
+        {
+          "title": "Pipedream Loops.so MCP Server",
+          "url": "https://mcp.pipedream.com/app/loops_so",
+          "type": "community"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/lusha",
+      "slug": "lusha",
+      "name": "Lusha",
+      "path": "tools/lusha",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "yes",
+        "officialSdk": "no"
+      },
+      "sourceCounts": {
+        "total": 3,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "docs.lusha.com/apis/openapi/prospecting",
+          "url": "https://docs.lusha.com/apis/openapi/prospecting",
+          "type": "source"
+        },
+        {
+          "title": "docs.lusha.com/mcp-docs",
+          "url": "https://docs.lusha.com/mcp-docs",
+          "type": "source"
+        },
+        {
+          "title": "info.lusha.com/en/articles/361329-lusha-model-context-protocol-mcp-server",
+          "url": "https://info.lusha.com/en/articles/361329-lusha-model-context-protocol-mcp-server",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/monaco",
+      "slug": "monaco",
+      "name": "Monaco",
+      "path": "tools/monaco",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "yes",
+        "officialSdk": "no"
+      },
+      "sourceCounts": {
+        "total": 7,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "Monaco Beta Notice",
+          "url": "https://docs.monaco.com/beta-notice",
+          "type": "official-docs"
+        },
+        {
+          "title": "Monaco llms.txt",
+          "url": "https://docs.monaco.com/llms.txt",
+          "type": "llms-docs"
+        },
+        {
+          "title": "Monaco Authentication",
+          "url": "https://docs.monaco.com/auth",
+          "type": "official-docs"
+        },
+        {
+          "title": "Monaco Pagination, Sorting, and Filtering",
+          "url": "https://docs.monaco.com/pagination-sorting-and-filtering",
+          "type": "official-docs"
+        },
+        {
+          "title": "Monaco MCP Overview",
+          "url": "https://docs.monaco.com/mcp/overview",
+          "type": "official-mcp"
+        },
+        {
+          "title": "Monaco Agent Skills",
+          "url": "https://docs.monaco.com/agent-skills",
+          "type": "official-docs"
+        },
+        {
+          "title": "Monaco OpenAPI",
+          "url": "https://api.monaco.com/openapi.json",
+          "type": "openapi"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/pipedream",
+      "slug": "pipedream",
+      "name": "Pipedream",
+      "path": "tools/pipedream",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "yes",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "yes",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 4,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "pipedream.com/docs/api/rest",
+          "url": "https://pipedream.com/docs/api/rest/",
+          "type": "source"
+        },
+        {
+          "title": "pipedream.com/docs/cli",
+          "url": "https://pipedream.com/docs/cli/",
+          "type": "source"
+        },
+        {
+          "title": "pipedream.com/docs/mcp",
+          "url": "https://pipedream.com/docs/mcp/",
+          "type": "source"
+        },
+        {
+          "title": "mcp.pipedream.com",
+          "url": "https://mcp.pipedream.com/",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/posthog",
+      "slug": "posthog",
+      "name": "PostHog",
+      "path": "tools/posthog",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "yes",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "yes",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 5,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "posthog.com/docs/api",
+          "url": "https://posthog.com/docs/api",
+          "type": "source"
+        },
+        {
+          "title": "posthog.com/docs/model-context-protocol",
+          "url": "https://posthog.com/docs/model-context-protocol",
+          "type": "source"
+        },
+        {
+          "title": "posthog.com/docs/data/posthog-cli",
+          "url": "https://posthog.com/docs/data/posthog-cli",
+          "type": "source"
+        },
+        {
+          "title": "posthog.com/docs/libraries",
+          "url": "https://posthog.com/docs/libraries",
+          "type": "source"
+        },
+        {
+          "title": "posthog.com/llms.txt",
+          "url": "https://posthog.com/llms.txt",
+          "type": "source"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,342 @@
+{
+  "runId": "2026-06-01",
+  "batchId": "scout-002",
+  "generatedAt": "2026-06-01T16:26:58.135Z",
+  "maxAgentsPerSwarm": 6,
+  "promptPath": ".internal/codex-maintenance/prompts/scout.md",
+  "schemaPath": ".internal/codex-maintenance/schemas/scout-finding.schema.json",
+  "tools": [
+    {
+      "id": "/gtm/kaspr",
+      "slug": "kaspr",
+      "name": "Kaspr",
+      "path": "tools/kaspr",
+      "status": "needs-review",
+      "agentReadinessScore": 2,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": true,
+      "reviewReason": "Exact blocker: public sources do not expose a complete agent-readable API reference/OpenAPI, full endpoint list, exact current auth version/header requirements, exact requests-per-hour/day limits, or pagination semantics. The linked Stoplight reference is JavaScript-only from the available fetch path.",
+      "interfaces": {
+        "officialMcp": "no",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "no",
+        "officialSdk": "no"
+      },
+      "sourceCounts": {
+        "total": 7,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "Kaspr API product page",
+          "url": "https://www.kaspr.io/api",
+          "type": "source"
+        },
+        {
+          "title": "How to setup Kaspr API",
+          "url": "https://help.kaspr.io/en/articles/8857583-how-to-setup-kaspr-api",
+          "type": "source"
+        },
+        {
+          "title": "Kaspr Stoplight API reference shell",
+          "url": "https://kaspr.stoplight.io/docs/kaspr-api/branches/main/a9e3adc32ee8e-kaspr-api-doc",
+          "type": "source"
+        },
+        {
+          "title": "Kaspr pricing",
+          "url": "https://www.kaspr.io/pricing",
+          "type": "source"
+        },
+        {
+          "title": "SmoothWork Kaspr API integration notes",
+          "url": "https://smoothwork.ai/kaspr-api-integration-services/",
+          "type": "source"
+        },
+        {
+          "title": "dltHub Kaspr source scaffold",
+          "url": "https://dlthub.com/context/source/kaspr",
+          "type": "source"
+        },
+        {
+          "title": "Make Community Kaspr integration thread",
+          "url": "https://community.make.com/t/issue-with-kaspr-integration-no-phone-numbers-added-to-google-sheet-despite-purchased-credits/19938",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/kissmetrics",
+      "slug": "kissmetrics",
+      "name": "Kissmetrics",
+      "path": "tools/kissmetrics",
+      "status": "needs-review",
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": true,
+      "reviewReason": "Keep in review: official REST API is marked beta and subject to breaking changes, and no public current rate-limit policy was found.",
+      "interfaces": {
+        "officialMcp": "no",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 4,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "Kissmetrics REST API overview",
+          "url": "https://support.kissmetrics.io/reference/overview",
+          "type": "source"
+        },
+        {
+          "title": "Kissmetrics reports endpoint",
+          "url": "https://support.kissmetrics.io/reference/fetch-reports",
+          "type": "source"
+        },
+        {
+          "title": "Kissmetrics installing and code libraries",
+          "url": "https://support.kissmetrics.io/docs/installing-kissmetrics-quickstart-guide",
+          "type": "source"
+        },
+        {
+          "title": "Kissmetrics URL API",
+          "url": "https://support.kissmetrics.io/docs/url-api",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/owler",
+      "slug": "owler",
+      "name": "Owler",
+      "path": "tools/owler",
+      "status": "needs-review",
+      "agentReadinessScore": 2,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": true,
+      "reviewReason": "Current Owler Data Licensing/API endpoint reference, auth scheme, pagination, and rate limits are not publicly documented; public sources conflict between legacy Basic Auth docs and community API-key/OpenAPI-derived connector docs.",
+      "interfaces": {
+        "officialMcp": "no",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "no",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 5,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "owler.com",
+          "url": "https://www.owler.com/",
+          "type": "source"
+        },
+        {
+          "title": "corp.owler.com/data-licensing",
+          "url": "https://corp.owler.com/data-licensing",
+          "type": "source"
+        },
+        {
+          "title": "docs.owler.cloud/api/requests.html",
+          "url": "https://docs.owler.cloud/api/requests.html",
+          "type": "source"
+        },
+        {
+          "title": "docs.owler.cloud/api/auth.html",
+          "url": "https://docs.owler.cloud/api/auth.html",
+          "type": "source"
+        },
+        {
+          "title": "central.ballerina.io/ballerinax/owler/latest",
+          "url": "https://central.ballerina.io/ballerinax/owler/latest",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/pitchbook",
+      "slug": "pitchbook",
+      "name": "PitchBook API",
+      "path": "tools/pitchbook",
+      "status": "needs-review",
+      "agentReadinessScore": 2,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": true,
+      "reviewReason": "Official page confirms REST base URL and API key/authentication-token setup through PitchBook Direct Data, but the endpoint overview, machine-readable spec, pagination, and rate-limit docs appear gated behind PitchBook/API access. Third-party dltHub/Unified.to evidence is not enough to publish.",
+      "interfaces": {
+        "officialMcp": "no",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 6,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "PitchBook API Help",
+          "url": "https://pitchbook.com/help/PitchBook-api",
+          "type": "source"
+        },
+        {
+          "title": "PitchBook API and Datafeed Launch",
+          "url": "https://pitchbook.com/blog/announcing-the-launch-of-api-and-datafeed",
+          "type": "source"
+        },
+        {
+          "title": "PitchBook Direct Data",
+          "url": "https://pitchbook.com/blog/what-is-direct-data",
+          "type": "source"
+        },
+        {
+          "title": "dltHub PitchBook API Source",
+          "url": "https://dlthub.com/context/source/pitchbook-api",
+          "type": "source"
+        },
+        {
+          "title": "Unified.to PitchBook Integration",
+          "url": "https://unified.to/integrations/pitchbook",
+          "type": "source"
+        },
+        {
+          "title": "PitchBook OpenAI App",
+          "url": "https://openai.com/business/apps/pitchbook/",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/webeo",
+      "slug": "webeo",
+      "name": "Webeo",
+      "path": "tools/webeo",
+      "status": "needs-review",
+      "agentReadinessScore": 1,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": true,
+      "reviewReason": "Insufficient agent retrieval coverage: no public developer API/auth/endpoint/rate-limit/pagination docs were found; available sources cover product behavior, tracking code, data processing, and managed CRM/MA integrations only.",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "no",
+        "officialApi": "unknown",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 5,
+        "official": 5,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "webeo.com",
+          "url": "https://www.webeo.com/",
+          "type": "official"
+        },
+        {
+          "title": "Webeo How It Works",
+          "url": "https://www.webeo.com/how-it-works/",
+          "type": "official"
+        },
+        {
+          "title": "Webeo Privacy Policy",
+          "url": "https://www.webeo.com/privacy-policy/",
+          "type": "official"
+        },
+        {
+          "title": "Webeo Software Data Compliance Policy",
+          "url": "https://www.webeo.com/software-data-compliance/",
+          "type": "official"
+        },
+        {
+          "title": "Webeo CRM integrations article",
+          "url": "https://www.webeo.com/resources/website-personalization-top-tips-how-to-get-the-most-out-of-your-crm-integrations-with-webeo/",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/dripify",
+      "slug": "dripify",
+      "name": "Dripify",
+      "path": "tools/dripify",
+      "status": "needs-review",
+      "agentReadinessScore": 2,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": true,
+      "reviewReason": "No public first-party API, CLI, MCP, OpenAPI, SDK, endpoint, API-auth, pagination, or rate-limit docs were found; public evidence supports only per-campaign outbound webhook automation, so direct agent API retrieval remains blocked unless private/customer-only docs exist.",
+      "interfaces": {
+        "officialMcp": "no",
+        "officialCli": "no",
+        "officialApi": "no",
+        "openApi": "no",
+        "llmsTxt": "no",
+        "officialSdk": "no"
+      },
+      "sourceCounts": {
+        "total": 7,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "Dripify",
+          "url": "https://dripify.com",
+          "type": "official-site"
+        },
+        {
+          "title": "Dripify Help Center",
+          "url": "https://help.dripify.com",
+          "type": "official-docs"
+        },
+        {
+          "title": "What is Dripify?",
+          "url": "https://help.dripify.com/en/articles/4910909-what-is-dripify",
+          "type": "official-docs"
+        },
+        {
+          "title": "Dripify Integrations",
+          "url": "https://dripify.com/integrations/",
+          "type": "official-integrations"
+        },
+        {
+          "title": "How to Set Up Automation with Zapier",
+          "url": "https://help.dripify.com/en/articles/9539864-how-to-set-up-automation-with-zapier",
+          "type": "official-integration-docs"
+        },
+        {
+          "title": "How to Set Up Automation with Make",
+          "url": "https://help.dripify.com/en/articles/10260783-how-to-set-up-automation-with-make",
+          "type": "official-integration-docs"
+        },
+        {
+          "title": "Dripify Make Integration",
+          "url": "https://www.dripify.com/integrations/make/",
+          "type": "official-integration-docs"
+        }
+      ]
+    }
+  ]
+}

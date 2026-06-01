@@ -1,0 +1,252 @@
+{
+  "runId": "2026-06-01",
+  "batchId": "scout-026",
+  "generatedAt": "2026-06-01T16:26:58.135Z",
+  "maxAgentsPerSwarm": 6,
+  "promptPath": ".internal/codex-maintenance/prompts/scout.md",
+  "schemaPath": ".internal/codex-maintenance/schemas/scout-finding.schema.json",
+  "tools": [
+    {
+      "id": "/gtm/salesblink",
+      "slug": "salesblink",
+      "name": "SalesBlink",
+      "path": "tools/salesblink",
+      "status": "published",
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 1,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "docs.salesblink.io",
+          "url": "https://docs.salesblink.io/",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/pardot",
+      "slug": "pardot",
+      "name": "Salesforce Account Engagement",
+      "path": "tools/pardot",
+      "status": "published",
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "no",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "no"
+      },
+      "sourceCounts": {
+        "total": 1,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "developer.salesforce.com/docs/marketing/pardot/guide/overview",
+          "url": "https://developer.salesforce.com/docs/marketing/pardot/guide/overview",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/saleshandy",
+      "slug": "saleshandy",
+      "name": "Saleshandy",
+      "path": "tools/saleshandy",
+      "status": "published",
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 1,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "apidocs.saleshandy.com",
+          "url": "https://apidocs.saleshandy.com/",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/salesloft",
+      "slug": "salesloft",
+      "name": "Salesloft",
+      "path": "tools/salesloft",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "announced",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 8,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "developers.salesloft.com/docs/api",
+          "url": "https://developers.salesloft.com/docs/api/",
+          "type": "source"
+        },
+        {
+          "title": "developers.salesloft.com/docs/platform/api-basics",
+          "url": "https://developers.salesloft.com/docs/platform/api-basics/",
+          "type": "source"
+        },
+        {
+          "title": "developer.salesloft.com/docs/platform/api-basics/api-key-authentication",
+          "url": "https://developer.salesloft.com/docs/platform/api-basics/api-key-authentication/",
+          "type": "source"
+        },
+        {
+          "title": "developer.salesloft.com/docs/platform/api-basics/rate-limits",
+          "url": "https://developer.salesloft.com/docs/platform/api-basics/rate-limits/",
+          "type": "source"
+        },
+        {
+          "title": "developers.salesloft.com/docs/platform/api-basics/filtering-paging-sorting",
+          "url": "https://developers.salesloft.com/docs/platform/api-basics/filtering-paging-sorting/",
+          "type": "source"
+        },
+        {
+          "title": "salesloft.com/company/newsroom/clari-salesloft-forecasting-execution-mcp-server",
+          "url": "https://www.salesloft.com/company/newsroom/clari-salesloft-forecasting-execution-mcp-server",
+          "type": "source"
+        },
+        {
+          "title": "cdn.cdata.com/help/KBM/mcp",
+          "url": "https://cdn.cdata.com/help/KBM/mcp",
+          "type": "source"
+        },
+        {
+          "title": "zapier.com/mcp/salesloft",
+          "url": "https://zapier.com/mcp/salesloft",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/segment",
+      "slug": "segment",
+      "name": "Segment",
+      "path": "tools/segment",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "unknown",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 2,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "twilio.com/docs/segment/api/public-api",
+          "url": "https://www.twilio.com/docs/segment/api/public-api/",
+          "type": "source"
+        },
+        {
+          "title": "twilio.com/docs/ai/mcp",
+          "url": "https://www.twilio.com/docs/ai/mcp",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/sendgrid",
+      "slug": "sendgrid",
+      "name": "SendGrid",
+      "path": "tools/sendgrid",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "no",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 3,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "twilio.com/docs/sendgrid/api-reference/how-to-use-the-sendgrid-v3-api/authentication",
+          "url": "https://www.twilio.com/docs/sendgrid/api-reference/how-to-use-the-sendgrid-v3-api/authentication",
+          "type": "source"
+        },
+        {
+          "title": "twilio.com/docs/sendgrid/api-reference/how-to-use-the-sendgrid-v3-api/rate-limits",
+          "url": "https://www.twilio.com/docs/sendgrid/api-reference/how-to-use-the-sendgrid-v3-api/rate-limits",
+          "type": "source"
+        },
+        {
+          "title": "github.com/Garoth/sendgrid-mcp",
+          "url": "https://github.com/Garoth/sendgrid-mcp",
+          "type": "source"
+        }
+      ]
+    }
+  ]
+}

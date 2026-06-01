@@ -1,0 +1,282 @@
+{
+  "runId": "2026-06-01",
+  "batchId": "scout-017",
+  "generatedAt": "2026-06-01T16:26:58.135Z",
+  "maxAgentsPerSwarm": 6,
+  "promptPath": ".internal/codex-maintenance/prompts/scout.md",
+  "schemaPath": ".internal/codex-maintenance/schemas/scout-finding.schema.json",
+  "tools": [
+    {
+      "id": "/gtm/crisp",
+      "slug": "crisp",
+      "name": "Crisp",
+      "path": "tools/crisp",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "unknown",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 2,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "docs.crisp.chat/references/rest-api/v1",
+          "url": "https://docs.crisp.chat/references/rest-api/v1/",
+          "type": "source"
+        },
+        {
+          "title": "github.com/crisp-im/node-crisp-api",
+          "url": "https://github.com/crisp-im/node-crisp-api",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/crunchbase",
+      "slug": "crunchbase",
+      "name": "Crunchbase API",
+      "path": "tools/crunchbase",
+      "status": "published",
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "no",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 4,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "data.crunchbase.com/docs/using-the-api",
+          "url": "https://data.crunchbase.com/docs/using-the-api",
+          "type": "source"
+        },
+        {
+          "title": "data.crunchbase.com/v4-legacy/docs/using-search-apis",
+          "url": "https://data.crunchbase.com/v4-legacy/docs/using-search-apis",
+          "type": "source"
+        },
+        {
+          "title": "support.crunchbase.com/hc/en-us/articles/32319290128019-Crunchbase-API-FAQ",
+          "url": "https://support.crunchbase.com/hc/en-us/articles/32319290128019-Crunchbase-API-FAQ",
+          "type": "source"
+        },
+        {
+          "title": "about.crunchbase.com/api-guide",
+          "url": "https://about.crunchbase.com/api-guide/",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/datagma",
+      "slug": "datagma",
+      "name": "Datagma",
+      "path": "tools/datagma",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "unknown",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 2,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "docs.datagma.com",
+          "url": "https://docs.datagma.com/",
+          "type": "source"
+        },
+        {
+          "title": "datagma.com",
+          "url": "https://datagma.com/",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/demandbase",
+      "slug": "demandbase",
+      "name": "Demandbase",
+      "path": "tools/demandbase",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "unknown",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "yes",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 10,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "developer.demandbase.com/docs/welcome",
+          "url": "https://developer.demandbase.com/docs/welcome",
+          "type": "source"
+        },
+        {
+          "title": "developer.demandbase.com/docs/demandbase-apis",
+          "url": "https://developer.demandbase.com/docs/demandbase-apis",
+          "type": "source"
+        },
+        {
+          "title": "developer.demandbase.com/docs/b2b-overview",
+          "url": "https://developer.demandbase.com/docs/b2b-overview",
+          "type": "source"
+        },
+        {
+          "title": "developer.demandbase.com/docs/authenticating-with-the-apis",
+          "url": "https://developer.demandbase.com/docs/authenticating-with-the-apis",
+          "type": "source"
+        },
+        {
+          "title": "developer.demandbase.com/docs/user-admin-overview",
+          "url": "https://developer.demandbase.com/docs/user-admin-overview",
+          "type": "source"
+        },
+        {
+          "title": "developer.demandbase.com/docs/mcp",
+          "url": "https://developer.demandbase.com/docs/mcp",
+          "type": "source"
+        },
+        {
+          "title": "developer.demandbase.com/docs/instructions",
+          "url": "https://developer.demandbase.com/docs/instructions",
+          "type": "source"
+        },
+        {
+          "title": "developer.demandbase.com/docs/credit-consumption",
+          "url": "https://developer.demandbase.com/docs/credit-consumption",
+          "type": "source"
+        },
+        {
+          "title": "developer.demandbase.com/docs/rate-limits-1",
+          "url": "https://developer.demandbase.com/docs/rate-limits-1",
+          "type": "source"
+        },
+        {
+          "title": "pypi.org/project/demandbase-sdk",
+          "url": "https://pypi.org/project/demandbase-sdk/",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/dreamdata",
+      "slug": "dreamdata",
+      "name": "Dreamdata",
+      "path": "tools/dreamdata",
+      "status": "published",
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "unknown",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 2,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "dreamdata.io",
+          "url": "https://dreamdata.io/",
+          "type": "source"
+        },
+        {
+          "title": "docs.dreamdata.io",
+          "url": "https://docs.dreamdata.io/",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/drip",
+      "slug": "drip",
+      "name": "Drip",
+      "path": "tools/drip",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "no",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 2,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "developer.drip.com",
+          "url": "https://developer.drip.com/",
+          "type": "source"
+        },
+        {
+          "title": "github.com/GravityKit/drip-mcp-server",
+          "url": "https://github.com/GravityKit/drip-mcp-server",
+          "type": "source"
+        }
+      ]
+    }
+  ]
+}
