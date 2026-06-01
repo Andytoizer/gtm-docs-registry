@@ -1,0 +1,297 @@
+{
+  "runId": "2026-06-01",
+  "batchId": "scout-024",
+  "generatedAt": "2026-06-01T16:26:58.135Z",
+  "maxAgentsPerSwarm": 6,
+  "promptPath": ".internal/codex-maintenance/prompts/scout.md",
+  "schemaPath": ".internal/codex-maintenance/schemas/scout-finding.schema.json",
+  "tools": [
+    {
+      "id": "/gtm/outplay",
+      "slug": "outplay",
+      "name": "Outplay",
+      "path": "tools/outplay",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "no",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 5,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "Outplay APIs - Postman public documentation",
+          "url": "https://documenter.getpostman.com/view/16947449/TzsikPV1",
+          "type": "source"
+        },
+        {
+          "title": "Outplay Help Center - Client ID and client secret",
+          "url": "https://support.outplayhq.com/en/article/what-are-client-id-and-client-secret-while-connecting-zapier-to-outplay-and-where-to-find-those-in-outplay-1gwqqyb/",
+          "type": "source"
+        },
+        {
+          "title": "Ampersand provider guide - Outplay",
+          "url": "https://docs.withampersand.com/provider-guides/outplay",
+          "type": "source"
+        },
+        {
+          "title": "Community Nodes - n8n Outplay node",
+          "url": "https://communitynodes.com/n8n-nodes-outplay/",
+          "type": "source"
+        },
+        {
+          "title": "Outplay website",
+          "url": "https://outplayhq.com/",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/outreach",
+      "slug": "outreach",
+      "name": "Outreach",
+      "path": "tools/outreach",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 3,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "developers.outreach.io/api/getting-started",
+          "url": "https://developers.outreach.io/api/getting-started",
+          "type": "source"
+        },
+        {
+          "title": "developers.outreach.io/api/making-requests",
+          "url": "https://developers.outreach.io/api/making-requests",
+          "type": "source"
+        },
+        {
+          "title": "support.outreach.io/hc/en-us/articles/46458159059227-Connect-to-Outreach-MCP-Server-using-CLI-or-Config-Tools",
+          "url": "https://support.outreach.io/hc/en-us/articles/46458159059227-Connect-to-Outreach-MCP-Server-using-CLI-or-Config-Tools",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/owox",
+      "slug": "owox",
+      "name": "OWOX",
+      "path": "tools/owox",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "no",
+        "officialCli": "yes",
+        "officialApi": "no",
+        "openApi": "no",
+        "llmsTxt": "unknown",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 8,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "OWOX Data Marts Quick Start",
+          "url": "https://docs.owox.com/docs/getting-started/quick-start/",
+          "type": "source"
+        },
+        {
+          "title": "OWOX Data Marts GitHub repository",
+          "url": "https://github.com/OWOX/owox-data-marts",
+          "type": "source"
+        },
+        {
+          "title": "OWOX CLI contributing and usage",
+          "url": "https://docs.owox.com/apps/owox/contributing/",
+          "type": "source"
+        },
+        {
+          "title": "OWOX release and versioning strategy",
+          "url": "https://docs.owox.com/docs/contributing/repository/release-strategy/",
+          "type": "source"
+        },
+        {
+          "title": "OWOX connectors developer guide",
+          "url": "https://docs.owox.com/packages/connectors/contributing/",
+          "type": "source"
+        },
+        {
+          "title": "OWOX create a new data source",
+          "url": "https://docs.owox.com/packages/connectors/creating-connector/",
+          "type": "source"
+        },
+        {
+          "title": "OWOX connector-based Data Mart",
+          "url": "https://docs.owox.com/docs/getting-started/setup-guide/connector-data-mart/",
+          "type": "source"
+        },
+        {
+          "title": "OWOX Google BigQuery setup guide",
+          "url": "https://docs.owox.com/docs/storages/supported-storages/google-bigquery/",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/pathfactory",
+      "slug": "pathfactory",
+      "name": "PathFactory",
+      "path": "tools/pathfactory",
+      "status": "published",
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "unknown",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 2,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "developer.pathfactory.com",
+          "url": "https://developer.pathfactory.com/",
+          "type": "source"
+        },
+        {
+          "title": "pathfactory.com",
+          "url": "https://www.pathfactory.com/",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/pendo",
+      "slug": "pendo",
+      "name": "Pendo",
+      "path": "tools/pendo",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 4,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "support.pendo.io/hc/en-us/articles/38099922926875-Pendo-developer-documentation",
+          "url": "https://support.pendo.io/hc/en-us/articles/38099922926875-Pendo-developer-documentation",
+          "type": "source"
+        },
+        {
+          "title": "support.pendo.io/hc/en-us/articles/41102236924955",
+          "url": "https://support.pendo.io/hc/en-us/articles/41102236924955",
+          "type": "source"
+        },
+        {
+          "title": "engageapi.pendo.io",
+          "url": "https://engageapi.pendo.io/",
+          "type": "source"
+        },
+        {
+          "title": "agent.pendo.io",
+          "url": "https://agent.pendo.io/",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/phantombuster",
+      "slug": "phantombuster",
+      "name": "PhantomBuster",
+      "path": "tools/phantombuster",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "unknown",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 3,
+        "official": 3,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "support.phantombuster.com/hc/en-us/articles/4401916698130-Get-started-with-the-PhantomBuster-API",
+          "url": "https://support.phantombuster.com/hc/en-us/articles/4401916698130-Get-started-with-the-PhantomBuster-API",
+          "type": "official"
+        },
+        {
+          "title": "hub.phantombuster.com/docs/api",
+          "url": "https://hub.phantombuster.com/docs/api",
+          "type": "official"
+        },
+        {
+          "title": "support.phantombuster.com/hc/en-us/sections/27979945401106-Use-the-PhantomBuster-API-to-Build-Custom-Workflows",
+          "url": "https://support.phantombuster.com/hc/en-us/sections/27979945401106-Use-the-PhantomBuster-API-to-Build-Custom-Workflows",
+          "type": "official"
+        }
+      ]
+    }
+  ]
+}

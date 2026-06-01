@@ -1,0 +1,238 @@
+{
+  "runId": "2026-06-01",
+  "batchId": "scout-033",
+  "generatedAt": "2026-06-01T16:26:58.135Z",
+  "maxAgentsPerSwarm": 6,
+  "promptPath": ".internal/codex-maintenance/prompts/scout.md",
+  "schemaPath": ".internal/codex-maintenance/schemas/scout-finding.schema.json",
+  "tools": [
+    {
+      "id": "/gtm/spyfu",
+      "slug": "spyfu",
+      "name": "SpyFu",
+      "path": "tools/spyfu",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "no",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "yes",
+        "officialSdk": "no"
+      },
+      "sourceCounts": {
+        "total": 4,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "developer.spyfu.com",
+          "url": "https://developer.spyfu.com/",
+          "type": "source"
+        },
+        {
+          "title": "developer.spyfu.com/docs/rate-limits",
+          "url": "https://developer.spyfu.com/docs/rate-limits",
+          "type": "source"
+        },
+        {
+          "title": "developer.spyfu.com/docs/api-pricing",
+          "url": "https://developer.spyfu.com/docs/api-pricing",
+          "type": "source"
+        },
+        {
+          "title": "help.spyfu.com/en/articles/12195281-how-do-i-get-spyfu-data-in-chatgpt",
+          "url": "https://help.spyfu.com/en/articles/12195281-how-do-i-get-spyfu-data-in-chatgpt",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/tidio",
+      "slug": "tidio",
+      "name": "Tidio",
+      "path": "tools/tidio",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "no",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "yes",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 13,
+        "official": 13,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "tidio.com",
+          "url": "https://www.tidio.com/",
+          "type": "official"
+        },
+        {
+          "title": "help.tidio.com",
+          "url": "https://help.tidio.com/",
+          "type": "official"
+        },
+        {
+          "title": "Tidio API developer portal",
+          "url": "https://developers.tidio.com/",
+          "type": "official"
+        },
+        {
+          "title": "Tidio API llms.txt",
+          "url": "https://developers.tidio.com/llms.txt",
+          "type": "official"
+        },
+        {
+          "title": "Enable Tidio OpenAPI",
+          "url": "https://developers.tidio.com/docs/openapi-enable",
+          "type": "official"
+        },
+        {
+          "title": "Tidio OpenAPI Authorization",
+          "url": "https://developers.tidio.com/docs/openapi-authorization",
+          "type": "official"
+        },
+        {
+          "title": "Tidio OpenAPI Rate Limiting",
+          "url": "https://developers.tidio.com/docs/openapi-rate-limiting",
+          "type": "official"
+        },
+        {
+          "title": "Tidio OpenAPI Pagination",
+          "url": "https://developers.tidio.com/docs/openapi-pagination",
+          "type": "official"
+        },
+        {
+          "title": "Tidio Get contacts",
+          "url": "https://developers.tidio.com/reference/get_contacts",
+          "type": "official"
+        },
+        {
+          "title": "Tidio Get tickets",
+          "url": "https://developers.tidio.com/reference/get_tickets",
+          "type": "official"
+        },
+        {
+          "title": "Tidio Upsert products",
+          "url": "https://developers.tidio.com/reference/put_products-batch",
+          "type": "official"
+        },
+        {
+          "title": "Tidio Webhooks Signature verification",
+          "url": "https://developers.tidio.com/docs/webhooks-signature-verification",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/unavatar",
+      "slug": "unavatar",
+      "name": "unavatar.io",
+      "path": "tools/unavatar",
+      "status": "published",
+      "agentReadinessScore": 2,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "no",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "no",
+        "llmsTxt": "no",
+        "officialSdk": "no"
+      },
+      "sourceCounts": {
+        "total": 2,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "unavatar.io/docs",
+          "url": "https://unavatar.io/docs",
+          "type": "source"
+        },
+        {
+          "title": "github.com/microlinkhq/unavatar",
+          "url": "https://github.com/microlinkhq/unavatar",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/vector",
+      "slug": "vector",
+      "name": "Vector.co",
+      "path": "tools/vector",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "no",
+        "officialApi": "no",
+        "openApi": "no",
+        "llmsTxt": "no",
+        "officialSdk": "no"
+      },
+      "sourceCounts": {
+        "total": 6,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "vector.co",
+          "url": "https://www.vector.co/",
+          "type": "official-site"
+        },
+        {
+          "title": "Connecting Vector MCP to your AI client",
+          "url": "https://learn.vector.co/articles/3680183282-connecting-vector-mcp-to-your-ai-client",
+          "type": "official-mcp-docs"
+        },
+        {
+          "title": "Getting the Most Out of Vector MCP",
+          "url": "https://learn.vector.co/articles/1767915906-getting-the-most-out-of-vector-mcp",
+          "type": "official-mcp-docs"
+        },
+        {
+          "title": "Best Practices for Vector MCP",
+          "url": "https://learn.vector.co/articles/2402799783-best-practices-for-getting-great-results-from-vector-mcp",
+          "type": "official-mcp-docs"
+        },
+        {
+          "title": "What can you actually ask your ads with Vector MCP?",
+          "url": "https://www.vector.co/blog/what-can-you-actually-ask-your-ads-with-vector-mcp",
+          "type": "official-blog"
+        },
+        {
+          "title": "The MCP trust problem nobody's talking about",
+          "url": "https://www.vector.co/blog/the-mcp-trust-problem-nobodys-talking-about",
+          "type": "official-blog"
+        }
+      ]
+    }
+  ]
+}

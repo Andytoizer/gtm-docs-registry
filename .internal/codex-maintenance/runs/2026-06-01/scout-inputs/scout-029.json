@@ -1,0 +1,262 @@
+{
+  "runId": "2026-06-01",
+  "batchId": "scout-029",
+  "generatedAt": "2026-06-01T16:26:58.135Z",
+  "maxAgentsPerSwarm": 6,
+  "promptPath": ".internal/codex-maintenance/prompts/scout.md",
+  "schemaPath": ".internal/codex-maintenance/schemas/scout-finding.schema.json",
+  "tools": [
+    {
+      "id": "/gtm/userflow",
+      "slug": "userflow",
+      "name": "Userflow",
+      "path": "tools/userflow",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "no",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 2,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "docs.userflow.com/docs/api",
+          "url": "https://docs.userflow.com/docs/api",
+          "type": "source"
+        },
+        {
+          "title": "docs.userflow.com/docs/dev",
+          "url": "https://docs.userflow.com/docs/dev",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/userpilot",
+      "slug": "userpilot",
+      "name": "Userpilot",
+      "path": "tools/userpilot",
+      "status": "published",
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "no",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "yes",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 2,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "docs.userpilot.com/api-references/overview",
+          "url": "https://docs.userpilot.com/api-references/overview",
+          "type": "source"
+        },
+        {
+          "title": "docs.userpilot.com/api-references/http-api",
+          "url": "https://docs.userpilot.com/api-references/http-api",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/vero",
+      "slug": "vero",
+      "name": "Vero",
+      "path": "tools/vero",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "no",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "yes",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 7,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "getvero.com",
+          "url": "https://www.getvero.com/",
+          "type": "source"
+        },
+        {
+          "title": "vero-c561507b.mintlify.app/api-reference/track/overview",
+          "url": "https://vero-c561507b.mintlify.app/api-reference/track/overview",
+          "type": "source"
+        },
+        {
+          "title": "vero-c561507b.mintlify.app/developer-docs/overview",
+          "url": "https://vero-c561507b.mintlify.app/developer-docs/overview",
+          "type": "source"
+        },
+        {
+          "title": "help.getvero.com/llms.txt",
+          "url": "https://help.getvero.com/llms.txt",
+          "type": "source"
+        },
+        {
+          "title": "help.getvero.com/developer-docs/javascript-sdk",
+          "url": "https://help.getvero.com/developer-docs/javascript-sdk",
+          "type": "source"
+        },
+        {
+          "title": "help.getvero.com/developer-docs/community-sdks",
+          "url": "https://help.getvero.com/developer-docs/community-sdks",
+          "type": "source"
+        },
+        {
+          "title": "help.getvero.com/api-reference/campaign-content/list-campaign-message-content",
+          "url": "https://help.getvero.com/api-reference/campaign-content/list-campaign-message-content",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/waalaxy",
+      "slug": "waalaxy",
+      "name": "Waalaxy",
+      "path": "tools/waalaxy",
+      "status": "published",
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 1,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "developers.waalaxy.com",
+          "url": "https://developers.waalaxy.com/",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/wiza",
+      "slug": "wiza",
+      "name": "Wiza",
+      "path": "tools/wiza",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "yes",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 4,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "docs.wiza.co",
+          "url": "https://docs.wiza.co/",
+          "type": "source"
+        },
+        {
+          "title": "docs.wiza.co/overview/usage-limits",
+          "url": "https://docs.wiza.co/overview/usage-limits",
+          "type": "source"
+        },
+        {
+          "title": "feedback.wiza.co/changelog/wiza-mcp",
+          "url": "https://feedback.wiza.co/changelog/wiza-mcp",
+          "type": "source"
+        },
+        {
+          "title": "help.wiza.co/en/articles/8392662-wiza-s-api-everything-you-need-to-know",
+          "url": "https://help.wiza.co/en/articles/8392662-wiza-s-api-everything-you-need-to-know",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/woopra",
+      "slug": "woopra",
+      "name": "Woopra",
+      "path": "tools/woopra",
+      "status": "published",
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "no",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 2,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "docs.woopra.com",
+          "url": "https://docs.woopra.com/",
+          "type": "source"
+        },
+        {
+          "title": "docs.woopra.com/reference/intro-http-apis",
+          "url": "https://docs.woopra.com/reference/intro-http-apis",
+          "type": "source"
+        }
+      ]
+    }
+  ]
+}

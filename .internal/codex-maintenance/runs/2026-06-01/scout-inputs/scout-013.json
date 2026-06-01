@@ -1,0 +1,312 @@
+{
+  "runId": "2026-06-01",
+  "batchId": "scout-013",
+  "generatedAt": "2026-06-01T16:26:58.135Z",
+  "maxAgentsPerSwarm": 6,
+  "promptPath": ".internal/codex-maintenance/prompts/scout.md",
+  "schemaPath": ".internal/codex-maintenance/schemas/scout-finding.schema.json",
+  "tools": [
+    {
+      "id": "/gtm/webflow",
+      "slug": "webflow",
+      "name": "Webflow",
+      "path": "tools/webflow",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "yes",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "yes",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 5,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "developers.webflow.com",
+          "url": "https://developers.webflow.com/",
+          "type": "source"
+        },
+        {
+          "title": "developers.webflow.com/mcp/reference/overview",
+          "url": "https://developers.webflow.com/mcp/reference/overview",
+          "type": "source"
+        },
+        {
+          "title": "developers.webflow.com/data/reference/rest-introduction",
+          "url": "https://developers.webflow.com/data/reference/rest-introduction",
+          "type": "source"
+        },
+        {
+          "title": "developers.webflow.com/llms.txt",
+          "url": "https://developers.webflow.com/llms.txt",
+          "type": "source"
+        },
+        {
+          "title": "npmjs.com/package/@webflow/webflow-cli",
+          "url": "https://www.npmjs.com/package/@webflow/webflow-cli",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/zapier",
+      "slug": "zapier",
+      "name": "Zapier",
+      "path": "tools/zapier",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "yes",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "yes",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 7,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "help.zapier.com/hc/en-us/articles/36265392843917-Use-Zapier-MCP-with-your-client",
+          "url": "https://help.zapier.com/hc/en-us/articles/36265392843917-Use-Zapier-MCP-with-your-client",
+          "type": "source"
+        },
+        {
+          "title": "docs.zapier.com/mcp/clients",
+          "url": "https://docs.zapier.com/mcp/clients",
+          "type": "source"
+        },
+        {
+          "title": "docs.zapier.com/sdk",
+          "url": "https://docs.zapier.com/sdk",
+          "type": "source"
+        },
+        {
+          "title": "docs.zapier.com/sdk/using-the-cli",
+          "url": "https://docs.zapier.com/sdk/using-the-cli",
+          "type": "source"
+        },
+        {
+          "title": "docs.zapier.com/platform/build-cli/overview",
+          "url": "https://docs.zapier.com/platform/build-cli/overview",
+          "type": "source"
+        },
+        {
+          "title": "docs.zapier.com/powered-by-zapier/api-reference/rate-limiting",
+          "url": "https://docs.zapier.com/powered-by-zapier/api-reference/rate-limiting",
+          "type": "source"
+        },
+        {
+          "title": "docs.zapier.com/llms.txt",
+          "url": "https://docs.zapier.com/llms.txt",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/6sense",
+      "slug": "6sense",
+      "name": "6sense",
+      "path": "tools/6sense",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 1,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "api.6sense.com/docs",
+          "url": "https://api.6sense.com/docs/",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/marketo",
+      "slug": "marketo",
+      "name": "Adobe Marketo Engage",
+      "path": "tools/marketo",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "no",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 3,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/rest-api",
+          "url": "https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/rest-api",
+          "type": "source"
+        },
+        {
+          "title": "developer.adobe.com/marketo-apis/api/mapi",
+          "url": "https://developer.adobe.com/marketo-apis/api/mapi",
+          "type": "source"
+        },
+        {
+          "title": "github.com/CDataSoftware/marketo-mcp-server-by-cdata",
+          "url": "https://github.com/CDataSoftware/marketo-mcp-server-by-cdata",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/ai-ark",
+      "slug": "ai-ark",
+      "name": "AI Ark",
+      "path": "tools/ai-ark",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "yes",
+        "officialSdk": "no"
+      },
+      "sourceCounts": {
+        "total": 8,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "AI Ark Developer Hub",
+          "url": "https://docs.ai-ark.com/",
+          "type": "source"
+        },
+        {
+          "title": "AI Ark llms.txt",
+          "url": "https://docs.ai-ark.com/llms.txt",
+          "type": "source"
+        },
+        {
+          "title": "AI Ark Authentication",
+          "url": "https://docs.ai-ark.com/docs/authentication",
+          "type": "source"
+        },
+        {
+          "title": "AI Ark Rate Limits",
+          "url": "https://docs.ai-ark.com/docs/rate-limits",
+          "type": "source"
+        },
+        {
+          "title": "AI Ark MCP",
+          "url": "https://docs.ai-ark.com/docs/mcp",
+          "type": "source"
+        },
+        {
+          "title": "AI Ark People Search API",
+          "url": "https://docs.ai-ark.com/reference/people-search-1",
+          "type": "source"
+        },
+        {
+          "title": "AI Ark Company Search API",
+          "url": "https://docs.ai-ark.com/reference/company-search-1",
+          "type": "source"
+        },
+        {
+          "title": "AI Ark Export People Results API",
+          "url": "https://docs.ai-ark.com/reference/export-people-results-by-track-id",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/amplemarket",
+      "slug": "amplemarket",
+      "name": "Amplemarket",
+      "path": "tools/amplemarket",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "unknown",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 4,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "knowledge.amplemarket.com/articles/8022685319-connecting-to-the-amplemarket-mcp-server",
+          "url": "https://knowledge.amplemarket.com/articles/8022685319-connecting-to-the-amplemarket-mcp-server",
+          "type": "source"
+        },
+        {
+          "title": "amplemarket.com/legal/api-terms",
+          "url": "https://www.amplemarket.com/legal/api-terms",
+          "type": "source"
+        },
+        {
+          "title": "amplemarket.com",
+          "url": "https://www.amplemarket.com/",
+          "type": "source"
+        },
+        {
+          "title": "zapier.com/mcp/amplemarket",
+          "url": "https://zapier.com/mcp/amplemarket",
+          "type": "source"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "runId": "2026-06-01",
+  "batchId": "scout-007",
+  "generatedAt": "2026-06-01T16:26:58.135Z",
+  "maxAgentsPerSwarm": 6,
+  "promptPath": ".internal/codex-maintenance/prompts/scout.md",
+  "schemaPath": ".internal/codex-maintenance/schemas/scout-finding.schema.json",
+  "tools": [
+    {
+      "id": "/gtm/semrush",
+      "slug": "semrush",
+      "name": "Semrush",
+      "path": "tools/semrush",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "no"
+      },
+      "sourceCounts": {
+        "total": 2,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "developer.semrush.com/api/get-started/api-access",
+          "url": "https://developer.semrush.com/api/get-started/api-access/",
+          "type": "source"
+        },
+        {
+          "title": "developer.semrush.com/api/introduction/semrush-mcp",
+          "url": "https://developer.semrush.com/api/introduction/semrush-mcp/",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/serpapi",
+      "slug": "serpapi",
+      "name": "SerpAPI",
+      "path": "tools/serpapi",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 5,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "serpapi.com/search-api",
+          "url": "https://serpapi.com/search-api",
+          "type": "source"
+        },
+        {
+          "title": "serpapi.com/blog/introducing-serpapis-mcp-server",
+          "url": "https://serpapi.com/blog/introducing-serpapis-mcp-server/",
+          "type": "source"
+        },
+        {
+          "title": "github.com/serpapi/mcp-server",
+          "url": "https://github.com/serpapi/mcp-server",
+          "type": "source"
+        },
+        {
+          "title": "serpapi.com/integrations/node",
+          "url": "https://serpapi.com/integrations/node",
+          "type": "source"
+        },
+        {
+          "title": "github.com/serpapi/serpapi-python",
+          "url": "https://github.com/serpapi/serpapi-python",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/similarweb",
+      "slug": "similarweb",
+      "name": "Similarweb",
+      "path": "tools/similarweb",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 9,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "developers.similarweb.com/docs",
+          "url": "https://developers.similarweb.com/docs",
+          "type": "source"
+        },
+        {
+          "title": "docs.similarweb.com/api-v5/support-and-faq",
+          "url": "https://docs.similarweb.com/api-v5/support-and-faq",
+          "type": "source"
+        },
+        {
+          "title": "docs.similarweb.com/api-v5/integrations",
+          "url": "https://docs.similarweb.com/api-v5/integrations",
+          "type": "source"
+        },
+        {
+          "title": "developers.similarweb.com/docs/rate-limit",
+          "url": "https://developers.similarweb.com/docs/rate-limit",
+          "type": "source"
+        },
+        {
+          "title": "developers.similarweb.com/docs/authentication",
+          "url": "https://developers.similarweb.com/docs/authentication",
+          "type": "source"
+        },
+        {
+          "title": "developers.similarweb.com/docs/api-v40",
+          "url": "https://developers.similarweb.com/docs/api-v40",
+          "type": "source"
+        },
+        {
+          "title": "similarweb.com/corp/ai/mcp",
+          "url": "https://www.similarweb.com/corp/ai/mcp/",
+          "type": "source"
+        },
+        {
+          "title": "docs.similarweb.com/api-v5/mcp-integration/mcp-setup",
+          "url": "https://docs.similarweb.com/api-v5/mcp-integration/mcp-setup",
+          "type": "source"
+        },
+        {
+          "title": "support.similarweb.com Retail Intelligence with AI: MCP & AI Studio",
+          "url": "https://support.similarweb.com/hc/en-us/articles/35907041527965-Retail-Intelligence-with-AI-MCP-AI-Studio",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/supabase",
+      "slug": "supabase",
+      "name": "Supabase",
+      "path": "tools/supabase",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "yes",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "unknown",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 3,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "supabase.com/docs/guides/getting-started/mcp",
+          "url": "https://supabase.com/docs/guides/getting-started/mcp",
+          "type": "source"
+        },
+        {
+          "title": "supabase.com/docs/reference/api/getting-started",
+          "url": "https://supabase.com/docs/reference/api/getting-started",
+          "type": "source"
+        },
+        {
+          "title": "supabase.com/docs/guides/auth/rate-limits",
+          "url": "https://supabase.com/docs/guides/auth/rate-limits",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/sybill",
+      "slug": "sybill",
+      "name": "Sybill",
+      "path": "tools/sybill",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 2,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "api.sybill.ai/docs/mcp.html",
+          "url": "https://api.sybill.ai/docs/mcp.html",
+          "type": "source"
+        },
+        {
+          "title": "api.sybill.ai/docs/rate-limiting.html",
+          "url": "https://api.sybill.ai/docs/rate-limiting.html",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/tally",
+      "slug": "tally",
+      "name": "Tally",
+      "path": "tools/tally",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "unknown",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "yes",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 8,
+        "official": 8,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "tally.so/help/api",
+          "url": "https://tally.so/help/api",
+          "type": "official"
+        },
+        {
+          "title": "developers.tally.so/api-reference/introduction",
+          "url": "https://developers.tally.so/api-reference/introduction",
+          "type": "official"
+        },
+        {
+          "title": "developers.tally.so/api-reference/api-keys",
+          "url": "https://developers.tally.so/api-reference/api-keys",
+          "type": "official"
+        },
+        {
+          "title": "developers.tally.so/api-reference/versioning",
+          "url": "https://developers.tally.so/api-reference/versioning",
+          "type": "official"
+        },
+        {
+          "title": "developers.tally.so/api-reference/mcp",
+          "url": "https://developers.tally.so/api-reference/mcp",
+          "type": "official"
+        },
+        {
+          "title": "developers.tally.so/llms.txt",
+          "url": "https://developers.tally.so/llms.txt",
+          "type": "official"
+        },
+        {
+          "title": "tally.so/help/mcp-server",
+          "url": "https://tally.so/help/mcp-server",
+          "type": "official"
+        },
+        {
+          "title": "tally.so/help/webhooks",
+          "url": "https://tally.so/help/webhooks",
+          "type": "official"
+        }
+      ]
+    }
+  ]
+}

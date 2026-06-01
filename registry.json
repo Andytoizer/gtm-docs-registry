@@ -1,6 +1,6 @@
 {
   "schemaVersion": "0.1.0",
-  "updatedAt": "2026-05-28",
+  "updatedAt": "2026-06-01",
   "tools": [
     {
       "id": "/gtm/hubspot",
@@ -764,7 +764,7 @@
       "path": "tools/hockeystack",
       "aliases": [],
       "agentReadinessScore": 2,
-      "lastVerified": "2026-05-28"
+      "lastVerified": "2026-06-01"
     },
     {
       "id": "/gtm/chili-piper",
@@ -868,7 +868,7 @@
       "path": "tools/default",
       "aliases": [],
       "agentReadinessScore": 2,
-      "lastVerified": "2026-05-28"
+      "lastVerified": "2026-06-01"
     },
     {
       "id": "/gtm/census",
@@ -1399,7 +1399,7 @@
       "path": "tools/influ2",
       "aliases": [],
       "agentReadinessScore": 2,
-      "lastVerified": "2026-05-28"
+      "lastVerified": "2026-06-01"
     },
     {
       "id": "/gtm/webeo",
@@ -1419,7 +1419,7 @@
       "path": "tools/folloze",
       "aliases": [],
       "agentReadinessScore": 1,
-      "lastVerified": "2026-05-28"
+      "lastVerified": "2026-06-01"
     },
     {
       "id": "/gtm/front",
@@ -1556,7 +1556,7 @@
       "path": "tools/clearbit",
       "aliases": [],
       "agentReadinessScore": 2,
-      "lastVerified": "2026-05-28"
+      "lastVerified": "2026-06-01"
     },
     {
       "id": "/gtm/people-data-labs",
@@ -2007,7 +2007,7 @@
       "path": "tools/crazy-egg",
       "aliases": [],
       "agentReadinessScore": 2,
-      "lastVerified": "2026-05-28"
+      "lastVerified": "2026-06-01"
     },
     {
       "id": "/gtm/userguiding",

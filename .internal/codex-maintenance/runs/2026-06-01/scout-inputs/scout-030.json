@@ -1,0 +1,337 @@
+{
+  "runId": "2026-06-01",
+  "batchId": "scout-030",
+  "generatedAt": "2026-06-01T16:26:58.135Z",
+  "maxAgentsPerSwarm": 6,
+  "promptPath": ".internal/codex-maintenance/prompts/scout.md",
+  "schemaPath": ".internal/codex-maintenance/schemas/scout-finding.schema.json",
+  "tools": [
+    {
+      "id": "/gtm/workato",
+      "slug": "workato",
+      "name": "Workato",
+      "path": "tools/workato",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "yes",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 3,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "docs.workato.com/workato-api.html",
+          "url": "https://docs.workato.com/workato-api.html",
+          "type": "source"
+        },
+        {
+          "title": "docs.workato.com/developing-connectors/sdk.html",
+          "url": "https://docs.workato.com/developing-connectors/sdk.html",
+          "type": "source"
+        },
+        {
+          "title": "docs.workato.com/workato-cli.html",
+          "url": "https://docs.workato.com/workato-cli.html",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/zendesk",
+      "slug": "zendesk",
+      "name": "Zendesk",
+      "path": "tools/zendesk",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "announced",
+        "officialCli": "yes",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "unknown",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 10,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "developer.zendesk.com/api-reference",
+          "url": "https://developer.zendesk.com/api-reference/",
+          "type": "source"
+        },
+        {
+          "title": "developer.zendesk.com/api-reference/ticketing/introduction",
+          "url": "https://developer.zendesk.com/api-reference/ticketing/introduction/",
+          "type": "source"
+        },
+        {
+          "title": "developer.zendesk.com/documentation/conversations/references/openapi-specification",
+          "url": "https://developer.zendesk.com/documentation/conversations/references/openapi-specification/",
+          "type": "source"
+        },
+        {
+          "title": "developer.zendesk.com/api-reference/introduction/rate-limits",
+          "url": "https://developer.zendesk.com/api-reference/introduction/rate-limits/",
+          "type": "source"
+        },
+        {
+          "title": "developer.zendesk.com/api-reference/introduction/pagination",
+          "url": "https://developer.zendesk.com/api-reference/introduction/pagination/",
+          "type": "source"
+        },
+        {
+          "title": "developer.zendesk.com/api-reference/introduction/security-and-auth",
+          "url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+          "type": "source"
+        },
+        {
+          "title": "developer.zendesk.com/documentation/ticketing/api-clients/introduction",
+          "url": "https://developer.zendesk.com/documentation/ticketing/api-clients/introduction/",
+          "type": "source"
+        },
+        {
+          "title": "developer.zendesk.com/documentation/apps/getting-started/using-zcli",
+          "url": "https://developer.zendesk.com/documentation/apps/getting-started/using-zcli/",
+          "type": "source"
+        },
+        {
+          "title": "zendesk.com/newsroom/articles/relate-2026",
+          "url": "https://www.zendesk.com/newsroom/articles/relate-2026/",
+          "type": "source"
+        },
+        {
+          "title": "github.com/reminia/zendesk-mcp-server",
+          "url": "https://github.com/reminia/zendesk-mcp-server",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/zerobounce",
+      "slug": "zerobounce",
+      "name": "ZeroBounce",
+      "path": "tools/zerobounce",
+      "status": "published",
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "no",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 3,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "zerobounce.net/docs/api-dashboard",
+          "url": "https://www.zerobounce.net/docs/api-dashboard",
+          "type": "source"
+        },
+        {
+          "title": "zerobounce.net/docs/zerobounce-api-wrappers",
+          "url": "https://www.zerobounce.net/docs/zerobounce-api-wrappers",
+          "type": "source"
+        },
+        {
+          "title": "zerobounce-mcp.com",
+          "url": "https://zerobounce-mcp.com/",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/zoho-crm",
+      "slug": "zoho-crm",
+      "name": "Zoho CRM",
+      "path": "tools/zoho-crm",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "yes",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "unknown",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 4,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "zoho.com/crm/developer/docs/api/v8",
+          "url": "https://www.zoho.com/crm/developer/docs/api/v8/",
+          "type": "source"
+        },
+        {
+          "title": "zoho.com/crm/developer/docs/api/v8/oauth-overview.html",
+          "url": "https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html",
+          "type": "source"
+        },
+        {
+          "title": "zoho.com/crm/developer/docs/server-side-sdks.html",
+          "url": "https://www.zoho.com/crm/developer/docs/server-side-sdks.html",
+          "type": "source"
+        },
+        {
+          "title": "zoho.com/crm/developer/docs/api/v8/api-limits.html",
+          "url": "https://www.zoho.com/crm/developer/docs/api/v8/api-limits.html",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/zoominfo",
+      "slug": "zoominfo",
+      "name": "ZoomInfo",
+      "path": "tools/zoominfo",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "unknown",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "unknown",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 2,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "api-docs.zoominfo.com",
+          "url": "https://api-docs.zoominfo.com/",
+          "type": "source"
+        },
+        {
+          "title": "developers.zoominfo.com",
+          "url": "https://developers.zoominfo.com/",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/dbt-cloud",
+      "slug": "dbt-cloud",
+      "name": "dbt Cloud",
+      "path": "tools/dbt-cloud",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "yes",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "yes",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 11,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "docs.getdbt.com/dbt-cloud/api-v2",
+          "url": "https://docs.getdbt.com/dbt-cloud/api-v2",
+          "type": "source"
+        },
+        {
+          "title": "docs.getdbt.com/dbt-cloud/api-v3",
+          "url": "https://docs.getdbt.com/dbt-cloud/api-v3",
+          "type": "source"
+        },
+        {
+          "title": "docs.getdbt.com/docs/cloud/dbt-cloud-cli-installation",
+          "url": "https://docs.getdbt.com/docs/cloud/dbt-cloud-cli-installation",
+          "type": "source"
+        },
+        {
+          "title": "docs.getdbt.com/docs/dbt-cloud-apis/admin-cloud-api",
+          "url": "https://docs.getdbt.com/docs/dbt-cloud-apis/admin-cloud-api",
+          "type": "source"
+        },
+        {
+          "title": "docs.getdbt.com/docs/dbt-apis/authentication",
+          "url": "https://docs.getdbt.com/docs/dbt-apis/authentication",
+          "type": "source"
+        },
+        {
+          "title": "docs.getdbt.com/docs/dbt-apis/sl-api-overview",
+          "url": "https://docs.getdbt.com/docs/dbt-apis/sl-api-overview",
+          "type": "source"
+        },
+        {
+          "title": "docs.getdbt.com/docs/dbt-apis/sl-python",
+          "url": "https://docs.getdbt.com/docs/dbt-apis/sl-python",
+          "type": "source"
+        },
+        {
+          "title": "docs.getdbt.com/llms.txt",
+          "url": "https://docs.getdbt.com/llms.txt",
+          "type": "source"
+        },
+        {
+          "title": "github.com/dbt-labs/dbt-cloud-openapi-spec",
+          "url": "https://github.com/dbt-labs/dbt-cloud-openapi-spec",
+          "type": "source"
+        },
+        {
+          "title": "github.com/dbt-labs/dbt-mcp",
+          "url": "https://github.com/dbt-labs/dbt-mcp",
+          "type": "source"
+        },
+        {
+          "title": "getdbt.com/blog/mcp",
+          "url": "https://www.getdbt.com/blog/mcp",
+          "type": "source"
+        }
+      ]
+    }
+  ]
+}

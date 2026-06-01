@@ -1,0 +1,312 @@
+{
+  "runId": "2026-06-01",
+  "batchId": "scout-008",
+  "generatedAt": "2026-06-01T16:26:58.135Z",
+  "maxAgentsPerSwarm": 6,
+  "promptPath": ".internal/codex-maintenance/prompts/scout.md",
+  "schemaPath": ".internal/codex-maintenance/schemas/scout-finding.schema.json",
+  "tools": [
+    {
+      "id": "/gtm/theirstack",
+      "slug": "theirstack",
+      "name": "TheirStack",
+      "path": "tools/theirstack",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 6,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "theirstack.com/en/docs/api-reference",
+          "url": "https://theirstack.com/en/docs/api-reference",
+          "type": "source"
+        },
+        {
+          "title": "theirstack.com/en/docs/api-reference/authentication",
+          "url": "https://theirstack.com/en/docs/api-reference/authentication",
+          "type": "source"
+        },
+        {
+          "title": "theirstack.com/en/docs/api-reference/pagination",
+          "url": "https://theirstack.com/en/docs/api-reference/pagination",
+          "type": "source"
+        },
+        {
+          "title": "theirstack.com/en/docs/api-reference/rate-limit",
+          "url": "https://theirstack.com/en/docs/api-reference/rate-limit",
+          "type": "source"
+        },
+        {
+          "title": "theirstack.com/en/docs/mcp",
+          "url": "https://theirstack.com/en/docs/mcp",
+          "type": "source"
+        },
+        {
+          "title": "theirstack.com/en/product-updates/2026-02-13-mcp-server",
+          "url": "https://theirstack.com/en/product-updates/2026-02-13-mcp-server",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/trigify",
+      "slug": "trigify",
+      "name": "Trigify",
+      "path": "tools/trigify",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "yes",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 3,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "help.trigify.io/articles/1607275-api-docs-scalar-access",
+          "url": "https://help.trigify.io/articles/1607275-api-docs-scalar-access",
+          "type": "source"
+        },
+        {
+          "title": "help.trigify.io/articles/4012161-cli-and-agent-skills",
+          "url": "https://help.trigify.io/articles/4012161-cli-and-agent-skills",
+          "type": "source"
+        },
+        {
+          "title": "help.trigify.io/en/articles/7220879-claude-mcp-integration",
+          "url": "https://help.trigify.io/en/articles/7220879-claude-mcp-integration",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/unify",
+      "slug": "unify",
+      "name": "Unify",
+      "path": "tools/unify",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "unknown",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "yes",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 3,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "docs.unifygtm.com/developers/api/data/overview",
+          "url": "https://docs.unifygtm.com/developers/api/data/overview",
+          "type": "source"
+        },
+        {
+          "title": "docs.unifygtm.com/developers/sdks/python-library",
+          "url": "https://docs.unifygtm.com/developers/sdks/python-library",
+          "type": "source"
+        },
+        {
+          "title": "docs.unifygtm.com/developers/sdks/typescript-library",
+          "url": "https://docs.unifygtm.com/developers/sdks/typescript-library",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/userguiding",
+      "slug": "userguiding",
+      "name": "UserGuiding",
+      "path": "tools/userguiding",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "unknown",
+        "officialSdk": "no"
+      },
+      "sourceCounts": {
+        "total": 5,
+        "official": 5,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "UserGuiding MCP Server",
+          "url": "https://help.userguiding.com/en/articles/20916-userguiding-mcp-server",
+          "type": "official"
+        },
+        {
+          "title": "UserGuiding User API",
+          "url": "https://help.userguiding.com/en/articles/4493538-userguiding-user-api",
+          "type": "official"
+        },
+        {
+          "title": "UserGuiding OpenAPI spec",
+          "url": "https://user.userguiding.com/openapi.json",
+          "type": "official"
+        },
+        {
+          "title": "Rate Limit for the User API",
+          "url": "https://help.userguiding.com/en/articles/8284734-rate-limit-for-the-user-api",
+          "type": "official"
+        },
+        {
+          "title": "Does UserGuiding offer an npm package?",
+          "url": "https://help.userguiding.com/en/articles/8046430-does-userguiding-offer-an-npm-package",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/wordpress",
+      "slug": "wordpress",
+      "name": "WordPress",
+      "path": "tools/wordpress",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "yes",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 6,
+        "official": 6,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "developer.wordpress.org/rest-api",
+          "url": "https://developer.wordpress.org/rest-api/",
+          "type": "official"
+        },
+        {
+          "title": "developer.wordpress.org/rest-api/reference",
+          "url": "https://developer.wordpress.org/rest-api/reference/",
+          "type": "official"
+        },
+        {
+          "title": "developer.wordpress.org/cli/commands",
+          "url": "https://developer.wordpress.org/cli/commands/",
+          "type": "official"
+        },
+        {
+          "title": "wordpress.org/cli",
+          "url": "https://wordpress.org/cli/",
+          "type": "official"
+        },
+        {
+          "title": "wordpress.com/support/mcp",
+          "url": "https://wordpress.com/support/mcp/",
+          "type": "official"
+        },
+        {
+          "title": "github.com/WP-API/docs",
+          "url": "https://github.com/WP-API/docs",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/activecampaign",
+      "slug": "activecampaign",
+      "name": "ActiveCampaign",
+      "path": "tools/activecampaign",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "yes",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 5,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "developers.activecampaign.com/reference/overview",
+          "url": "https://developers.activecampaign.com/reference/overview",
+          "type": "source"
+        },
+        {
+          "title": "developers.activecampaign.com/page/mcp",
+          "url": "https://developers.activecampaign.com/page/mcp",
+          "type": "source"
+        },
+        {
+          "title": "developers.activecampaign.com/page/mcp-available-tools",
+          "url": "https://developers.activecampaign.com/page/mcp-available-tools/",
+          "type": "source"
+        },
+        {
+          "title": "developers.activecampaign.com/reference/rate-limits",
+          "url": "https://developers.activecampaign.com/reference/rate-limits",
+          "type": "source"
+        },
+        {
+          "title": "github.com/ActiveCampaign/activecampaign-api-php",
+          "url": "https://github.com/ActiveCampaign/activecampaign-api-php",
+          "type": "source"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,282 @@
+{
+  "runId": "2026-06-01",
+  "batchId": "scout-021",
+  "generatedAt": "2026-06-01T16:26:58.135Z",
+  "maxAgentsPerSwarm": 6,
+  "promptPath": ".internal/codex-maintenance/prompts/scout.md",
+  "schemaPath": ".internal/codex-maintenance/schemas/scout-finding.schema.json",
+  "tools": [
+    {
+      "id": "/gtm/iterable",
+      "slug": "iterable",
+      "name": "Iterable",
+      "path": "tools/iterable",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "no",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "unknown",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 2,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "support.iterable.com/hc/en-us/articles/41044692130196-Getting-Started-with-Iterable-s-API",
+          "url": "https://support.iterable.com/hc/en-us/articles/41044692130196-Getting-Started-with-Iterable-s-API",
+          "type": "source"
+        },
+        {
+          "title": "api.iterable.com/api/docs",
+          "url": "https://api.iterable.com/api/docs",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/jungler",
+      "slug": "jungler",
+      "name": "Jungler",
+      "path": "tools/jungler",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "no",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "no",
+        "llmsTxt": "unknown",
+        "officialSdk": "no"
+      },
+      "sourceCounts": {
+        "total": 7,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "Jungler Docs",
+          "url": "https://docs.jungler.ai/",
+          "type": "official-docs"
+        },
+        {
+          "title": "Jungler API Quick Start",
+          "url": "https://docs.jungler.ai/api/quick-start",
+          "type": "official-api"
+        },
+        {
+          "title": "Jungler Workspaces API",
+          "url": "https://docs.jungler.ai/api/workspaces",
+          "type": "official-api"
+        },
+        {
+          "title": "Jungler Signals API",
+          "url": "https://docs.jungler.ai/api/signals",
+          "type": "official-api"
+        },
+        {
+          "title": "Jungler Posts API",
+          "url": "https://docs.jungler.ai/api/posts",
+          "type": "official-api"
+        },
+        {
+          "title": "Jungler Engagers API",
+          "url": "https://docs.jungler.ai/api/engagers",
+          "type": "official-api"
+        },
+        {
+          "title": "Jungler Workbooks API",
+          "url": "https://docs.jungler.ai/api/workbooks",
+          "type": "official-api"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/lead-forensics",
+      "slug": "lead-forensics",
+      "name": "Lead Forensics",
+      "path": "tools/lead-forensics",
+      "status": "published",
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "unknown",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 2,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "leadforensics.com",
+          "url": "https://www.leadforensics.com/",
+          "type": "source"
+        },
+        {
+          "title": "support.leadforensics.com",
+          "url": "https://support.leadforensics.com/",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/leadiq",
+      "slug": "leadiq",
+      "name": "LeadIQ",
+      "path": "tools/leadiq",
+      "status": "published",
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "unknown",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 2,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "developer.leadiq.com",
+          "url": "https://developer.leadiq.com/",
+          "type": "source"
+        },
+        {
+          "title": "leadiq.com",
+          "url": "https://leadiq.com/",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/lightfield",
+      "slug": "lightfield",
+      "name": "Lightfield",
+      "path": "tools/lightfield",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "yes",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 4,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "docs.lightfield.app/api",
+          "url": "https://docs.lightfield.app/api",
+          "type": "source"
+        },
+        {
+          "title": "docs.lightfield.app/getting-started/http-quickstart",
+          "url": "https://docs.lightfield.app/getting-started/http-quickstart/",
+          "type": "source"
+        },
+        {
+          "title": "docs.lightfield.app/using-the-api/list-endpoints",
+          "url": "https://docs.lightfield.app/using-the-api/list-endpoints",
+          "type": "source"
+        },
+        {
+          "title": "lightfield.app/blog/skills-knowledge-mcp-performance-improvements",
+          "url": "https://lightfield.app/blog/skills-knowledge-mcp-performance-improvements",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/mailchimp",
+      "slug": "mailchimp",
+      "name": "Mailchimp",
+      "path": "tools/mailchimp",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "unknown",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 5,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "mailchimp.com/developer/marketing/docs/fundamentals",
+          "url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+          "type": "source"
+        },
+        {
+          "title": "mailchimp.com/developer/marketing/docs/errors",
+          "url": "https://mailchimp.com/developer/marketing/docs/errors/",
+          "type": "source"
+        },
+        {
+          "title": "mailchimp.com/developer/transactional/guides/how-to-use-mailchimps-transactional-messaging-mcp",
+          "url": "https://mailchimp.com/developer/transactional/guides/how-to-use-mailchimps-transactional-messaging-mcp/",
+          "type": "source"
+        },
+        {
+          "title": "github.com/mailchimp",
+          "url": "https://github.com/mailchimp",
+          "type": "source"
+        },
+        {
+          "title": "mailchimp.com/developer/release-notes/new-client-libraries-marketing-transactional-apis",
+          "url": "https://mailchimp.com/developer/release-notes/new-client-libraries-marketing-transactional-apis/",
+          "type": "source"
+        }
+      ]
+    }
+  ]
+}

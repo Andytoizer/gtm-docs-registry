@@ -1,0 +1,367 @@
+{
+  "runId": "2026-06-01",
+  "batchId": "scout-010",
+  "generatedAt": "2026-06-01T16:26:58.135Z",
+  "maxAgentsPerSwarm": 6,
+  "promptPath": ".internal/codex-maintenance/prompts/scout.md",
+  "schemaPath": ".internal/codex-maintenance/schemas/scout-finding.schema.json",
+  "tools": [
+    {
+      "id": "/gtm/firecrawl",
+      "slug": "firecrawl",
+      "name": "Firecrawl",
+      "path": "tools/firecrawl",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "yes",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "yes",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 5,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "docs.firecrawl.dev/api-reference/v2-introduction",
+          "url": "https://docs.firecrawl.dev/api-reference/v2-introduction",
+          "type": "source"
+        },
+        {
+          "title": "docs.firecrawl.dev/cli",
+          "url": "https://docs.firecrawl.dev/cli",
+          "type": "source"
+        },
+        {
+          "title": "github.com/firecrawl/firecrawl-mcp-server",
+          "url": "https://github.com/firecrawl/firecrawl-mcp-server",
+          "type": "source"
+        },
+        {
+          "title": "docs.firecrawl.dev/sdks/overview",
+          "url": "https://docs.firecrawl.dev/sdks/overview",
+          "type": "source"
+        },
+        {
+          "title": "raw.githubusercontent.com/firecrawl/firecrawl-docs/main/api-reference/v2-openapi.json",
+          "url": "https://raw.githubusercontent.com/firecrawl/firecrawl-docs/main/api-reference/v2-openapi.json",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/fireflies",
+      "slug": "fireflies",
+      "name": "Fireflies.ai",
+      "path": "tools/fireflies",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "no",
+        "llmsTxt": "yes",
+        "officialSdk": "no"
+      },
+      "sourceCounts": {
+        "total": 6,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "docs.fireflies.ai/getting-started/mcp-configuration",
+          "url": "https://docs.fireflies.ai/getting-started/mcp-configuration",
+          "type": "source"
+        },
+        {
+          "title": "docs.fireflies.ai/mcp-tools/overview",
+          "url": "https://docs.fireflies.ai/mcp-tools/overview",
+          "type": "source"
+        },
+        {
+          "title": "docs.fireflies.ai/introduction",
+          "url": "https://docs.fireflies.ai/introduction",
+          "type": "source"
+        },
+        {
+          "title": "docs.fireflies.ai/fundamentals/limits",
+          "url": "https://docs.fireflies.ai/fundamentals/limits",
+          "type": "source"
+        },
+        {
+          "title": "docs.fireflies.ai/graphql-api/mutation/delete-transcript",
+          "url": "https://docs.fireflies.ai/graphql-api/mutation/delete-transcript",
+          "type": "source"
+        },
+        {
+          "title": "github.com/props-labs/fireflies-mcp",
+          "url": "https://github.com/props-labs/fireflies-mcp",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/fivetran",
+      "slug": "fivetran",
+      "name": "Fivetran",
+      "path": "tools/fivetran",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "yes",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "yes",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 4,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "fivetran.com/docs/rest-api",
+          "url": "https://fivetran.com/docs/rest-api",
+          "type": "source"
+        },
+        {
+          "title": "fivetran.com/docs/rest-api/getting-started",
+          "url": "https://fivetran.com/docs/rest-api/getting-started",
+          "type": "source"
+        },
+        {
+          "title": "fivetran.com/docs/cli",
+          "url": "https://fivetran.com/docs/cli",
+          "type": "source"
+        },
+        {
+          "title": "github.com/fivetran/mcp-server",
+          "url": "https://github.com/fivetran/mcp-server",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/hubspot",
+      "slug": "hubspot",
+      "name": "HubSpot",
+      "path": "tools/hubspot",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "yes",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "yes",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 8,
+        "official": 8,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "type": "official",
+          "title": "Developer docs",
+          "url": "https://developers.hubspot.com/docs"
+        },
+        {
+          "type": "official",
+          "title": "Remote MCP",
+          "url": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/integrate-with-the-remote-hubspot-mcp-server"
+        },
+        {
+          "type": "official",
+          "title": "Local MCP",
+          "url": "https://developers.hubspot.com/docs/developer-tooling/local-development/mcp-server"
+        },
+        {
+          "type": "official",
+          "title": "CLI reference",
+          "url": "https://developers.hubspot.com/docs/developer-tooling/local-development/hubspot-cli/reference"
+        },
+        {
+          "type": "official",
+          "title": "API reference",
+          "url": "https://developers.hubspot.com/docs/reference/api"
+        },
+        {
+          "type": "official",
+          "title": "OAuth docs",
+          "url": "https://developers.hubspot.com/docs/api/working-with-oauth"
+        },
+        {
+          "type": "official",
+          "title": "OpenAPI spec collection",
+          "url": "https://github.com/HubSpot/HubSpot-public-api-spec-collection"
+        },
+        {
+          "type": "official",
+          "title": "Changelog",
+          "url": "https://developers.hubspot.com/changelog"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/keap",
+      "slug": "keap",
+      "name": "Keap",
+      "path": "tools/keap",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "no",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "no",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 9,
+        "official": 8,
+        "community": 1
+      },
+      "sourceUrls": [
+        {
+          "type": "official",
+          "title": "Developer guide",
+          "url": "https://developer.keap.com/developer-guide/"
+        },
+        {
+          "type": "official",
+          "title": "REST v2 docs",
+          "url": "https://developer.keap.com/docs/restv2/"
+        },
+        {
+          "type": "official",
+          "title": "OAuth2 getting started",
+          "url": "https://developer.keap.com/getting-started-oauth-keys/"
+        },
+        {
+          "type": "official",
+          "title": "Personal Access Tokens and Service Account Keys",
+          "url": "https://developer.keap.com/pat-and-sak/"
+        },
+        {
+          "type": "official",
+          "title": "API token quota and usage measurements",
+          "url": "https://developer.keap.com/api-token-quota-and-usage-measurements/"
+        },
+        {
+          "type": "official",
+          "title": "Official SDK repository",
+          "url": "https://github.com/infusionsoft/keap-sdk"
+        },
+        {
+          "type": "official",
+          "title": "REST v2 swagger.yml",
+          "url": "https://github.com/infusionsoft/keap-sdk/blob/main/sdks/v2/swagger.yml"
+        },
+        {
+          "type": "official",
+          "title": "REST v2 Postman examples",
+          "url": "https://documenter.getpostman.com/view/2915979/UVByKWEZ"
+        },
+        {
+          "type": "community",
+          "title": "Keap developer community",
+          "url": "https://community.infusionsoft.com/"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/klaviyo",
+      "slug": "klaviyo",
+      "name": "Klaviyo",
+      "path": "tools/klaviyo",
+      "status": "published",
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "yes",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "yes",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 7,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "Klaviyo Developers",
+          "url": "https://developers.klaviyo.com",
+          "type": "official-docs"
+        },
+        {
+          "title": "Klaviyo MCP Server",
+          "url": "https://developers.klaviyo.com/en/docs/klaviyo_mcp_server",
+          "type": "official-mcp"
+        },
+        {
+          "title": "Klaviyo CLI",
+          "url": "https://developers.klaviyo.com/en/docs/klaviyo_cli",
+          "type": "official-cli"
+        },
+        {
+          "title": "Klaviyo API Overview",
+          "url": "https://developers.klaviyo.com/en/reference/api_overview",
+          "type": "official-api"
+        },
+        {
+          "title": "Klaviyo Authentication",
+          "url": "https://developers.klaviyo.com/en/reference/api_overview#authentication",
+          "type": "official-auth"
+        },
+        {
+          "title": "Klaviyo GitHub",
+          "url": "https://github.com/klaviyo",
+          "type": "official-github"
+        },
+        {
+          "title": "Klaviyo API Node SDK",
+          "url": "https://github.com/klaviyo/klaviyo-api-node",
+          "type": "official-sdk"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "runId": "2026-06-01",
+  "batchId": "scout-001",
+  "checkedAt": "2026-06-01T16:44:00.000Z",
+  "status": "complete",
+  "verdicts": [
+    {
+      "toolId": "/gtm/clearbit",
+      "slug": "clearbit",
+      "verdict": "approved",
+      "approvedFindings": [
+        {
+          "kind": "verification-refresh",
+          "field": "tool.lastVerified",
+          "current": "2026-05-28",
+          "proposed": "2026-06-01",
+          "confidence": "high",
+          "evidenceUrls": [
+            "https://clearbit.com/docs",
+            "https://help.clearbit.com/hc/en-us/categories/360000913214-APIs"
+          ],
+          "reason": "Official sources currently show that public API help still exists while endpoint docs require login. That supports refreshing the verification date without changing the broader cautious profile."
+        }
+      ],
+      "rejectedFindings": [],
+      "qaNotes": "Evidence is current and official. Approved only the verification-date refresh; unresolved authenticated-doc gaps still justify the existing needs-review posture.",
+      "evidenceIssues": []
+    },
+    {
+      "toolId": "/gtm/crazy-egg",
+      "slug": "crazy-egg",
+      "verdict": "approved",
+      "approvedFindings": [
+        {
+          "kind": "verification-refresh",
+          "field": "tool.lastVerified",
+          "current": "2026-05-28",
+          "proposed": "2026-06-01",
+          "confidence": "high",
+          "evidenceUrls": [
+            "https://support.crazyegg.com/knowledge-base/conversion-tracking-api/"
+          ],
+          "reason": "The official article directly supports the limited API characterization and documents auth, endpoint, batching, and error handling."
+        }
+      ],
+      "rejectedFindings": [],
+      "qaNotes": "Official evidence is sufficient for a verification-date refresh only. No support was found for broader public account/report APIs.",
+      "evidenceIssues": []
+    },
+    {
+      "toolId": "/gtm/default",
+      "slug": "default",
+      "verdict": "approved",
+      "approvedFindings": [
+        {
+          "kind": "verification-refresh",
+          "field": "tool.lastVerified",
+          "current": "2026-05-28",
+          "proposed": "2026-06-01",
+          "confidence": "high",
+          "evidenceUrls": [
+            "https://docs.default.com/",
+            "https://docs.default.com/article/webhook-trigger",
+            "https://docs.default.com/article/glossary"
+          ],
+          "reason": "Current official help content supports the public workflow/webhook/Forms SDK characterization and does not establish a public general REST API."
+        }
+      ],
+      "rejectedFindings": [],
+      "qaNotes": "Evidence is official and current enough to refresh verification. No approved changes beyond that because missing public API docs remain the key uncertainty.",
+      "evidenceIssues": []
+    },
+    {
+      "toolId": "/gtm/folloze",
+      "slug": "folloze",
+      "verdict": "approved",
+      "approvedFindings": [
+        {
+          "kind": "verification-refresh",
+          "field": "tool.lastVerified",
+          "current": "2026-05-28",
+          "proposed": "2026-06-01",
+          "confidence": "high",
+          "evidenceUrls": [
+            "https://help.folloze.com/s/article/Get-started-with-Folloze",
+            "https://help.folloze.com/s/article/Folloze-Salesforce-Connector-Setup-Guide",
+            "https://help.folloze.com/s/topic/0TOQj0000000JqfOAE/integrations"
+          ],
+          "reason": "Official current sources document product usage and integration setup, not a public Folloze API contract. The existing cautious profile remains supported."
+        }
+      ],
+      "rejectedFindings": [],
+      "qaNotes": "Approved only the verification-date refresh. Public evidence remains integration-oriented and does not justify raising readiness or changing core interface claims.",
+      "evidenceIssues": []
+    },
+    {
+      "toolId": "/gtm/hockeystack",
+      "slug": "hockeystack",
+      "verdict": "approved",
+      "approvedFindings": [
+        {
+          "kind": "verification-refresh",
+          "field": "tool.lastVerified",
+          "current": "2026-05-28",
+          "proposed": "2026-06-01",
+          "confidence": "medium",
+          "evidenceUrls": [
+            "https://docs.hockeystack.com/",
+            "https://docs.hockeystack.com/documentation/send-view-updates-to-webhooks",
+            "https://www.npmjs.com/package/hockeystack",
+            "https://agents-docs.hockeystack.com/"
+          ],
+          "reason": "Official docs confirm product, webhook, and SDK surfaces, but they do not conclusively establish a broad public server API contract. A verification refresh is supported; larger metadata moves are not."
+        }
+      ],
+      "rejectedFindings": [],
+      "qaNotes": "Approved conservatively. Evidence supports retaining the current cautious posture; agent-doc and llms-style surfaces do not prove a general public API.",
+      "evidenceIssues": []
+    },
+    {
+      "toolId": "/gtm/influ2",
+      "slug": "influ2",
+      "verdict": "approved",
+      "approvedFindings": [
+        {
+          "kind": "verification-refresh",
+          "field": "tool.lastVerified",
+          "current": "2026-05-28",
+          "proposed": "2026-06-01",
+          "confidence": "high",
+          "evidenceUrls": [
+            "https://help.influ2.com/articles/7290465539-how-to-integrate-influ2-with-salesforce",
+            "https://help.influ2.com/articles/5571808542-how-to-activate-your-influ2-integrations",
+            "https://www.influ2.com/product"
+          ],
+          "reason": "Official current sources support the integration-centric characterization and confirm operational details like Salesforce API usage, but they do not provide a public general API reference."
+        }
+      ],
+      "rejectedFindings": [],
+      "qaNotes": "Approved only the verification-date refresh. Public evidence still does not justify elevating the profile or treating unofficial MCP packages as official support.",
+      "evidenceIssues": []
+    }
+  ]
+}

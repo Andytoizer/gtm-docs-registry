@@ -1,0 +1,272 @@
+{
+  "runId": "2026-06-01",
+  "batchId": "scout-025",
+  "generatedAt": "2026-06-01T16:26:58.135Z",
+  "maxAgentsPerSwarm": 6,
+  "promptPath": ".internal/codex-maintenance/prompts/scout.md",
+  "schemaPath": ".internal/codex-maintenance/schemas/scout-finding.schema.json",
+  "tools": [
+    {
+      "id": "/gtm/pipedrive",
+      "slug": "pipedrive",
+      "name": "Pipedrive",
+      "path": "tools/pipedrive",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "no",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "unknown",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 5,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "developers.pipedrive.com/docs/api/v1",
+          "url": "https://developers.pipedrive.com/docs/api/v1",
+          "type": "source"
+        },
+        {
+          "title": "pipedrive.readme.io/docs/core-api-concepts-rate-limiting",
+          "url": "https://pipedrive.readme.io/docs/core-api-concepts-rate-limiting",
+          "type": "source"
+        },
+        {
+          "title": "pipedrive.readme.io/docs/core-api-concepts-pagination",
+          "url": "https://pipedrive.readme.io/docs/core-api-concepts-pagination",
+          "type": "source"
+        },
+        {
+          "title": "github.com/pipedrive",
+          "url": "https://github.com/pipedrive",
+          "type": "source"
+        },
+        {
+          "title": "apideck.com/mcp-server/pipedrive",
+          "url": "https://www.apideck.com/mcp-server/pipedrive",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/pylon",
+      "slug": "pylon",
+      "name": "Pylon",
+      "path": "tools/pylon",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 4,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "support.usepylon.com/articles/2407390554-connecting-to-the-pylon-mcp-server",
+          "url": "https://support.usepylon.com/articles/2407390554-connecting-to-the-pylon-mcp-server",
+          "type": "source"
+        },
+        {
+          "title": "docs.usepylon.com/pylon-docs/developer/api/api-reference/users",
+          "url": "https://docs.usepylon.com/pylon-docs/developer/api/api-reference/users",
+          "type": "source"
+        },
+        {
+          "title": "support.usepylon.com/articles/1797406754-exporting-audit-logs-to-a-siem",
+          "url": "https://support.usepylon.com/articles/1797406754-exporting-audit-logs-to-a-siem",
+          "type": "source"
+        },
+        {
+          "title": "docs.arcade.dev/en/resources/integrations/customer-support/pylon-api",
+          "url": "https://docs.arcade.dev/en/resources/integrations/customer-support/pylon-api",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/reachinbox",
+      "slug": "reachinbox",
+      "name": "ReachInbox",
+      "path": "tools/reachinbox",
+      "status": "published",
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 1,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "docs.reachinbox.ai",
+          "url": "https://docs.reachinbox.ai/",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/relevance-ai",
+      "slug": "relevance-ai",
+      "name": "Relevance AI",
+      "path": "tools/relevance-ai",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "unknown",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "yes",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 6,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "relevanceai.com/docs/integrations/mcp/programmatic-gtm/mcp-server",
+          "url": "https://relevanceai.com/docs/integrations/mcp/programmatic-gtm/mcp-server",
+          "type": "source"
+        },
+        {
+          "title": "relevanceai.com/docs/build/agents/build-your-agent/agent-triggers/api-trigger",
+          "url": "https://relevanceai.com/docs/build/agents/build-your-agent/agent-triggers/api-trigger",
+          "type": "source"
+        },
+        {
+          "title": "relevanceai.com/docs/build/agents/build-your-agent/agent-triggers/api",
+          "url": "https://relevanceai.com/docs/build/agents/build-your-agent/agent-triggers/api",
+          "type": "source"
+        },
+        {
+          "title": "relevanceai.com/docs/llms.txt",
+          "url": "https://relevanceai.com/docs/llms.txt",
+          "type": "source"
+        },
+        {
+          "title": "github.com/RelevanceAI/relevanceai",
+          "url": "https://github.com/RelevanceAI/relevanceai",
+          "type": "source"
+        },
+        {
+          "title": "github.com/RelevanceAI/relevance-js-sdk",
+          "url": "https://github.com/RelevanceAI/relevance-js-sdk",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/rollworks",
+      "slug": "rollworks",
+      "name": "RollWorks",
+      "path": "tools/rollworks",
+      "status": "published",
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "unknown",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 2,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "developers.nextroll.com",
+          "url": "https://developers.nextroll.com/",
+          "type": "source"
+        },
+        {
+          "title": "rollworks.com",
+          "url": "https://www.rollworks.com/",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/ruler-analytics",
+      "slug": "ruler-analytics",
+      "name": "Ruler Analytics",
+      "path": "tools/ruler-analytics",
+      "status": "published",
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "unknown",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 2,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "ruleranalytics.com",
+          "url": "https://www.ruleranalytics.com/",
+          "type": "source"
+        },
+        {
+          "title": "ruleranalytics.com/api",
+          "url": "https://www.ruleranalytics.com/api/",
+          "type": "source"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,272 @@
+{
+  "runId": "2026-06-01",
+  "batchId": "scout-022",
+  "generatedAt": "2026-06-01T16:26:58.135Z",
+  "maxAgentsPerSwarm": 6,
+  "promptPath": ".internal/codex-maintenance/prompts/scout.md",
+  "schemaPath": ".internal/codex-maintenance/schemas/scout-finding.schema.json",
+  "tools": [
+    {
+      "id": "/gtm/matomo",
+      "slug": "matomo",
+      "name": "Matomo",
+      "path": "tools/matomo",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "yes",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 4,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "developer.matomo.org/api-reference",
+          "url": "https://developer.matomo.org/api-reference",
+          "type": "source"
+        },
+        {
+          "title": "matomo.org/docs/analytics-api",
+          "url": "https://matomo.org/docs/analytics-api/",
+          "type": "source"
+        },
+        {
+          "title": "matomo.org/guide/apis/mcp-model-context-protocol",
+          "url": "https://matomo.org/guide/apis/mcp-model-context-protocol/",
+          "type": "source"
+        },
+        {
+          "title": "matomo.org/faq/how-to/configure-the-matomo-mcp-server",
+          "url": "https://matomo.org/faq/how-to/configure-the-matomo-mcp-server/",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/meetgeek",
+      "slug": "meetgeek",
+      "name": "MeetGeek",
+      "path": "tools/meetgeek",
+      "status": "published",
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "unknown",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 2,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "meetgeek.ai",
+          "url": "https://meetgeek.ai/",
+          "type": "source"
+        },
+        {
+          "title": "api.meetgeek.ai",
+          "url": "https://api.meetgeek.ai/",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/metadata",
+      "slug": "metadata",
+      "name": "Metadata.io",
+      "path": "tools/metadata",
+      "status": "published",
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "unknown",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 2,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "metadata.io",
+          "url": "https://metadata.io/",
+          "type": "source"
+        },
+        {
+          "title": "developers.metadata.io",
+          "url": "https://developers.metadata.io/",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/microsoft-dynamics-365-sales",
+      "slug": "microsoft-dynamics-365-sales",
+      "name": "Microsoft Dynamics 365 Sales",
+      "path": "tools/microsoft-dynamics-365-sales",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "yes",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "unknown",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 5,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "learn.microsoft.com/en-us/dynamics365/sales/developer/overview",
+          "url": "https://learn.microsoft.com/en-us/dynamics365/sales/developer/overview",
+          "type": "source"
+        },
+        {
+          "title": "learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/overview",
+          "url": "https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/overview",
+          "type": "source"
+        },
+        {
+          "title": "learn.microsoft.com/en-us/power-apps/developer/data-platform/api-limits",
+          "url": "https://learn.microsoft.com/en-us/power-apps/developer/data-platform/api-limits",
+          "type": "source"
+        },
+        {
+          "title": "learn.microsoft.com/en-us/power-platform/developer/cli/introduction",
+          "url": "https://learn.microsoft.com/en-us/power-platform/developer/cli/introduction",
+          "type": "source"
+        },
+        {
+          "title": "github.com/microsoft/PowerPlatformConnectors",
+          "url": "https://github.com/microsoft/PowerPlatformConnectors",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/monday-crm",
+      "slug": "monday-crm",
+      "name": "Monday CRM",
+      "path": "tools/monday-crm",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "yes",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "unknown",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 5,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "developer.monday.com/api-reference/docs",
+          "url": "https://developer.monday.com/api-reference/docs",
+          "type": "source"
+        },
+        {
+          "title": "developer.monday.com/api-reference/docs/rate-limits",
+          "url": "https://developer.monday.com/api-reference/docs/rate-limits",
+          "type": "source"
+        },
+        {
+          "title": "developer.monday.com/api-reference/reference/items-page",
+          "url": "https://developer.monday.com/api-reference/reference/items-page",
+          "type": "source"
+        },
+        {
+          "title": "developer.monday.com/apps/docs/monday-code-cli",
+          "url": "https://developer.monday.com/apps/docs/monday-code-cli",
+          "type": "source"
+        },
+        {
+          "title": "developer.monday.com/apps/docs/mcp",
+          "url": "https://developer.monday.com/apps/docs/mcp",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/mouseflow",
+      "slug": "mouseflow",
+      "name": "Mouseflow",
+      "path": "tools/mouseflow",
+      "status": "published",
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "no",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 2,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "api-docs.mouseflow.com",
+          "url": "https://api-docs.mouseflow.com/",
+          "type": "source"
+        },
+        {
+          "title": "js-api-docs.mouseflow.com",
+          "url": "https://js-api-docs.mouseflow.com/",
+          "type": "source"
+        }
+      ]
+    }
+  ]
+}

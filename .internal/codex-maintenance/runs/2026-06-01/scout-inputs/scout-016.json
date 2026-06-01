@@ -1,0 +1,317 @@
+{
+  "runId": "2026-06-01",
+  "batchId": "scout-016",
+  "generatedAt": "2026-06-01T16:26:58.135Z",
+  "maxAgentsPerSwarm": 6,
+  "promptPath": ".internal/codex-maintenance/prompts/scout.md",
+  "schemaPath": ".internal/codex-maintenance/schemas/scout-finding.schema.json",
+  "tools": [
+    {
+      "id": "/gtm/cognism",
+      "slug": "cognism",
+      "name": "Cognism",
+      "path": "tools/cognism",
+      "status": "published",
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "unknown",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 2,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "cognism.com",
+          "url": "https://www.cognism.com/",
+          "type": "source"
+        },
+        {
+          "title": "docs.cognism.com",
+          "url": "https://docs.cognism.com/",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/contactout",
+      "slug": "contactout",
+      "name": "ContactOut",
+      "path": "tools/contactout",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "no"
+      },
+      "sourceCounts": {
+        "total": 3,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "api.contactout.com",
+          "url": "https://api.contactout.com/",
+          "type": "source"
+        },
+        {
+          "title": "contactout.com/api-feature",
+          "url": "https://contactout.com/api-feature",
+          "type": "source"
+        },
+        {
+          "title": "mcp.pipedream.com/app/contactout",
+          "url": "https://mcp.pipedream.com/app/contactout",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/contentsquare",
+      "slug": "contentsquare",
+      "name": "Contentsquare",
+      "path": "tools/contentsquare",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "yes",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "yes",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 7,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "Contentsquare technical documentation",
+          "url": "https://docs.contentsquare.com/en/",
+          "type": "source"
+        },
+        {
+          "title": "Contentsquare llms.txt",
+          "url": "https://docs.contentsquare.com/en/llms.txt",
+          "type": "source"
+        },
+        {
+          "title": "Contentsquare MCP setup and usage",
+          "url": "https://support.contentsquare.com/hc/en-us/articles/41563169756945-How-to-set-up-and-use-Model-Context-Protocol-MCP",
+          "type": "source"
+        },
+        {
+          "title": "Contentsquare Data Export API getting started",
+          "url": "https://docs.contentsquare.com/en/api/export/",
+          "type": "source"
+        },
+        {
+          "title": "Contentsquare Data Export API authentication",
+          "url": "https://docs.contentsquare.com/en/api/export/authentication/",
+          "type": "source"
+        },
+        {
+          "title": "Contentsquare Data Export API limits",
+          "url": "https://docs.contentsquare.com/en/api/export/limits/",
+          "type": "source"
+        },
+        {
+          "title": "Contentsquare Flutter CLI",
+          "url": "https://docs.contentsquare.com/en/csq-sdk-flutter/experience-analytics/contentsquare-cli/",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/copper",
+      "slug": "copper",
+      "name": "Copper",
+      "path": "tools/copper",
+      "status": "published",
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 3,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "developer.copper.com",
+          "url": "https://developer.copper.com/",
+          "type": "source"
+        },
+        {
+          "title": "developer.copper.com/requests-and-responses",
+          "url": "https://developer.copper.com/requests-and-responses/",
+          "type": "source"
+        },
+        {
+          "title": "developer.copper.com/authentication.html",
+          "url": "https://developer.copper.com/authentication.html",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/countly",
+      "slug": "countly",
+      "name": "Countly",
+      "path": "tools/countly",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "yes",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 3,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "api.count.ly/reference/rest-api-reference",
+          "url": "https://api.count.ly/reference/rest-api-reference",
+          "type": "source"
+        },
+        {
+          "title": "support.countly.com/hc/en-us/articles/26173669019804",
+          "url": "https://support.countly.com/hc/en-us/articles/26173669019804",
+          "type": "source"
+        },
+        {
+          "title": "github.com/Countly/countly-server",
+          "url": "https://github.com/Countly/countly-server",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/creatio",
+      "slug": "creatio",
+      "name": "Creatio",
+      "path": "tools/creatio",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "no",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 11,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "Creatio 8.3 Authentication",
+          "url": "https://academy.creatio.com/docs/8.x/dev/development-on-creatio-platform/category/authentication",
+          "type": "source"
+        },
+        {
+          "title": "Creatio OAuth 2.0 Client Credentials",
+          "url": "https://academy.creatio.com/docs/8.x/dev/development-on-creatio-platform/integrations-and-api/authentication/oauth-2-0-authorization/identity-service-overview",
+          "type": "source"
+        },
+        {
+          "title": "Creatio Manage OAuth Integrations Using API",
+          "url": "https://academy.creatio.com/docs/8.x/dev/development-on-creatio-platform/integrations-and-api/authentication/oauth-2-0-authorization/manage-oauth-integrations",
+          "type": "source"
+        },
+        {
+          "title": "Creatio OData Basics",
+          "url": "https://academy.creatio.com/docs/8.x/dev/development-on-creatio-platform/integrations-and-api/data-services/odata/basics/overview",
+          "type": "source"
+        },
+        {
+          "title": "Creatio OData References",
+          "url": "https://academy.creatio.com/docs/8.x/dev/development-on-creatio-platform/odata-references",
+          "type": "source"
+        },
+        {
+          "title": "Creatio OData RAM Limit",
+          "url": "https://academy.creatio.com/docs/8.x/dev/development-on-creatio-platform/integrations-and-api/data-services/odata/ram-consumption-limit",
+          "type": "source"
+        },
+        {
+          "title": "Creatio OData File API Endpoints",
+          "url": "https://academy.creatio.com/docs/8.x/dev/development-on-creatio-platform/integrations-and-api/data-services/odata/odata-file-api/references/endpoints",
+          "type": "source"
+        },
+        {
+          "title": "Creatio API Documentation and Postman Collection",
+          "url": "https://academy.creatio.com/docs/8.x/dev/development-on-creatio-platform/integrations-and-api/integration-examples",
+          "type": "source"
+        },
+        {
+          "title": "@creatio-devkit/common npm package",
+          "url": "https://www.npmjs.com/package/%40creatio-devkit/common",
+          "type": "source"
+        },
+        {
+          "title": "mcp-creatio community MCP listing",
+          "url": "https://www.stork.ai/mcp/mcp-creatio",
+          "type": "source"
+        },
+        {
+          "title": "api-node-creatio community Node wrapper",
+          "url": "https://npm.io/package/api-node-creatio",
+          "type": "source"
+        }
+      ]
+    }
+  ]
+}

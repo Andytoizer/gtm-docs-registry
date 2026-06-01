@@ -1,0 +1,342 @@
+{
+  "runId": "2026-06-01",
+  "batchId": "scout-019",
+  "generatedAt": "2026-06-01T16:26:58.135Z",
+  "maxAgentsPerSwarm": 6,
+  "promptPath": ".internal/codex-maintenance/prompts/scout.md",
+  "schemaPath": ".internal/codex-maintenance/schemas/scout-finding.schema.json",
+  "tools": [
+    {
+      "id": "/gtm/fullenrich",
+      "slug": "fullenrich",
+      "name": "FullEnrich",
+      "path": "tools/fullenrich",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "yes",
+        "officialSdk": "no"
+      },
+      "sourceCounts": {
+        "total": 9,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "docs.fullenrich.com/api/v2/general/authentication",
+          "url": "https://docs.fullenrich.com/api/v2/general/authentication",
+          "type": "source"
+        },
+        {
+          "title": "docs.fullenrich.com/api/v2/general/ratelimit",
+          "url": "https://docs.fullenrich.com/api/v2/general/ratelimit",
+          "type": "source"
+        },
+        {
+          "title": "docs.fullenrich.com/api/v2/general/intro-search",
+          "url": "https://docs.fullenrich.com/api/v2/general/intro-search",
+          "type": "source"
+        },
+        {
+          "title": "fullenrich.mintlify.app/api/v2/implement-in-product/getting-started",
+          "url": "https://fullenrich.mintlify.app/api/v2/implement-in-product/getting-started",
+          "type": "source"
+        },
+        {
+          "title": "docs.fullenrich.com/api/v2/people/search/post",
+          "url": "https://docs.fullenrich.com/api/v2/people/search/post",
+          "type": "source"
+        },
+        {
+          "title": "docs.fullenrich.com/api/v2/company/search/post",
+          "url": "https://docs.fullenrich.com/api/v2/company/search/post",
+          "type": "source"
+        },
+        {
+          "title": "help.fullenrich.com/en/articles/14190120-mcp-server",
+          "url": "https://help.fullenrich.com/en/articles/14190120-mcp-server",
+          "type": "source"
+        },
+        {
+          "title": "help.fullenrich.com/en/articles/15025057-build-a-custom-mcp-client",
+          "url": "https://help.fullenrich.com/en/articles/15025057-build-a-custom-mcp-client",
+          "type": "source"
+        },
+        {
+          "title": "help.fullenrich.com/en/articles/9688091-data-provided-by-fullenrich",
+          "url": "https://help.fullenrich.com/en/articles/9688091-data-provided-by-fullenrich",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/gohighlevel",
+      "slug": "gohighlevel",
+      "name": "GoHighLevel",
+      "path": "tools/gohighlevel",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 5,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "marketplace.gohighlevel.com/docs",
+          "url": "https://marketplace.gohighlevel.com/docs/",
+          "type": "source"
+        },
+        {
+          "title": "help.gohighlevel.com/support/solutions/articles/155000005741-how-to-use-the-highlevel-mcp-server",
+          "url": "https://help.gohighlevel.com/support/solutions/articles/155000005741-how-to-use-the-highlevel-mcp-server",
+          "type": "source"
+        },
+        {
+          "title": "help.gohighlevel.com/support/solutions/articles/48001060529-highlevel-api",
+          "url": "https://help.gohighlevel.com/support/solutions/articles/48001060529-highlevel-api",
+          "type": "source"
+        },
+        {
+          "title": "marketplace.gohighlevel.com/docs/sdk/GettingStartedSDK/index.html",
+          "url": "https://marketplace.gohighlevel.com/docs/sdk/GettingStartedSDK/index.html",
+          "type": "source"
+        },
+        {
+          "title": "mcp.localbosses.org",
+          "url": "https://mcp.localbosses.org/",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/gong",
+      "slug": "gong",
+      "name": "Gong",
+      "path": "tools/gong",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "no",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "unknown",
+        "officialSdk": "no"
+      },
+      "sourceCounts": {
+        "total": 9,
+        "official": 7,
+        "community": 2
+      },
+      "sourceUrls": [
+        {
+          "title": "help.gong.io/docs/receive-access-to-the-api",
+          "url": "https://help.gong.io/docs/receive-access-to-the-api",
+          "type": "official"
+        },
+        {
+          "title": "help.gong.io/docs/what-the-gong-api-provides",
+          "url": "https://help.gong.io/docs/what-the-gong-api-provides",
+          "type": "official"
+        },
+        {
+          "title": "help.gong.io/docs/how-to-use-the-gong-developers-hub",
+          "url": "https://help.gong.io/docs/how-to-use-the-gong-developers-hub",
+          "type": "official"
+        },
+        {
+          "title": "help.gong.io/docs/create-an-app-for-gong",
+          "url": "https://help.gong.io/docs/create-an-app-for-gong",
+          "type": "official"
+        },
+        {
+          "title": "help.gong.io/docs/gong-engage-api-capabilities",
+          "url": "https://help.gong.io/docs/gong-engage-api-capabilities",
+          "type": "official"
+        },
+        {
+          "title": "Gong public API docs",
+          "url": "https://app.gong.io/settings/api/documentation",
+          "type": "official"
+        },
+        {
+          "title": "Gong OpenAPI spec endpoint",
+          "url": "https://app.gong.io/ajax/settings/api/documentation/specs?version=",
+          "type": "official"
+        },
+        {
+          "title": "ksindi/gong-client",
+          "url": "https://github.com/ksindi/gong-client",
+          "type": "community"
+        },
+        {
+          "title": "aaronsb/gong-api-client",
+          "url": "https://github.com/aaronsb/gong-api-client",
+          "type": "community"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/google-places",
+      "slug": "google-places",
+      "name": "Google Places API",
+      "path": "tools/google-places",
+      "status": "published",
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "no",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "no",
+        "llmsTxt": "unknown",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 5,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "developers.google.com/maps/documentation/places/web-service/reference/rest",
+          "url": "https://developers.google.com/maps/documentation/places/web-service/reference/rest",
+          "type": "source"
+        },
+        {
+          "title": "developers.google.com/maps/documentation/places/web-service/usage-and-billing",
+          "url": "https://developers.google.com/maps/documentation/places/web-service/usage-and-billing",
+          "type": "source"
+        },
+        {
+          "title": "developers.google.com/maps/faq",
+          "url": "https://developers.google.com/maps/faq",
+          "type": "source"
+        },
+        {
+          "title": "developers.google.com/maps/documentation/places/web-service/text-search",
+          "url": "https://developers.google.com/maps/documentation/places/web-service/text-search",
+          "type": "source"
+        },
+        {
+          "title": "developers.google.com/maps/documentation/places/web-service/reference/rest/v1/places/searchText",
+          "url": "https://developers.google.com/maps/documentation/places/web-service/reference/rest/v1/places/searchText",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/gorgias",
+      "slug": "gorgias",
+      "name": "Gorgias",
+      "path": "tools/gorgias",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "unknown",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 3,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "developers.gorgias.com/reference/introduction",
+          "url": "https://developers.gorgias.com/reference/introduction",
+          "type": "source"
+        },
+        {
+          "title": "developers.gorgias.com/docs/authentication",
+          "url": "https://developers.gorgias.com/docs/authentication",
+          "type": "source"
+        },
+        {
+          "title": "developers.gorgias.com/docs/pagination",
+          "url": "https://developers.gorgias.com/docs/pagination",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/help-scout",
+      "slug": "help-scout",
+      "name": "Help Scout",
+      "path": "tools/help-scout",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "unknown",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 3,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "developer.helpscout.com/mailbox-api",
+          "url": "https://developer.helpscout.com/mailbox-api/",
+          "type": "source"
+        },
+        {
+          "title": "developer.helpscout.com/mailbox-api/overview/rate-limiting",
+          "url": "https://developer.helpscout.com/mailbox-api/overview/rate-limiting/",
+          "type": "source"
+        },
+        {
+          "title": "developer.helpscout.com/docs-api",
+          "url": "https://developer.helpscout.com/docs-api/",
+          "type": "source"
+        }
+      ]
+    }
+  ]
+}

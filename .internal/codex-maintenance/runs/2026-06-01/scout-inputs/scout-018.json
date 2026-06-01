@@ -1,0 +1,292 @@
+{
+  "runId": "2026-06-01",
+  "batchId": "scout-018",
+  "generatedAt": "2026-06-01T16:26:58.135Z",
+  "maxAgentsPerSwarm": 6,
+  "promptPath": ".internal/codex-maintenance/prompts/scout.md",
+  "schemaPath": ".internal/codex-maintenance/schemas/scout-finding.schema.json",
+  "tools": [
+    {
+      "id": "/gtm/emelia",
+      "slug": "emelia",
+      "name": "Emelia",
+      "path": "tools/emelia",
+      "status": "published",
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 1,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "emelia.io/api-doc",
+          "url": "https://emelia.io/api-doc",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/fathom",
+      "slug": "fathom",
+      "name": "Fathom",
+      "path": "tools/fathom",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "no",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "yes",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 5,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "docs.fathom.ai",
+          "url": "https://docs.fathom.ai/",
+          "type": "source"
+        },
+        {
+          "title": "developers.fathom.ai/quickstart",
+          "url": "https://developers.fathom.ai/quickstart",
+          "type": "source"
+        },
+        {
+          "title": "developers.fathom.ai/webhooks",
+          "url": "https://developers.fathom.ai/webhooks",
+          "type": "source"
+        },
+        {
+          "title": "developers.fathom.ai/sdks/available-methods",
+          "url": "https://developers.fathom.ai/sdks/available-methods",
+          "type": "source"
+        },
+        {
+          "title": "github.com/Dot-Fun/fathom-mcp",
+          "url": "https://github.com/Dot-Fun/fathom-mcp",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/findymail",
+      "slug": "findymail",
+      "name": "Findymail",
+      "path": "tools/findymail",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "unknown",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "unknown",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 2,
+        "official": 2,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "app.findymail.com/docs",
+          "url": "https://app.findymail.com/docs/",
+          "type": "official"
+        },
+        {
+          "title": "www.findymail.com/api",
+          "url": "https://www.findymail.com/api/",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/framer",
+      "slug": "framer",
+      "name": "Framer",
+      "path": "tools/framer",
+      "status": "published",
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "no",
+        "llmsTxt": "yes",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 10,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "framer.com/developers/server-api-introduction",
+          "url": "https://www.framer.com/developers/server-api-introduction",
+          "type": "source"
+        },
+        {
+          "title": "framer.com/developers/server-api-quick-start",
+          "url": "https://www.framer.com/developers/server-api-quick-start",
+          "type": "source"
+        },
+        {
+          "title": "framer.com/developers/server-api-reference",
+          "url": "https://www.framer.com/developers/server-api-reference",
+          "type": "source"
+        },
+        {
+          "title": "framer.com/developers/server-api-faq",
+          "url": "https://www.framer.com/developers/server-api-faq",
+          "type": "source"
+        },
+        {
+          "title": "framer.com/developers/reference",
+          "url": "https://www.framer.com/developers/reference",
+          "type": "source"
+        },
+        {
+          "title": "framer.com/llms.txt",
+          "url": "https://www.framer.com/llms.txt",
+          "type": "source"
+        },
+        {
+          "title": "npmjs.com/package/framer-api",
+          "url": "https://www.npmjs.com/package/framer-api",
+          "type": "source"
+        },
+        {
+          "title": "github.com/framer/server-api-examples",
+          "url": "https://github.com/framer/server-api-examples",
+          "type": "source"
+        },
+        {
+          "title": "framer.com/marketplace/plugins/mcp",
+          "url": "https://www.framer.com/marketplace/plugins/mcp",
+          "type": "source"
+        },
+        {
+          "title": "mcp.directory/servers/framer",
+          "url": "https://mcp.directory/servers/framer",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/freshdesk",
+      "slug": "freshdesk",
+      "name": "Freshdesk",
+      "path": "tools/freshdesk",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "unknown",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 3,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "developers.freshdesk.com/api",
+          "url": "https://developers.freshdesk.com/api/",
+          "type": "source"
+        },
+        {
+          "title": "developers.freshdesk.com/api",
+          "url": "https://developers.freshdesk.com/api/#ratelimit",
+          "type": "source"
+        },
+        {
+          "title": "developers.freshdesk.com/api",
+          "url": "https://developers.freshdesk.com/api/#pagination",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/freshsales",
+      "slug": "freshsales",
+      "name": "Freshsales",
+      "path": "tools/freshsales",
+      "status": "published",
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 3,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "developers.freshworks.com/crm/api",
+          "url": "https://developers.freshworks.com/crm/api/",
+          "type": "source"
+        },
+        {
+          "title": "developers.freshworks.com/crm/api",
+          "url": "https://developers.freshworks.com/crm/api/#authentication",
+          "type": "source"
+        },
+        {
+          "title": "developers.freshworks.com/crm/api",
+          "url": "https://developers.freshworks.com/crm/api/#pagination",
+          "type": "source"
+        }
+      ]
+    }
+  ]
+}

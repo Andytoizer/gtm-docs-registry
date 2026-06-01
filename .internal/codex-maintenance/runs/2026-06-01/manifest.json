@@ -1,0 +1,444 @@
+{
+  "schemaVersion": "0.1.0",
+  "runId": "2026-06-01",
+  "generatedAt": "2026-06-01T16:26:58.135Z",
+  "batchSize": 6,
+  "toolCount": 196,
+  "batchCount": 33,
+  "maxAgentsPerSwarm": 6,
+  "policy": {
+    "memoryIsEvidence": false,
+    "scoutsMayEditFiles": false,
+    "qaMustVerifyCurrentEvidence": true,
+    "applyOnlyQaApprovedFindings": true
+  },
+  "batches": [
+    {
+      "batchId": "scout-001",
+      "index": 1,
+      "toolCount": 6,
+      "toolIds": [
+        "/gtm/clearbit",
+        "/gtm/crazy-egg",
+        "/gtm/default",
+        "/gtm/folloze",
+        "/gtm/hockeystack",
+        "/gtm/influ2"
+      ]
+    },
+    {
+      "batchId": "scout-002",
+      "index": 2,
+      "toolCount": 6,
+      "toolIds": [
+        "/gtm/kaspr",
+        "/gtm/kissmetrics",
+        "/gtm/owler",
+        "/gtm/pitchbook",
+        "/gtm/webeo",
+        "/gtm/dripify"
+      ]
+    },
+    {
+      "batchId": "scout-003",
+      "index": 3,
+      "toolCount": 6,
+      "toolIds": [
+        "/gtm/ahrefs",
+        "/gtm/apify",
+        "/gtm/apollo",
+        "/gtm/appcues",
+        "/gtm/bigquery",
+        "/gtm/builtwith"
+      ]
+    },
+    {
+      "batchId": "scout-004",
+      "index": 4,
+      "toolCount": 6,
+      "toolIds": [
+        "/gtm/cargo",
+        "/gtm/close",
+        "/gtm/common-room",
+        "/gtm/crustdata",
+        "/gtm/front",
+        "/gtm/google-drive"
+      ]
+    },
+    {
+      "batchId": "scout-005",
+      "index": 5,
+      "toolCount": 6,
+      "toolIds": [
+        "/gtm/hunter",
+        "/gtm/intercom",
+        "/gtm/leadmagic",
+        "/gtm/make",
+        "/gtm/mixpanel",
+        "/gtm/n8n"
+      ]
+    },
+    {
+      "batchId": "scout-006",
+      "index": 6,
+      "toolCount": 6,
+      "toolIds": [
+        "/gtm/notion",
+        "/gtm/people-data-labs",
+        "/gtm/pinecone",
+        "/gtm/prospeo",
+        "/gtm/rudderstack",
+        "/gtm/salesforce"
+      ]
+    },
+    {
+      "batchId": "scout-007",
+      "index": 7,
+      "toolCount": 6,
+      "toolIds": [
+        "/gtm/semrush",
+        "/gtm/serpapi",
+        "/gtm/similarweb",
+        "/gtm/supabase",
+        "/gtm/sybill",
+        "/gtm/tally"
+      ]
+    },
+    {
+      "batchId": "scout-008",
+      "index": 8,
+      "toolCount": 6,
+      "toolIds": [
+        "/gtm/theirstack",
+        "/gtm/trigify",
+        "/gtm/unify",
+        "/gtm/userguiding",
+        "/gtm/wordpress",
+        "/gtm/activecampaign"
+      ]
+    },
+    {
+      "batchId": "scout-009",
+      "index": 9,
+      "toolCount": 6,
+      "toolIds": [
+        "/gtm/airbyte",
+        "/gtm/attio",
+        "/gtm/calcom",
+        "/gtm/customerio",
+        "/gtm/diffbot",
+        "/gtm/exa"
+      ]
+    },
+    {
+      "batchId": "scout-010",
+      "index": 10,
+      "toolCount": 6,
+      "toolIds": [
+        "/gtm/firecrawl",
+        "/gtm/fireflies",
+        "/gtm/fivetran",
+        "/gtm/hubspot",
+        "/gtm/keap",
+        "/gtm/klaviyo"
+      ]
+    },
+    {
+      "batchId": "scout-011",
+      "index": 11,
+      "toolCount": 6,
+      "toolIds": [
+        "/gtm/lemlist",
+        "/gtm/loops",
+        "/gtm/lusha",
+        "/gtm/monaco",
+        "/gtm/pipedream",
+        "/gtm/posthog"
+      ]
+    },
+    {
+      "batchId": "scout-012",
+      "index": 12,
+      "toolCount": 6,
+      "toolIds": [
+        "/gtm/replyio",
+        "/gtm/resend",
+        "/gtm/rocketreach",
+        "/gtm/seamless",
+        "/gtm/smartlead",
+        "/gtm/warmly"
+      ]
+    },
+    {
+      "batchId": "scout-013",
+      "index": 13,
+      "toolCount": 6,
+      "toolIds": [
+        "/gtm/webflow",
+        "/gtm/zapier",
+        "/gtm/6sense",
+        "/gtm/marketo",
+        "/gtm/ai-ark",
+        "/gtm/amplemarket"
+      ]
+    },
+    {
+      "batchId": "scout-014",
+      "index": 14,
+      "toolCount": 6,
+      "toolIds": [
+        "/gtm/autoklose",
+        "/gtm/avoma",
+        "/gtm/bettercontact",
+        "/gtm/braze",
+        "/gtm/calendly",
+        "/gtm/campaign-monitor"
+      ]
+    },
+    {
+      "batchId": "scout-015",
+      "index": 15,
+      "toolCount": 6,
+      "toolIds": [
+        "/gtm/census",
+        "/gtm/chameleon",
+        "/gtm/chili-piper",
+        "/gtm/clari-copilot",
+        "/gtm/clarify",
+        "/gtm/clay"
+      ]
+    },
+    {
+      "batchId": "scout-016",
+      "index": 16,
+      "toolCount": 6,
+      "toolIds": [
+        "/gtm/cognism",
+        "/gtm/contactout",
+        "/gtm/contentsquare",
+        "/gtm/copper",
+        "/gtm/countly",
+        "/gtm/creatio"
+      ]
+    },
+    {
+      "batchId": "scout-017",
+      "index": 17,
+      "toolCount": 6,
+      "toolIds": [
+        "/gtm/crisp",
+        "/gtm/crunchbase",
+        "/gtm/datagma",
+        "/gtm/demandbase",
+        "/gtm/dreamdata",
+        "/gtm/drip"
+      ]
+    },
+    {
+      "batchId": "scout-018",
+      "index": 18,
+      "toolCount": 6,
+      "toolIds": [
+        "/gtm/emelia",
+        "/gtm/fathom",
+        "/gtm/findymail",
+        "/gtm/framer",
+        "/gtm/freshdesk",
+        "/gtm/freshsales"
+      ]
+    },
+    {
+      "batchId": "scout-019",
+      "index": 19,
+      "toolCount": 6,
+      "toolIds": [
+        "/gtm/fullenrich",
+        "/gtm/gohighlevel",
+        "/gtm/gong",
+        "/gtm/google-places",
+        "/gtm/gorgias",
+        "/gtm/help-scout"
+      ]
+    },
+    {
+      "batchId": "scout-020",
+      "index": 20,
+      "toolCount": 6,
+      "toolIds": [
+        "/gtm/heyreach",
+        "/gtm/hightouch",
+        "/gtm/icypeas",
+        "/gtm/insightly",
+        "/gtm/inspectlet",
+        "/gtm/instantly"
+      ]
+    },
+    {
+      "batchId": "scout-021",
+      "index": 21,
+      "toolCount": 6,
+      "toolIds": [
+        "/gtm/iterable",
+        "/gtm/jungler",
+        "/gtm/lead-forensics",
+        "/gtm/leadiq",
+        "/gtm/lightfield",
+        "/gtm/mailchimp"
+      ]
+    },
+    {
+      "batchId": "scout-022",
+      "index": 22,
+      "toolCount": 6,
+      "toolIds": [
+        "/gtm/matomo",
+        "/gtm/meetgeek",
+        "/gtm/metadata",
+        "/gtm/microsoft-dynamics-365-sales",
+        "/gtm/monday-crm",
+        "/gtm/mouseflow"
+      ]
+    },
+    {
+      "batchId": "scout-023",
+      "index": 23,
+      "toolCount": 6,
+      "toolIds": [
+        "/gtm/mparticle",
+        "/gtm/nutshell",
+        "/gtm/obsidian",
+        "/gtm/ocean",
+        "/gtm/ortto",
+        "/gtm/otter-ai"
+      ]
+    },
+    {
+      "batchId": "scout-024",
+      "index": 24,
+      "toolCount": 6,
+      "toolIds": [
+        "/gtm/outplay",
+        "/gtm/outreach",
+        "/gtm/owox",
+        "/gtm/pathfactory",
+        "/gtm/pendo",
+        "/gtm/phantombuster"
+      ]
+    },
+    {
+      "batchId": "scout-025",
+      "index": 25,
+      "toolCount": 6,
+      "toolIds": [
+        "/gtm/pipedrive",
+        "/gtm/pylon",
+        "/gtm/reachinbox",
+        "/gtm/relevance-ai",
+        "/gtm/rollworks",
+        "/gtm/ruler-analytics"
+      ]
+    },
+    {
+      "batchId": "scout-026",
+      "index": 26,
+      "toolCount": 6,
+      "toolIds": [
+        "/gtm/salesblink",
+        "/gtm/pardot",
+        "/gtm/saleshandy",
+        "/gtm/salesloft",
+        "/gtm/segment",
+        "/gtm/sendgrid"
+      ]
+    },
+    {
+      "batchId": "scout-027",
+      "index": 27,
+      "toolCount": 6,
+      "toolIds": [
+        "/gtm/serper",
+        "/gtm/signalhire",
+        "/gtm/smartreach",
+        "/gtm/snitcher",
+        "/gtm/sumble",
+        "/gtm/tealium"
+      ]
+    },
+    {
+      "batchId": "scout-028",
+      "index": 28,
+      "toolCount": 6,
+      "toolIds": [
+        "/gtm/teamleader",
+        "/gtm/tldv",
+        "/gtm/tray",
+        "/gtm/typeform",
+        "/gtm/uberflip",
+        "/gtm/uptics"
+      ]
+    },
+    {
+      "batchId": "scout-029",
+      "index": 29,
+      "toolCount": 6,
+      "toolIds": [
+        "/gtm/userflow",
+        "/gtm/userpilot",
+        "/gtm/vero",
+        "/gtm/waalaxy",
+        "/gtm/wiza",
+        "/gtm/woopra"
+      ]
+    },
+    {
+      "batchId": "scout-030",
+      "index": 30,
+      "toolCount": 6,
+      "toolIds": [
+        "/gtm/workato",
+        "/gtm/zendesk",
+        "/gtm/zerobounce",
+        "/gtm/zoho-crm",
+        "/gtm/zoominfo",
+        "/gtm/dbt-cloud"
+      ]
+    },
+    {
+      "batchId": "scout-031",
+      "index": 31,
+      "toolCount": 6,
+      "toolIds": [
+        "/gtm/enrow",
+        "/gtm/gamma",
+        "/gtm/granola",
+        "/gtm/kondo",
+        "/gtm/la-growth-machine",
+        "/gtm/logodev"
+      ]
+    },
+    {
+      "batchId": "scout-032",
+      "index": 32,
+      "toolCount": 6,
+      "toolIds": [
+        "/gtm/neverbounce",
+        "/gtm/nooks",
+        "/gtm/parabola",
+        "/gtm/quickmail",
+        "/gtm/rb2b",
+        "/gtm/snowflake"
+      ]
+    },
+    {
+      "batchId": "scout-033",
+      "index": 33,
+      "toolCount": 4,
+      "toolIds": [
+        "/gtm/spyfu",
+        "/gtm/tidio",
+        "/gtm/unavatar",
+        "/gtm/vector"
+      ]
+    }
+  ]
+}

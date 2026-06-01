@@ -1,0 +1,387 @@
+{
+  "runId": "2026-06-01",
+  "batchId": "scout-001",
+  "generatedAt": "2026-06-01T16:26:58.135Z",
+  "maxAgentsPerSwarm": 6,
+  "promptPath": ".internal/codex-maintenance/prompts/scout.md",
+  "schemaPath": ".internal/codex-maintenance/schemas/scout-finding.schema.json",
+  "tools": [
+    {
+      "id": "/gtm/clearbit",
+      "slug": "clearbit",
+      "name": "Clearbit",
+      "path": "tools/clearbit",
+      "status": "needs-review",
+      "agentReadinessScore": 2,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": true,
+      "reviewReason": "Exact blocker: current endpoint-level API documentation at clearbit.com/docs is behind dashboard login, while public Help Center articles are legacy/customer-plan specific. Need authenticated confirmation of current Enrichment/Reveal availability, auth, rate limits, pagination, and OpenAPI/spec status.",
+      "interfaces": {
+        "officialMcp": "no",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "no",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 10,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "Clearbit home",
+          "url": "https://clearbit.com/",
+          "type": "source"
+        },
+        {
+          "title": "Clearbit dashboard docs redirect",
+          "url": "https://clearbit.com/docs",
+          "type": "source"
+        },
+        {
+          "title": "Clearbit APIs Help Center category",
+          "url": "https://help.clearbit.com/hc/en-us/categories/360000913214-APIs",
+          "type": "source"
+        },
+        {
+          "title": "What Counts as an API Request?",
+          "url": "https://help.clearbit.com/hc/en-us/articles/115015390748-What-Counts-as-an-API-Request",
+          "type": "source"
+        },
+        {
+          "title": "What is the Reveal API?",
+          "url": "https://help.clearbit.com/hc/en-us/articles/360051664114-What-is-the-Reveal-API",
+          "type": "source"
+        },
+        {
+          "title": "What Does an Enrichment Payload Look Like?",
+          "url": "https://help.clearbit.com/hc/en-us/articles/4419649060119-What-Does-an-Enrichment-Payload-Look-Like",
+          "type": "source"
+        },
+        {
+          "title": "Getting Started with Batch Enrichment",
+          "url": "https://help.clearbit.com/hc/en-us/articles/115012670127-Getting-Started-with-Batch-Enrichment",
+          "type": "source"
+        },
+        {
+          "title": "Clearbit API Version Change Logs",
+          "url": "https://help.clearbit.com/hc/en-us/articles/115015797408-Clearbit-API-Version-Change-Logs",
+          "type": "source"
+        },
+        {
+          "title": "Clearbit By HubSpot enrichment setup",
+          "url": "https://help.clearbit.com/hc/en-us/articles/21570749175703-Clearbit-By-HubSpot-Set-Up-Clearbit-Enrichment-for-HubSpot",
+          "type": "source"
+        },
+        {
+          "title": "clearbit-node deprecated official SDK",
+          "url": "https://github.com/clearbit/clearbit-node",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/crazy-egg",
+      "slug": "crazy-egg",
+      "name": "Crazy Egg",
+      "path": "tools/crazy-egg",
+      "status": "needs-review",
+      "agentReadinessScore": 2,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": true,
+      "reviewReason": "Keep needs-review: official public API coverage is limited to server-side conversion event ingestion; no official public account/report API for heatmaps, snapshots, recordings, A/B tests, or survey retrieval was found.",
+      "interfaces": {
+        "officialMcp": "no",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "no",
+        "llmsTxt": "unknown",
+        "officialSdk": "no"
+      },
+      "sourceCounts": {
+        "total": 3,
+        "official": 1,
+        "community": 2
+      },
+      "sourceUrls": [
+        {
+          "title": "Crazy Egg Conversion Tracking API",
+          "url": "https://support.crazyegg.com/knowledge-base/conversion-tracking-api/",
+          "type": "official"
+        },
+        {
+          "title": "How to get started with Crazy Egg on Zapier",
+          "url": "https://help.zapier.com/hc/en-us/articles/10459896422285-How-to-get-started-with-Crazy-Egg-on-Zapier",
+          "type": "community"
+        },
+        {
+          "title": "Zapier Crazy Egg MCP",
+          "url": "https://zapier.com/mcp/crazy-egg",
+          "type": "community"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/default",
+      "slug": "default",
+      "name": "Default",
+      "path": "tools/default",
+      "status": "needs-review",
+      "agentReadinessScore": 2,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": true,
+      "reviewReason": "Still not publishable: only official product/help-center integration docs surfaced for Forms SDK/listener callbacks, generated inbound webhook URLs, and CRM object triggers. No public REST API auth, OpenAPI, rate-limit, pagination, MCP, CLI, or credible community agent connector evidence was found; confirm whether developer API docs are private/customer-only.",
+      "interfaces": {
+        "officialMcp": "no",
+        "officialCli": "no",
+        "officialApi": "unknown",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 9,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "Default homepage",
+          "url": "https://www.default.com",
+          "type": "source"
+        },
+        {
+          "title": "Default Knowledge Base",
+          "url": "https://docs.default.com/",
+          "type": "source"
+        },
+        {
+          "title": "Default Glossary",
+          "url": "https://docs.default.com/article/glossary",
+          "type": "source"
+        },
+        {
+          "title": "Default Webhook Received Trigger",
+          "url": "https://docs.default.com/article/webhook-trigger",
+          "type": "source"
+        },
+        {
+          "title": "Default Webflow Form Integration",
+          "url": "https://docs.default.com/article/connecting-a-web-flow-form-to-default",
+          "type": "source"
+        },
+        {
+          "title": "Default HubSpot Object Trigger",
+          "url": "https://docs.default.com/article/hub-spot-object-created",
+          "type": "source"
+        },
+        {
+          "title": "Default Salesforce Object Trigger",
+          "url": "https://docs.default.com/article/sfdc-object-created-trigger",
+          "type": "source"
+        },
+        {
+          "title": "GitHub repository search for Default.com MCP",
+          "url": "https://github.com/search?q=%22default.com%22+mcp&type=repositories",
+          "type": "search"
+        },
+        {
+          "title": "npm package search for Default.com MCP",
+          "url": "https://www.npmjs.com/search?q=default.com%20mcp",
+          "type": "search"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/folloze",
+      "slug": "folloze",
+      "name": "Folloze",
+      "path": "tools/folloze",
+      "status": "needs-review",
+      "agentReadinessScore": 1,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": true,
+      "reviewReason": "Insufficient agent retrieval coverage: public official sources document product usage and managed connectors, but no public Folloze developer API/auth/object endpoint/rate-limit/pagination reference was found; developer docs may be customer-gated or unavailable.",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "no",
+        "officialApi": "unknown",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 7,
+        "official": 6,
+        "community": 1
+      },
+      "sourceUrls": [
+        {
+          "title": "folloze.com",
+          "url": "https://www.folloze.com/",
+          "type": "official"
+        },
+        {
+          "title": "help.folloze.com",
+          "url": "https://help.folloze.com/",
+          "type": "official"
+        },
+        {
+          "title": "Get started with Folloze",
+          "url": "https://help.folloze.com/s/article/Get-started-with-Folloze",
+          "type": "official"
+        },
+        {
+          "title": "Folloze + Salesforce - Connector Setup Guide",
+          "url": "https://help.folloze.com/s/article/Folloze-Salesforce-Connector-Setup-Guide",
+          "type": "official"
+        },
+        {
+          "title": "Folloze Forms and Marketo Integration",
+          "url": "https://help.folloze.com/hc/en-us/articles/4402947590291-Folloze-Forms-and-Marketo-Integration",
+          "type": "official"
+        },
+        {
+          "title": "Folloze Analytics - Using the Pulse Tab",
+          "url": "https://help.folloze.com/hc/en-us/articles/115001902034-Folloze-Analytics-Using-the-Pulse-Tab",
+          "type": "official"
+        },
+        {
+          "title": "Folloze API profile - API Tracker",
+          "url": "https://apitracker.io/a/folloze",
+          "type": "community"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/hockeystack",
+      "slug": "hockeystack",
+      "name": "HockeyStack",
+      "path": "tools/hockeystack",
+      "status": "needs-review",
+      "agentReadinessScore": 2,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": true,
+      "reviewReason": "Still not publishable: public official coverage is llms/product docs plus an official browser tracking npm package, while no credible HockeyStack-specific MCP/CLI and no official server API reference for auth, endpoints, pagination, rate limits, schemas, or write/destructive semantics was found.",
+      "interfaces": {
+        "officialMcp": "no",
+        "officialCli": "no",
+        "officialApi": "unknown",
+        "openApi": "unknown",
+        "llmsTxt": "yes",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 10,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "docs.hockeystack.com",
+          "url": "https://docs.hockeystack.com/",
+          "type": "source"
+        },
+        {
+          "title": "docs.hockeystack.com/llms.txt",
+          "url": "https://docs.hockeystack.com/llms.txt",
+          "type": "source"
+        },
+        {
+          "title": "docs.hockeystack.com/integrations/installing-the-website-tracker/react",
+          "url": "https://docs.hockeystack.com/integrations/installing-the-website-tracker/react",
+          "type": "source"
+        },
+        {
+          "title": "docs.hockeystack.com/technical-details/tracking/customize-your-tracking",
+          "url": "https://docs.hockeystack.com/technical-details/tracking/customize-your-tracking",
+          "type": "source"
+        },
+        {
+          "title": "docs.hockeystack.com/marketing-intelligence/the-hockeystack-data-model.md",
+          "url": "https://docs.hockeystack.com/marketing-intelligence/the-hockeystack-data-model.md",
+          "type": "source"
+        },
+        {
+          "title": "docs.hockeystack.com/account-intelligence/account-intelligence-configuration-guide.md",
+          "url": "https://docs.hockeystack.com/account-intelligence/account-intelligence-configuration-guide.md",
+          "type": "source"
+        },
+        {
+          "title": "dlthub.com/context/source/hockeystack",
+          "url": "https://dlthub.com/context/source/hockeystack",
+          "type": "source"
+        },
+        {
+          "title": "hockeystack.com",
+          "url": "https://hockeystack.com/",
+          "type": "source"
+        },
+        {
+          "title": "hockeystack npm package",
+          "url": "https://www.npmjs.com/package/hockeystack",
+          "type": "official-sdk"
+        },
+        {
+          "title": "HockeyStack/hockeystack-js",
+          "url": "https://github.com/HockeyStack/hockeystack-js",
+          "type": "official-sdk"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/influ2",
+      "slug": "influ2",
+      "name": "Influ2",
+      "path": "tools/influ2",
+      "status": "needs-review",
+      "agentReadinessScore": 2,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": true,
+      "reviewReason": "No official public Influ2 API reference or official MCP/SDK docs found; community influ2-mcp package is useful but unofficial and should be validated against customer-gated Influ2 API docs before live use.",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "no",
+        "officialApi": "unknown",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 4,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "Influ2 website",
+          "url": "https://www.influ2.com/",
+          "type": "source"
+        },
+        {
+          "title": "Influ2 Help - Salesforce integration",
+          "url": "https://help.influ2.com/articles/7290465539-how-to-integrate-influ2-with-salesforce",
+          "type": "source"
+        },
+        {
+          "title": "PyPI - influ2-mcp",
+          "url": "https://pypi.org/project/influ2-mcp/",
+          "type": "source"
+        },
+        {
+          "title": "piwheels - influ2-mcp",
+          "url": "https://www.piwheels.org/project/influ2-mcp",
+          "type": "source"
+        }
+      ]
+    }
+  ]
+}

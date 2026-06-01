@@ -1,0 +1,138 @@
+{
+  "runId": "2026-06-01",
+  "batchId": "scout-001",
+  "checkedAt": "2026-06-01T16:40:00.000Z",
+  "status": "complete",
+  "tools": [
+    {
+      "toolId": "/gtm/clearbit",
+      "slug": "clearbit",
+      "name": "Clearbit",
+      "status": "checked",
+      "summary": "Public evidence still supports the existing cautious profile: Clearbit's public help center still exposes legacy API categories, while current endpoint docs redirect to an authenticated login flow.",
+      "findings": [
+        {
+          "kind": "verification-refresh",
+          "field": "tool.lastVerified",
+          "current": "2026-05-28",
+          "proposed": "2026-06-01",
+          "confidence": "high",
+          "evidenceUrls": [
+            "https://clearbit.com/docs",
+            "https://help.clearbit.com/hc/en-us/categories/360000913214-APIs"
+          ],
+          "reason": "Current public sources rechecked in this run still support keeping the profile in a cautious state, so the verification date can be refreshed without changing other metadata."
+        }
+      ]
+    },
+    {
+      "toolId": "/gtm/crazy-egg",
+      "slug": "crazy-egg",
+      "name": "Crazy Egg",
+      "status": "checked",
+      "summary": "Current public docs still expose a limited official API surface focused on conversion-event ingestion, which matches the existing low-readiness, needs-review profile.",
+      "findings": [
+        {
+          "kind": "verification-refresh",
+          "field": "tool.lastVerified",
+          "current": "2026-05-28",
+          "proposed": "2026-06-01",
+          "confidence": "high",
+          "evidenceUrls": [
+            "https://support.crazyegg.com/knowledge-base/conversion-tracking-api/"
+          ],
+          "reason": "The current official article still documents the same authenticated conversion-tracking endpoint, batch limits, and non-numeric rate-limit warning, supporting a verification-date refresh only."
+        }
+      ]
+    },
+    {
+      "toolId": "/gtm/default",
+      "slug": "default",
+      "name": "Default",
+      "status": "checked",
+      "summary": "Official public sources still document product workflows, webhook triggers, and a Forms SDK, but they do not expose a general public REST API reference.",
+      "findings": [
+        {
+          "kind": "verification-refresh",
+          "field": "tool.lastVerified",
+          "current": "2026-05-28",
+          "proposed": "2026-06-01",
+          "confidence": "high",
+          "evidenceUrls": [
+            "https://docs.default.com/",
+            "https://docs.default.com/article/webhook-trigger",
+            "https://docs.default.com/article/glossary"
+          ],
+          "reason": "Current official help content still supports the existing profile: workflow/webhook and Forms SDK guidance are public, while public API auth, pagination, and rate-limit docs remain absent."
+        }
+      ]
+    },
+    {
+      "toolId": "/gtm/folloze",
+      "slug": "folloze",
+      "name": "Folloze",
+      "status": "checked",
+      "summary": "Official Folloze help content still focuses on product usage and managed integrations; no public Folloze developer API reference surfaced in this run.",
+      "findings": [
+        {
+          "kind": "verification-refresh",
+          "field": "tool.lastVerified",
+          "current": "2026-05-28",
+          "proposed": "2026-06-01",
+          "confidence": "high",
+          "evidenceUrls": [
+            "https://help.folloze.com/s/article/Get-started-with-Folloze",
+            "https://help.folloze.com/s/article/Folloze-Salesforce-Connector-Setup-Guide",
+            "https://help.folloze.com/s/topic/0TOQj0000000JqfOAE/integrations"
+          ],
+          "reason": "The current official help center still documents product usage and connector behavior rather than a public Folloze API contract, so only the verification date should change."
+        }
+      ]
+    },
+    {
+      "toolId": "/gtm/hockeystack",
+      "slug": "hockeystack",
+      "name": "HockeyStack",
+      "status": "checked",
+      "summary": "Current official documentation still emphasizes product, webhook, and tracking surfaces plus an official browser SDK package; a general public server API reference remains unresolved.",
+      "findings": [
+        {
+          "kind": "verification-refresh",
+          "field": "tool.lastVerified",
+          "current": "2026-05-28",
+          "proposed": "2026-06-01",
+          "confidence": "medium",
+          "evidenceUrls": [
+            "https://docs.hockeystack.com/",
+            "https://docs.hockeystack.com/documentation/send-view-updates-to-webhooks",
+            "https://www.npmjs.com/package/hockeystack",
+            "https://agents-docs.hockeystack.com/"
+          ],
+          "reason": "Current official docs still support the existing cautious profile: product and agent docs are public, an official npm tracking package exists, and no broad public server API reference was confirmed."
+        }
+      ]
+    },
+    {
+      "toolId": "/gtm/influ2",
+      "slug": "influ2",
+      "name": "Influ2",
+      "status": "checked",
+      "summary": "Official Influ2 help content still documents Salesforce integration behavior and operational limits, but a general public Influ2 developer API reference did not surface.",
+      "findings": [
+        {
+          "kind": "verification-refresh",
+          "field": "tool.lastVerified",
+          "current": "2026-05-28",
+          "proposed": "2026-06-01",
+          "confidence": "high",
+          "evidenceUrls": [
+            "https://help.influ2.com/articles/7290465539-how-to-integrate-influ2-with-salesforce",
+            "https://help.influ2.com/articles/5571808542-how-to-activate-your-influ2-integrations",
+            "https://www.influ2.com/product"
+          ],
+          "reason": "Current official sources still support the existing low-readiness profile: integration behavior is documented publicly, but a public API reference or official MCP/SDK surface was not verified."
+        }
+      ]
+    }
+  ]
+}

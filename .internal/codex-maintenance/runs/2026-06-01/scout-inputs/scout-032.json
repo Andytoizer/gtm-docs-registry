@@ -1,0 +1,327 @@
+{
+  "runId": "2026-06-01",
+  "batchId": "scout-032",
+  "generatedAt": "2026-06-01T16:26:58.135Z",
+  "maxAgentsPerSwarm": 6,
+  "promptPath": ".internal/codex-maintenance/prompts/scout.md",
+  "schemaPath": ".internal/codex-maintenance/schemas/scout-finding.schema.json",
+  "tools": [
+    {
+      "id": "/gtm/neverbounce",
+      "slug": "neverbounce",
+      "name": "NeverBounce",
+      "path": "tools/neverbounce",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "no",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "yes",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 5,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "developers.neverbounce.com/v4.1/reference",
+          "url": "https://developers.neverbounce.com/v4.1/reference",
+          "type": "source"
+        },
+        {
+          "title": "developers.neverbounce.com/v4.1/reference/jobs-create",
+          "url": "https://developers.neverbounce.com/v4.1/reference/jobs-create",
+          "type": "source"
+        },
+        {
+          "title": "github.com/NeverBounce/NeverBounceApi-Go",
+          "url": "https://github.com/NeverBounce/NeverBounceApi-Go",
+          "type": "source"
+        },
+        {
+          "title": "zapier.com/mcp/neverbounce",
+          "url": "https://zapier.com/mcp/neverbounce",
+          "type": "source"
+        },
+        {
+          "title": "composio.dev/toolkits/neverbounce/framework/open-ai-agents-sdk",
+          "url": "https://composio.dev/toolkits/neverbounce/framework/open-ai-agents-sdk",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/nooks",
+      "slug": "nooks",
+      "name": "Nooks",
+      "path": "tools/nooks",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "no",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "no",
+        "officialSdk": "no"
+      },
+      "sourceCounts": {
+        "total": 2,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "Nooks",
+          "url": "https://www.nooks.ai/",
+          "type": "official-site"
+        },
+        {
+          "title": "Nooks API Documentation",
+          "url": "https://developer.nooks.in/",
+          "type": "official-api"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/parabola",
+      "slug": "parabola",
+      "name": "Parabola",
+      "path": "tools/parabola",
+      "status": "published",
+      "agentReadinessScore": 2,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "no",
+        "officialCli": "no",
+        "officialApi": "no",
+        "openApi": "no",
+        "llmsTxt": "yes",
+        "officialSdk": "no"
+      },
+      "sourceCounts": {
+        "total": 8,
+        "official": 8,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "type": "official",
+          "title": "Official website",
+          "url": "https://parabola.io/"
+        },
+        {
+          "type": "official",
+          "title": "AI-readable docs index",
+          "url": "https://parabola.io/docs/llms.txt"
+        },
+        {
+          "type": "official",
+          "title": "Connect an API to Parabola",
+          "url": "https://parabola.io/docs/product/integration/api"
+        },
+        {
+          "type": "official",
+          "title": "Post data to a webhook",
+          "url": "https://parabola.io/docs/articles/how-do-i-post-data-to-a-webhook"
+        },
+        {
+          "type": "official",
+          "title": "Run and update workflows",
+          "url": "https://parabola.io/docs/product/canvas/updating-and-running-your-flow"
+        },
+        {
+          "type": "official",
+          "title": "API error handling",
+          "url": "https://parabola.io/docs/articles/api-errors"
+        },
+        {
+          "type": "official",
+          "title": "Inspect API request and response details",
+          "url": "https://parabola.io/docs/articles/how-can-i-see-complete-error-messages-associated-with-an-api-call"
+        },
+        {
+          "type": "official",
+          "title": "User offboarding and auth ownership",
+          "url": "https://parabola.io/docs/articles/user-offboarding-transferring-flow-step-authentication-ownership"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/quickmail",
+      "slug": "quickmail",
+      "name": "QuickMail",
+      "path": "tools/quickmail",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "no",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "no",
+        "llmsTxt": "no",
+        "officialSdk": "no"
+      },
+      "sourceCounts": {
+        "total": 3,
+        "official": 2,
+        "community": 1
+      },
+      "sourceUrls": [
+        {
+          "type": "official",
+          "title": "Official website",
+          "url": "https://quickmail.com/"
+        },
+        {
+          "type": "official",
+          "title": "QuickMail API V2 GraphQL documentation",
+          "url": "https://api.quickmail.com/help"
+        },
+        {
+          "type": "community",
+          "title": "Reddit thread pointing from older Notion docs to current API docs",
+          "url": "https://www.reddit.com/r/coldemail/comments/1tcrod2/any_advice_on_a_solid_mcp_outbound_infra/"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/rb2b",
+      "slug": "rb2b",
+      "name": "RB2B",
+      "path": "tools/rb2b",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "no",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "no",
+        "llmsTxt": "no",
+        "officialSdk": "no"
+      },
+      "sourceCounts": {
+        "total": 5,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "RB2B APIs: RB2B's API Partner Program",
+          "url": "https://support.rb2b.com/en/articles/12579420-rb2b-apis-rb2b-s-api-partner-program",
+          "type": "official-api-docs"
+        },
+        {
+          "title": "RB2B API Suite",
+          "url": "https://www.rb2b.com/apis",
+          "type": "official-api-docs"
+        },
+        {
+          "title": "RB2B APIs Postman Collection",
+          "url": "https://www.postman.com/rb2b-api/apis/collection/n7gn6w7/rb2b-apis",
+          "type": "official-api-docs"
+        },
+        {
+          "title": "Setup Guide: Webhook",
+          "url": "https://support.rb2b.com/en/articles/8976614-setup-guide-webhook",
+          "type": "official-webhook-docs"
+        },
+        {
+          "title": "How RB2B's Integrations Work",
+          "url": "https://support.rb2b.com/en/articles/10551225-how-rb2b-s-integrations-work",
+          "type": "official-integration-docs"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/snowflake",
+      "slug": "snowflake",
+      "name": "Snowflake",
+      "path": "tools/snowflake",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "yes",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "yes",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 8,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp",
+          "url": "https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp",
+          "type": "source"
+        },
+        {
+          "title": "docs.snowflake.com/en/developer-guide/snowflake-cli/command-reference/overview",
+          "url": "https://docs.snowflake.com/en/developer-guide/snowflake-cli/command-reference/overview",
+          "type": "source"
+        },
+        {
+          "title": "docs.snowflake.com/en/developer-guide/snowflake-rest-api/snowflake-rest-api",
+          "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/snowflake-rest-api",
+          "type": "source"
+        },
+        {
+          "title": "docs.snowflake.com/en/developer-guide/snowflake-rest-api/reference",
+          "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/reference",
+          "type": "source"
+        },
+        {
+          "title": "docs.snowflake.com/en/developer-guide/sql-api/index",
+          "url": "https://docs.snowflake.com/en/developer-guide/sql-api/index",
+          "type": "source"
+        },
+        {
+          "title": "docs.snowflake.com/llms.txt",
+          "url": "https://docs.snowflake.com/llms.txt",
+          "type": "source"
+        },
+        {
+          "title": "github.com/snowflakedb/snowflake-rest-api-specs",
+          "url": "https://github.com/snowflakedb/snowflake-rest-api-specs",
+          "type": "source"
+        },
+        {
+          "title": "github.com/Snowflake-Labs/mcp",
+          "url": "https://github.com/Snowflake-Labs/mcp",
+          "type": "source"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,282 @@
+{
+  "runId": "2026-06-01",
+  "batchId": "scout-020",
+  "generatedAt": "2026-06-01T16:26:58.135Z",
+  "maxAgentsPerSwarm": 6,
+  "promptPath": ".internal/codex-maintenance/prompts/scout.md",
+  "schemaPath": ".internal/codex-maintenance/schemas/scout-finding.schema.json",
+  "tools": [
+    {
+      "id": "/gtm/heyreach",
+      "slug": "heyreach",
+      "name": "HeyReach",
+      "path": "tools/heyreach",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "no",
+        "officialSdk": "no"
+      },
+      "sourceCounts": {
+        "total": 8,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "HeyReach",
+          "url": "https://www.heyreach.io",
+          "type": "official-site"
+        },
+        {
+          "title": "HeyReach MCP",
+          "url": "https://www.heyreach.io/mcp",
+          "type": "official-mcp"
+        },
+        {
+          "title": "How to Integrate HeyReach MCP with Claude",
+          "url": "https://help.heyreach.io/en/articles/12123398-how-to-integrate-heyreach-mcp-with-claude",
+          "type": "official-mcp"
+        },
+        {
+          "title": "HeyReach API and Webhooks",
+          "url": "https://help.heyreach.io/en/collections/10421883-api-webhooks",
+          "type": "official-api"
+        },
+        {
+          "title": "HeyReach Campaign API",
+          "url": "https://www.heyreach.io/blog/campaign-api",
+          "type": "official-api"
+        },
+        {
+          "title": "HeyReach API Postman Docs",
+          "url": "https://www.postman.com/chad-999/highlevel/documentation/5ud7ues/heyreach-api",
+          "type": "supplemental-api"
+        },
+        {
+          "title": "Community HeyReach CLI",
+          "url": "https://github.com/bcharleson/heyreach-cli",
+          "type": "community-cli"
+        },
+        {
+          "title": "Community HeyReach MCP",
+          "url": "https://github.com/bcharleson/heyreach-mcp",
+          "type": "community-mcp"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/hightouch",
+      "slug": "hightouch",
+      "name": "Hightouch",
+      "path": "tools/hightouch",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "yes",
+        "officialApi": "yes",
+        "openApi": "yes",
+        "llmsTxt": "unknown",
+        "officialSdk": "yes"
+      },
+      "sourceCounts": {
+        "total": 3,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "hightouch.com/docs/api-reference",
+          "url": "https://hightouch.com/docs/api-reference",
+          "type": "source"
+        },
+        {
+          "title": "hightouch.com/docs/developer-tools/cli",
+          "url": "https://hightouch.com/docs/developer-tools/cli",
+          "type": "source"
+        },
+        {
+          "title": "hightouch.com/docs/api-reference/openapi",
+          "url": "https://hightouch.com/docs/api-reference/openapi",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/icypeas",
+      "slug": "icypeas",
+      "name": "Icypeas",
+      "path": "tools/icypeas",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "unknown",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 2,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "app.icypeas.com/api-docs",
+          "url": "https://app.icypeas.com/api-docs",
+          "type": "source"
+        },
+        {
+          "title": "icypeas.com",
+          "url": "https://www.icypeas.com/",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/insightly",
+      "slug": "insightly",
+      "name": "Insightly",
+      "path": "tools/insightly",
+      "status": "published",
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "unknown",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "unknown",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 2,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "api.insightly.com/v3.1/Help",
+          "url": "https://api.insightly.com/v3.1/Help",
+          "type": "source"
+        },
+        {
+          "title": "support.insight.ly/en-us/Knowledge/article/1817/Insightly_API",
+          "url": "https://support.insight.ly/en-us/Knowledge/article/1817/Insightly_API/",
+          "type": "source"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/inspectlet",
+      "slug": "inspectlet",
+      "name": "Inspectlet",
+      "path": "tools/inspectlet",
+      "status": "published",
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "no",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "no",
+        "llmsTxt": "unknown",
+        "officialSdk": "no"
+      },
+      "sourceCounts": {
+        "total": 2,
+        "official": 2,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "Inspectlet API Reference",
+          "url": "https://apidocs.inspectlet.com/",
+          "type": "official"
+        },
+        {
+          "title": "Inspectlet Docs",
+          "url": "https://docs.inspectlet.com/",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "/gtm/instantly",
+      "slug": "instantly",
+      "name": "Instantly",
+      "path": "tools/instantly",
+      "status": "published",
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28",
+      "daysSinceVerified": 4,
+      "needsHumanReview": false,
+      "reviewReason": "",
+      "interfaces": {
+        "officialMcp": "yes",
+        "officialCli": "no",
+        "officialApi": "yes",
+        "openApi": "unknown",
+        "llmsTxt": "yes",
+        "officialSdk": "unknown"
+      },
+      "sourceCounts": {
+        "total": 5,
+        "official": 0,
+        "community": 0
+      },
+      "sourceUrls": [
+        {
+          "title": "developer.instantly.ai/api-reference/introduction",
+          "url": "https://developer.instantly.ai/api-reference/introduction",
+          "type": "source"
+        },
+        {
+          "title": "developer.instantly.ai/llms.txt",
+          "url": "https://developer.instantly.ai/llms.txt",
+          "type": "source"
+        },
+        {
+          "title": "help.instantly.ai/en/articles/12980002-instantly-mcp-model-context-protocol",
+          "url": "https://help.instantly.ai/en/articles/12980002-instantly-mcp-model-context-protocol",
+          "type": "source"
+        },
+        {
+          "title": "developer.instantly.ai/api-reference/lead/list-leads",
+          "url": "https://developer.instantly.ai/api-reference/lead/list-leads",
+          "type": "source"
+        },
+        {
+          "title": "linkedin.com/posts/instantlyapp_building-on-instantly-just-got-a-lot-better-activity-7437528536367878144-qkdz",
+          "url": "https://www.linkedin.com/posts/instantlyapp_building-on-instantly-just-got-a-lot-better-activity-7437528536367878144-qkdz",
+          "type": "source"
+        }
+      ]
+    }
+  ]
+}
