@@ -1,0 +1,60 @@
+{
+  "id": "/gtm/google-sheets",
+  "name": "Google Sheets",
+  "slug": "google-sheets",
+  "status": "published",
+  "aliases": [
+    "sheets",
+    "google workspace sheets",
+    "sheets api",
+    "google sheets api",
+    "google spreadsheet",
+    "google spreadsheets",
+    "gsheets"
+  ],
+  "lastVerified": "2026-06-17",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://developers.google.com/workspace/sheets/api",
+  "surfaces": {
+    "officialMcp": "no",
+    "officialCli": "yes",
+    "officialApi": "yes",
+    "openApiSpec": "no",
+    "llmsDocs": "unknown",
+    "officialSdk": "yes",
+    "communityMcp": "yes",
+    "communityCli": "yes",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "OAuth 2.0 scopes such as spreadsheets, drive, and drive.file; Sheets scopes apply to the whole spreadsheet file, not an individual sheet. Service accounts need explicit file sharing or Workspace domain-wide delegation."
+  },
+  "objects": [
+    "Spreadsheets",
+    "sheets",
+    "cells",
+    "ranges",
+    "values",
+    "ValueRange",
+    "developer metadata",
+    "named ranges",
+    "protected ranges",
+    "filters",
+    "charts",
+    "pivot tables",
+    "conditional formatting",
+    "tables",
+    "data sources"
+  ],
+  "rateLimits": "Read and write requests are each limited to 300/min/project and 60/min/user/project; Google recommends 2 MB max payloads and truncated exponential backoff for 429s.",
+  "pagination": "Mostly range/DataFilter based rather than cursor based; use A1 notation, DataFilters, and batchGet/batchUpdate to chunk large reads and writes.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Google Sheets has a strong official REST API, Discovery document, and official client libraries, but the current Google Workspace remote MCP support lists Gmail, Drive, Calendar, Chat, and People rather than a dedicated Sheets remote MCP server.",
+    "Google Workspace Developer Tools exposes a docs-focused MCP server for retrieving current Workspace API documentation, which helps agents implement Sheets workflows but is not a Sheets data-action MCP.",
+    "Use Drive APIs or Drive MCP for spreadsheet file discovery, permissions, ownership, revisions, and export/download; use Sheets API for spreadsheet content and structure.",
+    "The Google Workspace CLI covers Sheets and ships agent skills, but its README states it is not an officially supported Google product; treat it as a useful Google-maintained operational surface with that caveat."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

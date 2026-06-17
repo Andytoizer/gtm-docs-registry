@@ -8,7 +8,7 @@ This project is for agent builders, GTM automation systems, and coding agents th
 
 ## What Is Included
 
-The repository currently contains 196 GTM tool profiles. The hosted catalog shows the 184 published profiles that are ready for retrieval.
+The repository currently contains 197 GTM tool profiles. The hosted catalog shows the 185 published profiles that are ready for retrieval.
 
 ```text
 registry.json              # Source of truth for available tools

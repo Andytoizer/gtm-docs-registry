@@ -1600,7 +1600,7 @@ function renderHomepage() {
         <aside class="hero-search" id="search-card" aria-label="Search the registry">
           <div class="search-row">
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="7" cy="7" r="5"/><path d="m11 11 3 3"/></svg>
-            <input id="search" type="search" autocomplete="off" placeholder="Search 184 tools — hubspot, lemlist, mcp…">
+            <input id="search" type="search" autocomplete="off" placeholder="Search ${tools.length} tools — hubspot, lemlist, mcp…">
             <span class="kbd">/</span>
           </div>
           <div class="search-results" id="search-results" role="listbox"></div>

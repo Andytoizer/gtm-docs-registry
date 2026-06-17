@@ -1,0 +1,77 @@
+[
+  {
+    "title": "Google Sheets API concepts",
+    "url": "https://developers.google.com/workspace/sheets/api/guides/concepts",
+    "type": "source"
+  },
+  {
+    "title": "Google Sheets API REST reference",
+    "url": "https://developers.google.com/workspace/sheets/api/reference/rest",
+    "type": "source"
+  },
+  {
+    "title": "Google Sheets API usage limits",
+    "url": "https://developers.google.com/workspace/sheets/api/limits",
+    "type": "source"
+  },
+  {
+    "title": "Choose Google Sheets API scopes",
+    "url": "https://developers.google.com/workspace/sheets/api/scopes",
+    "type": "source"
+  },
+  {
+    "title": "Google Sheets API batch requests",
+    "url": "https://developers.google.com/workspace/sheets/api/guides/batch",
+    "type": "source"
+  },
+  {
+    "title": "Read and write Google Sheets values",
+    "url": "https://developers.google.com/workspace/sheets/api/guides/values",
+    "type": "source"
+  },
+  {
+    "title": "spreadsheets.batchUpdate reference",
+    "url": "https://developers.google.com/workspace/sheets/api/reference/rest/v4/spreadsheets/batchUpdate",
+    "type": "source"
+  },
+  {
+    "title": "spreadsheets.values reference",
+    "url": "https://developers.google.com/workspace/sheets/api/reference/rest/v4/spreadsheets.values",
+    "type": "source"
+  },
+  {
+    "title": "Clear Google Sheets values",
+    "url": "https://developers.google.com/workspace/sheets/api/reference/rest/v4/spreadsheets.values/clear",
+    "type": "source"
+  },
+  {
+    "title": "Google Sheets sheet operation samples",
+    "url": "https://developers.google.com/workspace/sheets/api/samples/sheet",
+    "type": "source"
+  },
+  {
+    "title": "Google Sheets row and column operation samples",
+    "url": "https://developers.google.com/workspace/sheets/api/samples/rowcolumn",
+    "type": "source"
+  },
+  {
+    "title": "Google Workspace Developer Tools",
+    "url": "https://developers.google.com/workspace/guides/developer-tools",
+    "type": "source"
+  },
+  {
+    "title": "Configure Google Workspace MCP servers",
+    "url": "https://developers.google.com/workspace/guides/configure-mcp-servers",
+    "type": "source"
+  },
+  {
+    "title": "Google Workspace CLI",
+    "url": "https://github.com/googleworkspace/cli",
+    "type": "source"
+  },
+  {
+    "title": "Google MCP repository",
+    "url": "https://github.com/google/mcp",
+    "type": "source"
+  }
+]

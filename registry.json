@@ -1,6 +1,6 @@
 {
   "schemaVersion": "0.1.0",
-  "updatedAt": "2026-05-28",
+  "updatedAt": "2026-06-17",
   "tools": [
     {
       "id": "/gtm/hubspot",
@@ -695,6 +695,24 @@
       ],
       "agentReadinessScore": 5,
       "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/google-sheets",
+      "name": "Google Sheets",
+      "slug": "google-sheets",
+      "status": "published",
+      "path": "tools/google-sheets",
+      "aliases": [
+        "sheets",
+        "google workspace sheets",
+        "sheets api",
+        "google sheets api",
+        "google spreadsheet",
+        "google spreadsheets",
+        "gsheets"
+      ],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-06-17"
     },
     {
       "id": "/gtm/notion",

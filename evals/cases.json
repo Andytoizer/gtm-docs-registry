@@ -37,6 +37,20 @@
       ]
     },
     {
+      "name": "google-sheets-standalone-resolution",
+      "question": "Resolve Google Sheets separately from Google Drive and summarize its API surfaces.",
+      "query": "google sheets api mcp values",
+      "expectedToolId": "/gtm/google-sheets",
+      "assertions": [
+        { "type": "fieldEquals", "path": "tool.surfaces.officialMcp", "value": "no" },
+        { "type": "fieldEquals", "path": "tool.surfaces.officialCli", "value": "yes" },
+        { "type": "arrayIncludes", "path": "tool.objects", "value": "Spreadsheets" },
+        { "type": "docsInclude", "value": "Official MCP: no" },
+        { "type": "docsInclude", "value": "300 requests per minute per project" },
+        { "type": "sourcesIncludeUrl", "value": "developers.google.com/workspace/sheets/api/limits" }
+      ]
+    },
+    {
       "name": "findymail-alias-resolution",
       "question": "Resolve the Fastymail alias to Findymail docs.",
       "query": "fastymail email finder",
