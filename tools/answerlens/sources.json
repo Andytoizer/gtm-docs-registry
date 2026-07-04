@@ -1,0 +1,42 @@
+[
+  {
+    "title": "AnswerLens homepage",
+    "url": "https://app.sfdj.net/",
+    "type": "official"
+  },
+  {
+    "title": "AnswerLens llms.txt",
+    "url": "https://app.sfdj.net/llms.txt",
+    "type": "official"
+  },
+  {
+    "title": "AnswerLens pricing",
+    "url": "https://app.sfdj.net/pricing",
+    "type": "official"
+  },
+  {
+    "title": "AnswerLens contact",
+    "url": "https://app.sfdj.net/contact",
+    "type": "official"
+  },
+  {
+    "title": "Answer engine readiness audit use case",
+    "url": "https://app.sfdj.net/use-cases/answer-engine-readiness-audit",
+    "type": "official"
+  },
+  {
+    "title": "LLM visibility audit use case",
+    "url": "https://app.sfdj.net/use-cases/llm-visibility-audit",
+    "type": "official"
+  },
+  {
+    "title": "AI citation readiness audit use case",
+    "url": "https://app.sfdj.net/use-cases/ai-citation-readiness-audit",
+    "type": "official"
+  },
+  {
+    "title": "SaaS client intake evidence checklist",
+    "url": "https://app.sfdj.net/resources/saas-client-intake-evidence-checklist",
+    "type": "official"
+  }
+]

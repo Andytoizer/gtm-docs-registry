@@ -1,0 +1,47 @@
+{
+  "id": "/gtm/answerlens",
+  "name": "AnswerLens",
+  "slug": "answerlens",
+  "status": "needs-review",
+  "aliases": [
+    "answer lens",
+    "app.sfdj.net",
+    "answerlens ai search audit",
+    "answerlens public evidence audit"
+  ],
+  "lastVerified": "2026-07-04",
+  "agentReadinessScore": 2,
+  "canonicalUrl": "https://app.sfdj.net/",
+  "surfaces": {
+    "officialMcp": "no",
+    "officialCli": "no",
+    "officialApi": "no",
+    "openApiSpec": "no",
+    "llmsDocs": "yes",
+    "officialSdk": "no",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "unknown"
+  },
+  "auth": {
+    "notes": "No public API, MCP, CLI, SDK, or automation auth is documented. The public llms.txt says admin, report detail, and API routes are private or restricted."
+  },
+  "objects": [
+    "Free public evidence reports",
+    "Paid evidence reports",
+    "Use-case pages",
+    "Campaign pages",
+    "SaaS client-intake checklist",
+    "Public llms.txt"
+  ],
+  "rateLimits": "No public API rate limits are documented. Public crawler guidance says crawlers should use the homepage and sitemap only.",
+  "pagination": "No public list, report, or object API pagination is documented.",
+  "destructiveActionRisk": "low",
+  "notes": [
+    "Official source coverage is currently the homepage, pricing/contact pages, use-case pages, resource pages, and llms.txt.",
+    "Treat this as a retrieval profile for public evidence-audit context, not as an automation API profile.",
+    "Refresh before implementation because no public API or OpenAPI surface is documented."
+  ],
+  "needsHumanReview": true,
+  "reviewReason": "Keep needs-review: official llms.txt and public product pages are available, but no public MCP, CLI, API, OpenAPI, or SDK docs were found."
+}
