@@ -1,7 +1,22 @@
 {
   "schemaVersion": "0.1.0",
-  "updatedAt": "2026-06-17",
+  "updatedAt": "2026-07-04",
   "tools": [
+    {
+      "id": "/gtm/answerlens",
+      "name": "AnswerLens",
+      "slug": "answerlens",
+      "status": "needs-review",
+      "path": "tools/answerlens",
+      "aliases": [
+        "answer lens",
+        "app.sfdj.net",
+        "answerlens ai search audit",
+        "answerlens public evidence audit"
+      ],
+      "agentReadinessScore": 2,
+      "lastVerified": "2026-07-04"
+    },
     {
       "id": "/gtm/hubspot",
       "name": "HubSpot",
